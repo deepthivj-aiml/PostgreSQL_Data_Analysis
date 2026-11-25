@@ -1,0 +1,13 @@
+﻿specialty_id,specialty_name,specialty_category
+1,Cardiovascular / Pulmonary,Clinical specialty
+2,Consult - History and Phy.,Document-type grouping
+3,Discharge Summary,Document-type grouping
+4,Gastroenterology,Clinical specialty
+5,General Medicine,Clinical specialty
+6,Neurology,Clinical specialty
+7,Obstetrics / Gynecology,Clinical specialty
+8,Orthopedic,Clinical specialty
+9,Pediatrics - Neonatal,Clinical specialty
+10,Radiology,Clinical specialty
+11,SOAP / Chart / Progress Notes,Document-type grouping
+12,Surgery,Clinical specialty

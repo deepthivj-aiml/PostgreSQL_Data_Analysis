@@ -1,0 +1,780 @@
+﻿section_id,note_id,section_order,section_header,section_text
+1,N0001,1,POSTOPERATIVE DIAGNOSIS,Fever
+2,N0001,2,PROCEDURES,Bronchoalveolar lavage
+3,N0001,3,INDICATIONS FOR PROCEDURE,"The patient is a 28-year-old male, status post abdominal trauma, splenic laceration, and splenectomy performed at the outside hospital, who was admitted to the Trauma Intensive Care Unit on the evenin"
+4,N0001,4,DESCRIPTION OF PROCEDURE,The patient was preoxygenated with 100% FIO2 for approximately 5 to 10 minutes prior to the procedure. The correct patient and procedure was identified by time out by all members of the team. The pati
+5,N0002,1,PREOPERATIVE DIAGNOSIS,Carcinoma of the left upper lobe
+6,N0002,2,PROCEDURES PERFORMED,"1. Bronchoscopy with aspiration.,2. Left upper lobectomy"
+7,N0002,3,PROCEDURE DETAILS,"With patient in supine position under general anesthesia with endotracheal tube in place, the flexible bronchoscope was then placed down through the endotracheal tube to examine the carina. The carina"
+8,N0003,1,INDICATIONS FOR PROCEDURE,"A 51-year-old, obese, white female with positive family history of coronary disease and history of chest radiation for Hodgkin disease 20 years ago with no other identifiable risk factors who presents"
+9,N0003,2,PROCEDURE NOTE,"Following sterile prep and drape, the right groin and instillation of 1% Xylocaine anesthesia, the right femoral artery was percutaneously entered with a single wall puncture. A 6-French sheath insert"
+10,N0003,3,ANGIOGRAPHIC FINDINGS,"I. Left coronary artery: The left main coronary artery is,normal. The left anterior descending extends to the apex and has only minor luminal irregularities within the midportion of the vessel. Normal"
+11,N0003,4,DISCUSSION,"Recent inferoapical mild myocardial infarction by left ventriculography and cardiac enzymes with elevated left ventricular end-diastolic pressure post A wave, but, only minor residual coronary artery "
+12,N0003,5,PLAN,"Medical treatment is contemplated, including ACE inhibitor, a beta blocker, aspirin, Plavix, nitrates. An echocardiogram is ordered to exclude apical left ventricular thrombus and to further assess ej"
+13,N0005,1,DISCHARGE DIAGNOSES,"1. Chest pain. The patient ruled out for myocardial infarction on serial troponins. Result of nuclear stress test is pending.,2. Elevated liver enzymes, etiology uncertain for an outpatient followup.,"
+14,N0005,2,TEST DONE,"Nuclear stress test, results of which are pending"
+15,N0005,3,HOSPITAL COURSE,"This 32-year-old with family history of premature coronary artery disease came in for evaluation of recurrent chest pain, O2 saturation at 94% with both atypical and typical features of ischemia. The "
+16,N0006,1,NAME OF PROCEDURE,"Left heart catheterization with ventriculography, selective coronary angiography"
+17,N0006,2,INDICATIONS,Acute coronary syndrome
+18,N0006,3,TECHNIQUE OF PROCEDURE,"Standard Judkins, right groin. Catheters used were a 6 French pigtail, 6 French JL4, 6 French JR4"
+19,N0006,4,ANTICOAGULATION,The patient was on heparin at the time
+20,N0006,5,COMPLICATIONS,"None.,I reviewed with the patient the pros, cons, alternatives, risks of catheterization and sedation including myocardial infarction, stroke, death, damage to nerve, artery or vein in the leg, perfor"
+21,N0006,6,HEMODYNAMIC DATA,"Aortic pressure was in the physiologic range. No significant gradient across the aortic valve.,ANGIOGRAPHIC DATA,1. Ventriculogram: The left ventricle is of normal size and shape, normal wall motion, "
+22,N0006,7,PLAN,"Based upon this study, medical therapy is warranted. Six-French Angio-Seal was used in the groin"
+23,N0007,1,CLINICAL HISTORY,A 48-year-old smoker found to have a right upper lobe mass on chest x-ray and is being evaluated for chest pain. PET scan demonstrated a mass in the right upper lobe and also a mass in the right lower
+24,N0007,2,SPECIMEN,"A. Lung, wedge biopsy right lower lobe,B. Lung, resection right upper lobe,C. Lymph node, biopsy level 2 and 4,D. Lymph node, biopsy level 7 subcarinal"
+25,N0007,3,FINAL DIAGNOSIS,"A. Wedge biopsy of right lower lobe showing: Adenocarcinoma, Grade 2, Measuring 1 cm in diameter with invasion of the overlying pleura and with free resection margin.,B. Right upper lobe lung resectio"
+26,N0007,4,COMMENT,The morphology of the tumor seen in both lobes is similar and we feel that the smaller tumor involving the right lower lobe is most likely secondary to transbronchial spread from the main tumor involv
+27,N0008,1,PREOPERATIVE DIAGNOSIS,Right pleural effusion and suspected malignant mesothelioma
+28,N0008,2,POSTOPERATIVE DIAGNOSIS,"Right pleural effusion, suspected malignant mesothelioma"
+29,N0008,3,PROCEDURE,Right VATS pleurodesis and pleural biopsy
+30,N0008,4,ANESTHESIA,General double-lumen endotracheal
+31,N0008,5,DESCRIPTION OF FINDINGS,"Right pleural effusion, firm nodules, diffuse scattered throughout the right pleura and diaphragmatic surface"
+32,N0008,6,SPECIMEN,Pleural biopsies for pathology and microbiology
+33,N0008,7,ESTIMATED BLOOD LOSS,Minimal
+34,N0008,8,FLUIDS,Crystalloid 1.2 L and 1.9 L of pleural effusion drained
+35,N0008,9,INDICATIONS,"Briefly, this is a 66-year-old gentleman who has been transferred from an outside hospital after a pleural effusion had been drained and biopsies taken from the right chest that were thought to be con"
+36,N0008,10,PROCEDURE IN DETAIL,"After informed consent was obtained, the patient was brought to the operating room and placed in supine position. A double-lumen endotracheal tube was placed. SCDs were also placed and he was given pr"
+37,N0009,1,INDICATIONS,Previously markedly abnormal dobutamine Myoview stress test and gated scan
+38,N0009,2,PROCEDURE DONE,Resting Myoview perfusion scan and gated myocardial scan
+39,N0009,3,MYOCARDIAL PERFUSION IMAGING,Resting myocardial perfusion SPECT imaging and gated scan were carried out with 32.6 mCi of Tc-99m Myoview. Rest study was done and compared to previous dobutamine Myoview stress test done on Month DD
+40,N0009,4,CONCLUSIONS,Study done at rest only revealed findings consistent with an inferior non-transmural scar of moderate size and moderate degree. The left ventricular systolic function is markedly improved with much be
+41,N0010,1,EXAM,Single frontal view of the chest
+42,N0010,2,HISTORY,Atelectasis. Patient is status-post surgical correction for ASD
+43,N0010,3,TECHNIQUE,A single frontal view of the chest was evaluated and correlated with the prior film dated mm/dd/yy
+44,N0010,4,FINDINGS,"Current film reveals there is a right-sided central venous catheter, the distal tip appears to be in the superior vena cava. Endotracheal tube with the distal tip appears to be in appropriate position"
+45,N0010,5,IMPRESSION,"1. There has been interval placement of a right-sided central venous catheter, endotracheal tube, and sternotomy wires secondary to patient's most recent surgical intervention.,2. Minimal bilateral ba"
+46,N0011,1,PAST MEDICAL HISTORY,She has a history of hypertension and shortness of breath
+47,N0011,2,PAST SURGICAL HISTORY,Pertinent for cholecystectomy
+48,N0011,3,PSYCHOLOGICAL HISTORY,Negative
+49,N0011,4,SOCIAL HISTORY,She is single. She drinks alcohol once a week. She does not smoke
+50,N0011,5,FAMILY HISTORY,Pertinent for obesity and hypertension
+51,N0011,6,MEDICATIONS,"Include Topamax 100 mg twice daily, Zoloft 100 mg twice daily, Abilify 5 mg daily, Motrin 800 mg daily, and a multivitamin"
+52,N0011,7,ALLERGIES,She has no known drug allergies
+53,N0011,8,REVIEW OF SYSTEMS,Negative
+54,N0011,9,PHYSICAL EXAM,This is a pleasant female in no acute distress. Alert and oriented x 3
+55,N0011,10,HEENT,"Normocephalic, atraumatic. Extraocular muscles intact, nonicteric sclerae. Chest is clear to auscultation bilaterally. Cardiovascular is normal sinus rhythm. Abdomen is obese, soft, nontender and nond"
+56,N0011,11,ASSESSMENT/PLAN,This is a 34-year-old female with a BMI of 43 who is interested in surgical weight via the gastric bypass as opposed to Lap-Band. ABC will be asking for a letter of medical necessity from Dr. [PROVIDE
+57,N0012,1,HISTORY,"A is 12-year-old female who comes today for follow-up appointment and a CCS visit. She has the diagnosis of discoid lupus and we have been following her for her conditions, her treatments, and also to"
+58,N0012,2,PHYSICAL EXAMINATION,
+59,N0012,3,VITAL SIGNS,"Today temperature is 100.1, weight is 73.5 kg, blood pressure is 121/61, height is 158, and pulse is 84"
+60,N0012,4,GENERAL,"She is alert, active, and oriented in no distress"
+61,N0012,5,HEENT,"She had a head full of hair with no bald spots. She has a macular rash on her cheeks bilaterally with hyperpigmented circles. No scales, no excoriations, and no palpable erythema. Oral mucosa is clear"
+62,N0012,6,NECK,Soft with no masses. She does have acanthosis nigricans on the base of the neck
+63,N0012,7,CHEST,Clear to auscultation
+64,N0012,8,HEART,Regular rhythm with no murmur
+65,N0012,9,ABDOMEN,Soft and nontender with no visceromegaly
+66,N0012,10,MUSCULOSKELETAL,"Shows no limitation, swelling, or tenderness in any of her joints"
+67,N0012,11,SKIN,"Shows a discoid rash with macules approximately 1 cm in diameter in different shapes and size, but most of them are about 1 cm in diameter, which are hyperpigmented. No erythema, no purpura, no petech"
+68,N0012,12,LABORATORY DATA,"Laboratories today done, we have a CBC with a white blood cell count of 7.9, hemoglobin is 14.3, platelet count is 321,000, sed rate is only 11, and CMP shows no abnormalities. Pending is antinuclear "
+69,N0012,13,ASSESSMENT,"She is 12-year-old with discoid lupus on the control with optimal regimen. We are going to switch her to Protopic at night, especially in the face. Continue on Plaquenil, get some laboratories and wai"
+70,N0013,1,MEDS,"Lasix 40mg qd, Zantac 150mg qd, Lanoxin 0.125mg qd, Capoten 2.5mg bid, Salsalate 750mg tid, ASA 325mg qd, ""Ginsana"" (Ginseng) 100mg bid.,PMH: ,1)Atrial fibrillation, 2)Right hemisphere stroke, 11/22/8"
+71,N0013,2,EXAM,"BP157/86, HR100 and irregular, RR20, 36.7C, 100%SaO2,MS: A&O to person, place, time. Speech fluent and without dysarthria.,CN: Pupils 3/3 decreasing to 2/2 on exposure to light. EOM intact. VFFTC. Opt"
+72,N0013,3,HEENT,"abrasion over the right forehead.,Extremity: distal right leg edema/erythema (just above the ankle). tender to touch"
+73,N0013,4,COURSE,"1/10/93, (outside)HCT was reviewed, It revealed a left parietal epidural hematoma. GS, PT/PTT, UA, and CBC were unremarkable. RLE XR revealed a fracture of the right lateral malleolus for which he was"
+74,N0014,1,SUBJECTIVE,This is a 12-year-old young man who comes in with about 10 days worth of sinus congestion. He does have significant allergies including ragweed. The drainage has been clear. He had a little bit of a h
+75,N0014,2,CURRENT MEDICATIONS,Advair and Allegra. He has been taking these regularly. He is not sure the Allegra is working for him anymore. He does think though better than Claritin
+76,N0014,3,PHYSICAL EXAM,General: Alert young man in no distress
+77,N0014,4,HEENT,"TMs clear and mobile. Pharynx clear. Mouth moist. Nasal mucosa pale with clear discharge.,Neck: Supple without adenopathy.,Heart: Regular rate and rhythm without murmur.,Lungs: Lungs clear, no tachypn"
+78,N0014,5,ASSESSMENT,I think this is still his allergic rhinitis rather than a sinus infection
+79,N0014,6,PLAN,"Change to Zyrtec 10 mg samples were given. He is not using nasal spray, but he has some at home. He should restart this. Continue to watch his peak flows to make sure his asthma does not come under po"
+80,N0015,1,CHIEF COMPLAINT,"Anxiety, alcohol abuse, and chest pain"
+81,N0015,2,HISTORY OF PRESENT ILLNESS,"This is a pleasant 40-year-old male with multiple medical problems, basically came to the hospital yesterday complaining of chest pain. The patient states that he complained of this chest pain, which "
+82,N0015,3,MEDICATIONS,"Digoxin 0.25 mg, metoprolol 50 mg, Naprosyn 500 mg, metformin 500 mg, lovastatin 40 mg, Klor-Con 20 mEq, Advair Diskus, questionable Coreg"
+83,N0015,4,PAST MEDICAL HISTORY,"MI in the past and atrial fibrillation, he said that he has had one stent put in, but he is not sure. The last cardiologist he saw was Dr. X and his primary doctor is Dr. Y"
+84,N0015,5,SOCIAL HISTORY,"History of alcohol use in the past.,He is basically requesting for more and more pain medications. He states that he likes Dilaudid and would like to get the morphine changed to Dilaudid. His pain is "
+85,N0015,6,PHYSICAL EXAMINATION,
+86,N0015,7,VITAL SIGNS,Stable
+87,N0015,8,GENERAL,"Alert and oriented x3, no apparent distress"
+88,N0015,9,HEENT,"Extraocular muscles are intact.,CVS: S1, S2 heard"
+89,N0015,10,CHEST,Clear to auscultation bilaterally
+90,N0015,11,ABDOMEN,Soft and nontender
+91,N0015,12,EXTREMITIES,No edema or clubbing
+92,N0015,13,NEURO,"Grossly intact. Tender to palpate over the left chest, no obvious erythema or redness, or abnormal exam is found.,EKG basically shows atrial fibrillation, rate controlled, nonspecific ST changes"
+93,N0015,14,ASSESSMENT AND PLAN,"1. This is a 40-year-old male with digoxin toxicity secondary to likely intentional digoxin overuse. Now, he has had significant block with EKG changes as stated. Continue to follow the patient clinic"
+94,N0016,1,EXAM,"VItal signs unremarkable.,MS: Alert and oriented to person, place, time. Lucid thought process per NSG note.,CN: unremarkable.,Motor: full strength with normal muscle bulk and tone.,Sensory: unremarka"
+95,N0016,2,COURSE,MRI Brain: large solid and cystic right frontal lobe mass with a large amount of surrounding edema. There is apparent tumor extension into the corpus callosum across the midline. Tumor extension is al
+96,N0017,1,HISTORY,"Patient is a 21-year-old white woman who presented with a chief complaint of chest pain. She had been previously diagnosed with hyperthyroidism. Upon admission, she had complaints of constant left sid"
+97,N0017,2,FAMILY HISTORY,"Diabetes, Hypertension, Father had a Coronary Artery Bypass Graph (CABG) at age 34"
+98,N0017,3,SOCIAL HISTORY,She had a baby five months ago. She smokes a half pack a day. She denies alcohol and drug use
+99,N0017,4,MEDICATIONS,Citalopram 10mg once daily for depression; low dose tramadol PRN pain
+100,N0017,5,PHYSICAL EXAMINATION,Temperature 98.4; Pulse 123; Respiratory Rate 16; Blood Pressure 143/74
+101,N0017,6,HEENT,"She has exophthalmos and could not close her lids completely.,Cardiovascular: tachycardia.,Neurologic: She had mild hyperreflexiveness.,LAB:, All labs within normal limits with the exception of Sodium"
+102,N0017,7,HOSPITAL COURSE,"After admission, she was given propranolol at 40mg daily and continued on telemetry. On the 2nd day of treatment, the patient still complained of chest pain. EKG again showed tachycardia. Propranolol "
+103,N0017,8,ASSESSMENT / PLAN,"1. Treatment of hyperthyroidism. Patient underwent radioactive iodine 131 ablation therapy.,2. Management of cardiac symptoms stemming from hyperthyroidism. Patient was discharged on propranolol 60mg,"
+104,N0018,1,GENERAL,"Well developed, well nourished, alert, in no acute distress. GCS 50, nontoxic"
+105,N0018,2,VITAL SIGNS,"Blood pressure *, pulse *, respirations *, temperature * degrees F. Pulse oximetry *%"
+106,N0018,3,HEENT,"Eyes: Lids and conjunctiva. No lesions. Pupils equal, round, reactive to light and accommodation. Irises symmetrical, undilated. Funduscopic exam reveals no hemorrhages or discopathy. Ears, Nose, Mout"
+107,N0018,4,NECK,"Supple and symmetric. No masses. Thyroid midline, non enlarged. No JVD. Neck is nontender. Full range of motion without pain"
+108,N0018,5,RESPIRATORY,Good respiratory effort. Clear to auscultation. Clear to percussion. Chest: Symmetrical rise and fall. Symmetrical expansion. No egophony or tactile fremitus
+109,N0018,6,CARDIOVASCULAR,"Regular rate and rhythm. No murmur, gallops, clicks, heaves or rub. Cardiac palpation within normal limits. Pulses equal at carotid. Femoral and pedal pulses: No peripheral edema"
+110,N0018,7,GASTROINTESTINAL,"No tenderness or mass. No hepatosplenomegaly. No hernia. Bowel sounds equal times four quadrants. Abdomen is nondistended. No rebound, guarding, rigidity or ecchymosis"
+111,N0018,8,MUSCULOSKELETAL,"Normal gait and station. No pathology to digits or nails. Extremities move times four. No tenderness or effusion. Range of motion adequate. Strength and tone equal bilaterally, stable"
+112,N0018,9,BACK,"Nontender on midline. Full range of motion with flexion, extension and sidebending"
+113,N0018,10,SKIN,Inspection within normal limits. Well hydrated. No diaphoresis. No obvious wound
+114,N0018,11,LYMPH,Cervical lymph nodes. No lymphadenopathy
+115,N0018,12,NEUROLOGICAL,"Cranial nerves II-XII grossly intact. DTRs symmetric 2 out of 4 bilateral upper and lower extremity, elbow, patella and ankle. Motor strength 4/4 bilateral upper and lower extremity. Straight leg rais"
+116,N0018,13,PSYCHIATRIC,"Judgment and insight adequate. Alert and oriented times three. Memory and mood within normal limits. No delusions, hallucinations. No suicidal or homicidal ideation"
+117,N0019,1,GENERAL,"Negative for any nausea, vomiting, fevers, chills, or weight loss"
+118,N0019,2,NEUROLOGIC,"Negative for any blurry vision, blind spots, double vision, facial asymmetry, dysphagia, dysarthria, hemiparesis, hemisensory deficits, vertigo, ataxia"
+119,N0019,3,HEENT,"Negative for any head trauma, neck trauma, neck stiffness, photophobia, phonophobia, sinusitis, rhinitis"
+120,N0019,4,CARDIAC,"Negative for any chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, peripheral edema"
+121,N0019,5,PULMONARY,"Negative for any shortness of breath, wheezing, COPD, or TB exposure"
+122,N0019,6,GASTROINTESTINAL,"Negative for any abdominal pain, nausea, vomiting, bright red blood per rectum, melena"
+123,N0019,7,GENITOURINARY,"Negative for any dysuria, hematuria, incontinence"
+124,N0019,8,INTEGUMENTARY,"Negative for any rashes, cuts, insect bites"
+125,N0019,9,RHEUMATOLOGIC,"Negative for any joint pains, photosensitive rashes, history of vasculitis or kidney problems"
+126,N0019,10,HEMATOLOGIC,"Negative for any abnormal bruising, frequent infections or bleeding"
+127,N0020,1,REASON FOR CONSULTATION,Pneumothorax and subcutaneous emphysema
+128,N0020,2,HISTORY OF PRESENT ILLNESS,The patient is a 48-year-old male who was initially seen in the emergency room on Monday with complaints of scapular pain. The patient presented the following day with subcutaneous emphysema and conti
+129,N0020,3,PAST SURGICAL HISTORY,Hernia repair and tonsillectomy
+130,N0020,4,ALLERGIES,Penicillin
+131,N0020,5,MEDICATIONS,Please see chart
+132,N0020,6,REVIEW OF SYSTEMS,Not contributory
+133,N0020,7,PHYSICAL EXAMINATION,
+134,N0020,8,GENERAL,"Well developed, well nourished, lying on hospital bed in minimal distress"
+135,N0020,9,HEENT,"Normocephalic and atraumatic. Pupils are equal, round, and reactive to light. Extraocular muscles are intact"
+136,N0020,10,NECK,Supple. Trachea is midline
+137,N0020,11,CHEST,Clear to auscultation bilaterally
+138,N0020,12,CARDIOVASCULAR,Regular rate and rhythm
+139,N0020,13,ABDOMEN,"Soft, nontender, and nondistended. Normoactive bowel sounds"
+140,N0020,14,EXTREMITIES,"No clubbing, edema, or cyanosis"
+141,N0020,15,SKIN,The patient has significant subcutaneous emphysema of the upper chest and anterior neck area although he states that the subcutaneous emphysema has improved significantly since yesterday
+142,N0020,16,DIAGNOSTIC STUDIES,As above
+143,N0020,17,IMPRESSION,The patient is a 48-year-old male with subcutaneous emphysema and a small right-sided pneumothorax secondary to trauma. These are likely a result of either a parenchymal lung tear versus a small trach
+144,N0020,18,RECOMMENDATIONS,"At this time, the CT Surgery service has been consulted and has left recommendations. The patient also is awaiting bronchoscopy per the Pulmonary Service. At this time, there are no General Surgery is"
+145,N0021,1,DIAGNOSIS AT ADMISSION,"Chronic obstructive pulmonary disease (COPD) exacerbation and acute bronchitis.,DIAGNOSES AT DISCHARGE,1. Chronic obstructive pulmonary disease exacerbation and acute bronchitis.,2. Congestive heart f"
+146,N0021,2,HOSPITAL COURSE,"The patient was admitted from the office by Dr. X. She was placed on the usual medications that included Synthroid 0.05 mg a day, enalapril 5 mg a day, Imdur 30 mg a day, Lanoxin 0.125 mg a day, aspir"
+147,N0021,3,PROGNOSIS,Guarded
+148,N0022,1,ADMISSION DIAGNOSIS,"1. Respiratory arrest.,2 . End-stage chronic obstructive pulmonary disease.,3. Coronary artery disease.,4. History of hypertension"
+149,N0022,2,DISCHARGE DIAGNOSIS,"1. Status post-respiratory arrest.,2. Chronic obstructive pulmonary disease.,3. Congestive heart failure.,4. History of coronary artery disease.,5. History of hypertension"
+150,N0022,3,SUMMARY,"The patient is a 49-year-old man who was admitted to the hospital in respiratory distress, and had to be intubated shortly after admission to the emergency room. The patient’s past history is notable "
+151,N0022,4,ADMISSION PHYSICAL EXAMINATION,
+152,N0022,5,GENERAL,"Showed a well-developed, slightly obese man who was in extremis"
+153,N0022,6,NECK,"Supple, with no jugular venous distension"
+154,N0022,7,HEART,Showed tachycardia without murmurs or gallops
+155,N0022,8,PULMONARY,"Status showed decreased breath sounds, but no clear-cut rales or wheezes"
+156,N0022,9,EXTREMITIES,Free of edema
+157,N0022,10,HOSPITAL COURSE,The patient was admitted to the Special Care Unit and intubated. He received intravenous antibiotic therapy with Levaquin. He received intravenous diuretic therapy. He received hand-held bronchodilato
+158,N0022,11,DIAGNOSTIC DATA,"The patient’s admission laboratory data was notable for his initial blood gas, which showed a pH of 7.02 with a pCO2 of 118 and a pO2 of 103. The patient’s electrocardiogram showed nonspecific ST-T wa"
+159,N0022,12,DISPOSITION,The patient was discharged home
+160,N0022,13,DISCHARGE INSTRUCTIONS,"His diet was to be a 2 grams sodium, 1800 calorie ADA diet. His medications were to be Prednisone 20 mg twice per day, Theo-24 400 mg per day, Furosemide 40 mg 1-1/2 tabs p.o. per day; Acetazolamide 2"
+161,N0023,1,CAUSE OF DEATH,"1. Acute respiratory failure.,2. Chronic obstructive pulmonary disease exacerbation"
+162,N0023,2,SECONDARY DIAGNOSES,"1. Acute respiratory failure, probably worsened by aspiration.,2. Acute on chronic renal failure.,3. Non-Q wave myocardial infarction.,4. Bilateral lung masses.,5. Occlusive carotid disease.,6. Hypert"
+163,N0023,3,HOSPITAL COURSE,"This 80-year-old patient with a history of COPD had had recurrent admissions over the past few months. The patient was admitted again on 12/15/08, after he had been discharged the previous day. Came i"
+164,N0024,1,DISCHARGE DIAGNOSES,"1. Advanced non-small cell lung carcinoma with left malignant pleural effusion status post chest tube insertion status post chemical pleurodesis.,2. Respiratory failure secondary to above.,3. Likely p"
+165,N0024,2,HOSPITAL COURSE,"This is a 53-year-old African American male patient of Dr. X who was admitted through the emergency room. He has been having some right hip pain and cough. The patient had a CT scan of the chest, whic"
+166,N0025,1,ADMISSION DIAGNOSES,"1. Menometrorrhagia.,2. Dysmenorrhea.,3. Small uterine fibroids"
+167,N0025,2,DISCHARGE DIAGNOSES,"1. Menorrhagia.,2. Dysmenorrhea.,3. Small uterine fibroids"
+168,N0025,3,OPERATION PERFORMED,Total vaginal hysterectomy
+169,N0025,4,BRIEF HISTORY AND PHYSICAL,"The patient is a 42 year-old white female, gravida 3, para 2, with two prior vaginal deliveries. She is having increasing menometrorrhagia and dysmenorrhea. Ultrasound shows a small uterine fibroid. S"
+170,N0025,5,PAST HISTORY,Significant for reflux
+171,N0025,6,SURGICAL HISTORY,Tubal ligation
+172,N0025,7,PHYSICAL EXAMINATION,A top normal sized uterus with normal adnexa
+173,N0025,8,LABORATORY VALUES,Her discharge hemoglobin is 12.4
+174,N0025,9,HOSPITAL COURSE,"She was taken to the operating room on 11/05/07 where a total vaginal hysterectomy was performed under general anesthesia. Postoperatively, she has done well. Bowel and bladder function have returned "
+175,N0025,10,DISCHARGE MEDICATIONS,Preoperative meds plus Vicodin for pain
+176,N0025,11,DISCHARGE CONDITION,Good
+177,N0026,1,PRINCIPAL DIAGNOSIS,Knee osteoarthrosis
+178,N0026,2,PRINCIPAL PROCEDURE,Total knee arthroplasty
+179,N0026,3,HISTORY AND PHYSICAL,A 66-year-old female with knee osteoarthrosis. Failed conservative management. Risks and benefits of different treatment options were explained. Informed consent was obtained
+180,N0026,4,PAST SURGICAL HISTORY,"Right knee surgery, cosmetic surgery, and carotid sinus surgery"
+181,N0026,5,MEDICATIONS,"Mirapex, ibuprofen, and Ambien"
+182,N0026,6,ALLERGIES,QUESTIONABLE PENICILLIN ALLERGIES
+183,N0026,7,PHYSICAL EXAMINATION,
+184,N0026,8,GENERAL,Female who appears younger than her stated age. Examination of her gait reveals she walks without assistive devices
+185,N0026,9,HEENT,Normocephalic and atraumatic
+186,N0026,10,CHEST,Clear to auscultation
+187,N0026,11,CARDIOVASCULAR,Regular rate and rhythm
+188,N0026,12,ABDOMEN,Soft
+189,N0026,13,EXTREMITIES,Grossly neurovascularly intact
+190,N0026,14,HOSPITAL COURSE,The patient was taken to the operating room (OR) on 03/15/2007. She underwent right total knee arthroplasty. She tolerated this well. She was taken to the recovery room. After uneventful recovery room
+191,N0026,15,DISPOSITION,Discharged to home
+192,N0026,16,FOLLOW UP,Follow up with Dr. X in one week. Prescriptions were written for Percocet and Coumadin
+193,N0026,17,INSTRUCTIONS,Home physical therapy and PT and INR to be drawn at home for adjustment of Coumadin dosing
+194,N0027,1,PROCEDURE,Laparoscopic cholecystectomy
+195,N0027,2,DISCHARGE DIAGNOSES,"1. Acute cholecystitis.,2. Status post laparoscopic cholecystectomy.,3. End-stage renal disease on hemodialysis.,4. Hyperlipidemia.,5. Hypertension.,6. Congestive heart failure.,7. Skin lymphoma 5 yea"
+196,N0027,3,HOSPITAL COURSE,"This is a 78-year-old female with past medical condition includes hypertension, end-stage renal disease, hyperlipidemia, hypothyroidism, and skin lymphoma who had a left AV fistula done about 3 days a"
+197,N0028,1,PRELIMINARY DIAGNOSES,"1. Contusion of the frontal lobe of the brain.,2. Closed head injury and history of fall.,3. Headache, probably secondary to contusion"
+198,N0028,2,FINAL DIAGNOSES,"1. Contusion of the orbital surface of the frontal lobes bilaterally.,2. Closed head injury.,3. History of fall"
+199,N0028,3,COURSE IN THE HOSPITAL,"This is a 29-year-old male, who fell at home. He was seen in the emergency room due to headache. CT of the brain revealed contusion of the frontal lobe near the falx. The patient did not have any foca"
+200,N0028,4,PLAN,Discharge the patient to home
+201,N0028,5,ACTIVITY,"As tolerated.,The patient has been advised to call if the headache is recurrent and Tylenol 650 mg 1 p.o. q.6 h. p.r.n. headache. The patient has been advised to follow up with me as well as the neuro"
+202,N0030,1,PROCEDURES,Cystourethroscopy and transurethral resection of prostate
+203,N0030,2,COMPLICATIONS,None
+204,N0030,3,ADMITTING DIAGNOSIS,Difficulty voiding
+205,N0030,4,HISTORY,This 67-year old Hispanic male patient was admitted because of enlarged prostate and symptoms of bladder neck obstruction. Physical examination revealed normal heart and lungs. Abdomen was negative fo
+206,N0030,5,LABORATORY DATA,"BUN 19 and creatinine 1.1. Blood group was A, Rh positive, Hemoglobin 13, Hematocrit 32.1, Prothrombin time 12.6 seconds, PTT 37.1. Discharge hemoglobin 11.4, and hematocrit 33.3. Chest x-ray calcifie"
+207,N0030,6,COURSE IN THE HOSPITAL,The patient had a cysto and TUR of the prostate. Postoperative course was uncomplicated. The pathology report is pending at the time of dictation. He is being discharged in satisfactory condition with
+208,N0030,7,DISCHARGE DIAGNOSIS,"Enlarged prostate with benign bladder neck obstruction. ,To be followed in my office in one week and by Dr. [PROVIDER] next available as an outpatient"
+209,N0031,1,PREOPERATIVE DIAGNOSIS,Acute appendicitis
+210,N0031,2,POSTOPERATIVE DIAGNOSES,"1. Pelvic inflammatory disease.,2. Periappendicitis"
+211,N0031,3,PROCEDURE PERFORMED,"1. Laparoscopic appendectomy.,2. Peritoneal toilet and photos"
+212,N0031,4,ANESTHESIA,General
+213,N0031,5,COMPLICATIONS,None
+214,N0031,6,ESTIMATED BLOOD LOSS,Less than 10 cc
+215,N0031,7,INDICATIONS FOR PROCEDURE,The patient is a 31-year-old African-American female who presented with right lower quadrant abdominal pain presented with acute appendicitis. She also had mild leukocytosis with bright blood cell cou
+216,N0031,8,PROCEDURE,"The patient was taken to the operative suite and placed in the supine position under general anesthesia by Anesthesia Department.,The preoperative Foley, antibiotics, and NG tube are placed for decomp"
+217,N0032,1,REASON FOR EXAM,Right-sided abdominal pain with nausea and fever
+218,N0032,2,TECHNIQUE,Axial CT images of the abdomen and pelvis were obtained utilizing 100 mL of Isovue-300
+219,N0032,3,CT ABDOMEN,"The liver, spleen, pancreas, gallbladder, adrenal glands, and kidney are unremarkable"
+220,N0032,4,CT PELVIS,"Within the right lower quadrant, the appendix measures 16 mm and there are adjacent inflammatory changes with fluid in the right lower quadrant. Findings are compatible with acute appendicitis.,The la"
+221,N0032,5,IMPRESSION,Acute appendicitis
+222,N0033,1,REASON FOR EXAM,Generalized abdominal pain with swelling at the site of the ileostomy
+223,N0033,2,TECHNIQUE,Axial CT images of the abdomen and pelvis were obtained utilizing 100 mL of Isovue-300
+224,N0033,3,CT ABDOMEN,"The liver, spleen, pancreas, adrenal glands, and kidneys are unremarkable. Punctate calcifications in the gallbladder lumen likely represent a gallstone"
+225,N0033,4,CT PELVIS,Postsurgical changes of a left lower quadrant ileostomy are again seen. There is no evidence for an obstruction. A partial colectomy and diverting ileostomy is seen within the right lower quadrant. Th
+226,N0033,5,IMPRESSION,"1. Resolution of the previously seen subcutaneous fluid collection.,2. Left pelvic 3.4 cm fluid collection has not significantly changed in size or appearance. These findings may be due to a pelvic ab"
+227,N0034,1,REASON FOR CONSULT,Genetic counseling
+228,N0034,2,HISTORY OF PRESENT ILLNESS,The patient is a very pleasant 61-year-old female with a strong family history of colon polyps. The patient reports her first polyps noted at the age of 50. She has had colonoscopies required every fi
+229,N0034,3,PAST MEDICAL HISTORY,Significant for asthma
+230,N0034,4,CURRENT MEDICATIONS,Include Serevent two puffs daily and Nasonex two sprays daily
+231,N0034,5,ALLERGIES,Include penicillin. She is also allergic seafood; crab and mobster
+232,N0034,6,SOCIAL HISTORY,The patient is married. She was born and raised in South Dakota. She moved to Colorado 37 years ago. She attended collage at the Colorado University. She is certified public account. She does not smok
+233,N0034,7,REVIEW OF SYSTEMS,"The patient denies any dark stool or blood in her stool. She has had occasional night sweats and shortness of breath, and cough associated with her asthma. She also complains of some acid reflux as we"
+234,N0034,8,PHYSICAL EXAM,
+235,N0034,9,VITALS,
+236,N0035,1,PREOPERATIVE DIAGNOSIS,Prior history of polyps
+237,N0035,2,POSTOPERATIVE DIAGNOSIS,"Small polyps, no evidence of residual or recurrent polyp in the cecum"
+238,N0035,3,PREMEDICATIONS,"Versed 5 mg, Demerol 100 mg IV"
+239,N0035,4,REPORTED PROCEDURE,"The rectal chamber revealed no external lesions. Prostate was normal in size and consistency.,The colonoscope was inserted into the rectal ampulla and advanced under direct vision at all times until t"
+240,N0035,5,ENDOSCOPIC IMPRESSION,"1. Small polyps, sigmoid colon, resected them.,2. Diverticulosis, sigmoid colon.,3. Small rectal polyps, obliterated them.,4. Submucosal lesions, consistent with lipomata as described.,5. No evidence "
+241,N0036,1,PREPROCEDURE DIAGNOSIS,Change in bowel function
+242,N0036,2,POSTPROCEDURE DIAGNOSIS,Proctosigmoiditis
+243,N0036,3,PROCEDURE PERFORMED,Colonoscopy with biopsy
+244,N0036,4,ANESTHESIA,IV sedation
+245,N0036,5,POSTPROCEDURE CONDITION,Stable
+246,N0036,6,INDICATIONS,The patient is a 33-year-old with a recent change in bowel function and hematochezia. He is here for colonoscopy. He understands the risks and wishes to proceed
+247,N0036,7,PROCEDURE,"The patient was brought to the endoscopy suite where he was placed in left lateral Sims position, underwent IV sedation. Digital rectal examination was performed, which showed no masses, and a boggy p"
+248,N0036,8,RECOMMENDATIONS,Follow up with me in 2 weeks and we will begin Canasa suppositories
+249,N0037,1,HISTORY,"A is a 55-year-old who I know well because I have been taking care of her husband. She comes for discussion of a screening colonoscopy. Her last colonoscopy was in 2002, and at that time she was told "
+250,N0037,2,PAST MEDICAL HISTORY,"On today's visit we reviewed her entire health history. Surgically she has had a stomach operation for ulcer disease back in 1974, she says. She does not know exactly what was done. It was done at a h"
+251,N0037,3,MEDICATIONS,Reglan 10 mg once a day
+252,N0037,4,ALLERGIES,"She denies any allergies to medications but is sensitive to medications that cause her to have ulcers, she says"
+253,N0037,5,SOCIAL HISTORY,"She still smokes one pack of cigarettes a day. She was counseled to quit. She occasionally uses alcohol. She has never used illicit drugs. She is married, is a housewife, and has four children"
+254,N0037,6,FAMILY HISTORY,Positive for diabetes and cancer
+255,N0037,7,REVIEW OF SYSTEMS,Essentially as mentioned above
+256,N0037,8,PHYSICAL EXAMINATION,
+257,N0037,9,GENERAL,A is a healthy appearing female in no apparent distress
+258,N0037,10,VITAL SIGNS,"Her vital signs reveal a weight of 164 pounds, blood pressure 140/90, temperature of 97.6 degrees F"
+259,N0037,11,HEENT,"No cervical bruits, thyromegaly, or masses. She has no lymphadenopathy in the head and neck, supraclavicular, or axillary spaces bilaterally"
+260,N0037,12,LUNGS,"Clear to auscultation bilaterally with no wheezes, rubs, or rhonchi"
+261,N0037,13,HEART,"Regular rate and rhythm without murmur, rub, or gallop"
+262,N0037,14,ABDOMEN,"Soft, nontender, nondistended"
+263,N0037,15,EXTREMITIES,"No cyanosis, clubbing, or edema, with good pulses in the radial arteries bilaterally"
+264,N0037,16,NEURO,"No focal deficits, is intact to soft touch in all four"
+265,N0037,17,ASSESSMENT AND RECOMMENDATIONS,"In light of her history and physical, clearly the patient would be well served with an upper and lower endoscopy. We do not know what the anatomy is, and if she did have an antrectomy, she needs to be"
+266,N0038,1,PREOPERATIVE DIAGNOSIS,Anemia
+267,N0038,2,PROCEDURE,Upper gastrointestinal endoscopy
+268,N0038,3,POSTOPERATIVE DIAGNOSES,"1. Severe duodenitis.,2. Gastroesophageal junction small ulceration seen.,3. No major bleeding seen in the stomach"
+269,N0038,4,PROCEDURE IN DETAIL,"The patient was put in left lateral position. Olympus scope was inserted from the mouth, under direct visualization advanced to the upper part of the stomach, upper part of esophagus, middle of esopha"
+270,N0038,5,FINDING,"Severe duodenitis, may be some source of bleeding from there, but no active bleeding at this time"
+271,N0039,1,PROCEDURE PERFORMED,Esophagogastroduodenoscopy performed in the emergency department
+272,N0039,2,INDICATION,"Melena, acute upper GI bleed, anemia, and history of cirrhosis and varices.,FINAL IMPRESSION,1. Scope passage massive liquid in stomach with some fresh blood near the fundus, unable to identify source"
+273,N0039,3,PROCEDURE DETAILS,"Prior to the procedure, physical exam was stable. During the procedure, vital signs remained within normal limits. Prior to sedation, informed consent was obtained. Risks, benefits, and alternatives i"
+274,N0040,1,PREOPERATIVE DIAGNOSIS,Morbid obesity
+275,N0040,2,POSTOPERATIVE DIAGNOSIS,Morbid obesity
+276,N0040,3,PROCEDURE,Laparoscopic antecolic antegastric Roux-en-Y gastric bypass with EEA anastomosis
+277,N0040,4,ANESTHESIA,General with endotracheal intubation
+278,N0040,5,INDICATION FOR PROCEDURE,"This is a 30-year-old female, who has been overweight for many years. She has tried many different diets, but is unsuccessful. She has been to our Bariatric Surgery Seminar, received some handouts, an"
+279,N0040,6,PROCEDURE IN DETAIL,The patient was taken to the operating room and placed supine on the operating room table. All pressure points were carefully padded. She was given general anesthesia with endotracheal intubation. SCD
+280,N0041,1,DISCHARGE DIAGNOSES,"1. Gram-negative rod bacteremia, final identification and susceptibilities still pending.,2. History of congenital genitourinary abnormalities with multiple surgeries before the 5th grade.,3. History "
+281,N0041,2,OPERATIONS PERFORMED,"Chest x-ray July 24, 2007, that was normal. Transesophageal echocardiogram July 27, 2007, that was normal. No evidence of vegetations. CT scan of the abdomen and pelvis July 27, 2007, that revealed mu"
+282,N0041,3,HISTORY OF PRESENT ILLNESS,"Briefly, the patient is a 26-year-old white female with a history of fevers. For further details of the admission, please see the previously dictated history and physical"
+283,N0041,4,HOSPITAL COURSE,"Gram-negative rod bacteremia. The patient was admitted to the hospital with suspicion of endocarditis given the fact that she had fever, septicemia, and Osler nodes on her fingers. The patient had a t"
+284,N0041,5,DISCHARGE INSTRUCTIONS,Activity is as tolerated. Diet is as tolerated
+285,N0041,6,MEDICATIONS,"Levaquin 750 mg daily x14 days.,Followup is with Dr. [PROVIDER] of infectious diseases. I gave the patient the phone number to call on Monday for an appointment. Additional followup is also with Dr. ["
+286,N0042,1,HISTORY OF PRESENT ILLNESS,A 50-year-old female comes to the clinic with complaint of mood swings and tearfulness. This has been problematic over the last several months and is just worsening to the point where it is impairing 
+287,N0042,2,FAMILY HISTORY,"Benign breast lump in her mother; however, her paternal grandmother had breast cancer. The patient denies any palpitations, urinary incontinence, hair loss, or other concerns. She was recently treated"
+288,N0042,3,ALLERGIES,She is allergic to Sulfa
+289,N0042,4,CURRENT MEDICATIONS,Recently finished Minocin and Duraphen II DM
+290,N0042,5,PHYSICAL EXAMINATION,"General: A well-developed and well-nourished female, conscious, alert, oriented times three in no acute distress. Mood is dysthymic. Affect is tearful.,Skin: Without rash.,Eyes: PERRLA. Conjunctivae a"
+291,N0042,6,ASSESSMENT,"1. Postsurgical menopause.,2. Mood swings"
+292,N0042,7,PLAN,"I spent about 30 minutes with the patient discussing treatment options. I do believe that her moods would greatly benefit from hormone replacement therapy; however, she is reluctant to do this because"
+293,N0043,1,SUBJECTIVE,"The patient is a 2-year-old little girl who comes in with concerns about stuffiness, congestion and nasal drainage. She does take Zyrtec on a fairly regular basis. Mom is having some allergy trouble h"
+294,N0043,2,ALLERGIES,Eggs and peanuts
+295,N0043,3,OBJECTIVE,"General: Alert, very talkative little girl"
+296,N0043,4,HEENT,"TMs clear and mobile. Eyes: PERRL. Fundi benign. Pharynx clear. Mouth moist. Nasal mucosa is pale with clear discharge.,Neck: Supple without adenopathy.,Heart: Regular rate and rhythm without murmur.,"
+297,N0043,5,ASSESSMENT,Allergic rhinitis. Otherwise healthy 2-year-old young lady
+298,N0043,6,PLAN,"In addition to her Zyrtec, I put her on Nasonex spray one spray each nostril daily. If this works for her, certainly she can do it through the ragweed season. Otherwise she is doing well. I talked abo"
+299,N0044,1,CHIEF COMPLAINT,"Anxiety, alcohol abuse, and chest pain"
+300,N0044,2,HISTORY OF PRESENT ILLNESS,"This is a pleasant 40-year-old male with multiple medical problems, basically came to the hospital yesterday complaining of chest pain. The patient states that he complained of this chest pain, which "
+301,N0044,3,MEDICATIONS,"Digoxin 0.25 mg, metoprolol 50 mg, Naprosyn 500 mg, metformin 500 mg, lovastatin 40 mg, Klor-Con 20 mEq, Advair Diskus, questionable Coreg"
+302,N0044,4,PAST MEDICAL HISTORY,"MI in the past and atrial fibrillation, he said that he has had one stent put in, but he is not sure. The last cardiologist he saw was Dr. X and his primary doctor is Dr. Y"
+303,N0044,5,SOCIAL HISTORY,"History of alcohol use in the past.,He is basically requesting for more and more pain medications. He states that he likes Dilaudid and would like to get the morphine changed to Dilaudid. His pain is "
+304,N0044,6,PHYSICAL EXAMINATION,
+305,N0044,7,VITAL SIGNS,Stable
+306,N0044,8,GENERAL,"Alert and oriented x3, no apparent distress"
+307,N0044,9,HEENT,"Extraocular muscles are intact.,CVS: S1, S2 heard"
+308,N0044,10,CHEST,Clear to auscultation bilaterally
+309,N0044,11,ABDOMEN,Soft and nontender
+310,N0044,12,EXTREMITIES,No edema or clubbing
+311,N0044,13,NEURO,"Grossly intact. Tender to palpate over the left chest, no obvious erythema or redness, or abnormal exam is found.,EKG basically shows atrial fibrillation, rate controlled, nonspecific ST changes"
+312,N0044,14,ASSESSMENT AND PLAN,"1. This is a 40-year-old male with digoxin toxicity secondary to likely intentional digoxin overuse. Now, he has had significant block with EKG changes as stated. Continue to follow the patient clinic"
+313,N0045,1,CHIEF COMPLAINT,"Followup on diabetes mellitus, status post cerebrovascular accident"
+314,N0045,2,SUBJECTIVE,This is a 70-year-old male who has no particular complaints other than he has just discomfort on his right side. We have done EMG studies. He has noticed it since his stroke about five years ago. He h
+315,N0045,3,MEDICATIONS,Refer to chart
+316,N0045,4,ALLERGIES,Refer to chart
+317,N0045,5,PHYSICAL EXAMINATION,"Vitals: Wt; 118 lbs, B/P; 108/72, T; 96.5, P; 80 and regular. ,General: A 70-year-old male who does not appear to be in acute distress but does look older than his stated age. He has some missing dent"
+318,N0045,6,IMPRESSION,"1. Diabetes mellitus.,2. Neuropathy.,3. Status post cerebrovascular accident"
+319,N0045,7,PLAN,"Refill his medications x 3 months. We will check an A1c and BMP. I have talked to him several times about a colonoscopy, which he has refused, and so we have been doing stools for occult blood. We wil"
+320,N0046,1,SUBJECTIVE,"This 3-year-old male is brought by his mother with concerns about his eating. He has become a very particular eater, and not eating very much in general. However, her primary concern was he was vomiti"
+321,N0046,2,CURRENT MEDICATIONS,He is on no medications
+322,N0046,3,ALLERGIES,He has no known medicine allergies
+323,N0046,4,OBJECTIVE,"Vital Signs: Weight: 31.5 pounds, which is an increase of 2.5 pounds since May. Temperature is 97.1. He certainly appears in no distress. He is quite interested in looking at his books.,Neck: Supple w"
+324,N0046,5,ASSESSMENT,Report of vomiting and abdominal pain after eating raw carrots and celery. Etiology of this is unknown
+325,N0046,6,PLAN,"I talked with mother about this. Certainly, it does not suggest any kind of an allergic reaction, nor obstruction. At this time, they will simply avoid those foods. In the future, they may certainly t"
+326,N0047,1,SUBJECTIVE,"This patient presents to the office today for a checkup. He has several things to go over and discuss. First he is sick. He has been sick for a month intermittently, but over the last couple of weeks "
+327,N0047,2,REVIEW OF SYSTEMS,General: With this illness he has had no problems with fever
+328,N0047,3,HEENT,"Some runny nose, more runny nose than congestion. Respiratory: Denies shortness of breath. Skin: He has a peeling skin on the bottom of his feet, mostly the right foot that he is talking about today. "
+329,N0047,4,OBJECTIVE,"His weight is 238.4 pounds, blood pressure 128/74, temperature 97.8, pulse 80, and respirations 16. General exam: The patient is nontoxic and in no acute distress. Ears: Tympanic membranes pearly gray"
+330,N0047,5,ASSESSMENT,"1. Upper respiratory tract infection, persistent.,2. Tinea pedis.,3. Wart on the finger.,4. Hyperlipidemia.,5. Tobacco abuse"
+331,N0047,6,PLAN,The patient is getting a refill on Allegra-D. I am giving him a refill on the Nizoral 2% cream that he should use to the foot area twice a day. I gave him instructions on how to keep the foot clean an
+332,N0048,1,HISTORY OF PRESENT ILLNESS,She is a 28-year-old G1 at approximately 8 plus weeks presented after intractable nausea and vomiting with blood-tinged vomit starting approximately worse over the past couple of days. This is patient
+333,N0048,2,PAST MEDICAL HISTORY,Nonsignificant
+334,N0048,3,PAST SURGICAL HISTORY,None
+335,N0048,4,SOCIAL HISTORY,"No alcohol, drugs, or tobacco"
+336,N0048,5,PAST OBSTETRICAL HISTORY,This is her first pregnancy
+337,N0048,6,PAST GYNECOLOGICAL HISTORY,"Not pertinent.,While in the emergency room, the patient was found to have slight low sodium, potassium slightly elevated and her ALT of 93, AST of 35, total bilirubin is 1.2. Her urine was 3+ ketones,"
+338,N0048,7,ASSESSMENT AND PLAN,"1. This is a 28-year-old G1 at approximately 8 to 9 weeks gestation with one hyperemesis gravidarum admit for IV hydration and followup.,2. Slightly elevated ALT, questionable, likely due to the nause"
+339,N0049,1,VITAL SIGNS,"Reveal a blood pressure of *, temperature of *, respirations *, and pulse of *"
+340,N0049,2,CONSTITUTIONAL,"Normal appearance for chronological age, does not appear chronically ill"
+341,N0049,3,HEENT,The pupils are equal and reactive. Funduscopic examination is normal. Posterior pharynx is normal. Tympanic membranes are clear
+342,N0049,4,NECK,Trachea is midline. Thyroid is normal. The neck is supple. Negative nodes
+343,N0049,5,RESPIRATORY,"Lungs are clear to auscultation bilaterally. The patient has a normal respiratory rate, no signs of consolidation and no egophony. There are no retractions or secondary muscle use. Good bilateral brea"
+344,N0049,6,CARDIOVASCULAR,No jugular venous distention or carotid bruits. No increase in heart size to percussion. There is no murmur. Normal S1 and S2 sounds are noted without gallop
+345,N0049,7,ABDOMEN,Soft to palpation in all four quadrants. There is no organomegaly and no rebound tenderness. Bowel sounds are normal. Obturator and psoas signs are negative
+346,N0049,8,GENITOURINARY,"No bladder tenderness, negative flank pain"
+347,N0049,9,MUSCULOSKELETAL,"Extremities are normal with good motor tone and strength, normal reflexes, and normal joint strength and sensation"
+348,N0049,10,NEUROLOGIC,Normal Glasgow Coma Scale. Cranial nerves II through XII appear grossly intact. Normal motor and cerebellar tests. Reflexes are normal
+349,N0049,11,HEME/LYMPH,"No abnormal lymph nodes, no signs of bleeding, skin purpura, petechiae or hemorrhage"
+350,N0049,12,PSYCHIATRIC,Normal with no overt depression or suicidal ideations
+351,N0050,1,SUBJECTIVE,This patient presents to the office today with his mom for checkup. He used to live in the city. He used to go to college down in the city. He got addicted to drugs. He decided it would be a good idea
+352,N0050,2,OBJECTIVE,"His weight is 164 pounds, blood pressure 108/60, pulse 88, respirations 16, and temperature was not taken. General: He is nontoxic and in no acute distress. Psychiatric: Alert and oriented times 3. Sk"
+353,N0050,3,ASSESSMENT,Substance abuse
+354,N0050,4,PLAN,I had a long talk with the patient and his mom. I am not prescribing him any narcotics or controlled substances. I am not in the practice of trading one addiction for another. It has been one week wit
+355,N0051,1,PREOPERATIVE DIAGNOSES,"1. Carotid artery occlusive disease.,2. Peripheral vascular disease"
+356,N0051,2,POSTOPERATIVE DIAGNOSES,"1. Carotid artery occlusive disease.,2. Peripheral vascular disease"
+357,N0051,3,OPERATIONS PERFORMED,"1. Bilateral carotid cerebral angiogram.,2. Right femoral-popliteal angiogram"
+358,N0051,4,FINDINGS,"The right carotid cerebral system was selectively catheterized and visualized. The right internal carotid artery was found to be very tortuous with kinking in its cervical portions, but no focal steno"
+359,N0051,5,PROCEDURE,"With the patient in supine position under local anesthesia plus intravenous sedation, the groin areas were prepped and draped in a sterile fashion.,The common femoral artery was punctured in a routine"
+360,N0052,1,MEDS,None
+361,N0052,2,SHX/FHX,"unremarkable for cancer, CAD, aneurysm, MS, stroke. No h/o Tobacco or ETOH use"
+362,N0052,3,EXAM,"T36.0, BP121/85, HR 94, RR16,MS: Alert and oriented to person, place and time. Speech fluent and unremarkable.,CN: Pale optic disks, OU. Visual acuity: 20/70 (OD) and able to detect only shadow of han"
+363,N0052,4,MOTOR,"5/5 throughout with normal bulk and tone.,Sensory: no deficits to LT/PP/VIB/PROP.,Coord: FNF-RAM-HKS intact bilaterally.,Station: No pronator drift. Gait: ND,Reflexes: 3/3 BUE, 2/2 BLE. Plantar respon"
+364,N0052,5,COURSE,"CT Brain showed large, enhancing 4 x 4 x 3 cm suprasellar-sellar mass without surrounding edema. Differential dx: included craniopharyngioma, pituitary adenoma, and aneurysm. MRI Brain findings were c"
+365,N0053,1,HOSPITAL COURSE,"The patient was admitted to the emergency room. Plavix was started in addition to baby aspirin. He was kept on oral Zithromax for his cough. He was given Xopenex treatment, because of his respiratory "
+366,N0054,1,REASON FOR VISIT,Postoperative visit for craniopharyngioma
+367,N0054,2,HISTORY OF PRESENT ILLNESS,"Briefly, a 16-year-old right-handed boy who is in eleventh grade, who presents with some blurred vision and visual acuity difficulties, was found to have a suprasellar tumor. He was brought to the ope"
+368,N0054,3,MEDICATIONS,Synthroid 100 mcg per day
+369,N0054,4,FINDINGS,"On exam, he is awake, alert and oriented x 3. Pupils are equal and reactive. EOMs are full. His visual acuity is 20/25 in the right (improved from 20/200) and the left is 20/200 improved from 20/400. "
+370,N0054,5,ASSESSMENT,Postoperative visit for craniopharyngioma with residual disease
+371,N0054,6,PLANS,"I have recommended that he call. I discussed the options with our radiation oncologist, Dr. X. They will schedule the appointment to see him. In addition, he probably will need an MRI prior to any tre"
+372,N0055,1,NERVE CONDUCTION STUDIES,Bilateral ulnar sensory responses are absent. Bilateral median sensory distal latencies are prolonged with a severely attenuated evoked response amplitude. The left radial sensory response is normal a
+373,N0055,2,NEEDLE EMG,Needle EMG was performed on the left arm and lumbosacral and cervical paraspinal muscles as well as middle thoracic muscles using a disposable concentric needle. It revealed spontaneous activity in lo
+374,N0055,3,IMPRESSION,"This electrical study is abnormal. It reveals the following:,1. A sensory motor length-dependent neuropathy consistent with diabetes.,2. A severe left ulnar neuropathy. This is probably at the elbow, "
+375,N0056,1,PREOPERATIVE DIAGNOSES,"1. Epidural hematoma, cervical spine.,2. Status post cervical laminectomy, C3 through C7 postop day #10.,3. Central cord syndrome.,4. Acute quadriplegia"
+376,N0056,2,POSTOPERATIVE DIAGNOSES,"1. Epidural hematoma, cervical spine.,2. Status post cervical laminectomy, C3 through C7 postop day #10.,3. Central cord syndrome.,4. Acute quadriplegia"
+377,N0056,3,PROCEDURE PERFORMED,"1. Evacuation of epidural hematoma.,2. Insertion of epidural drain"
+378,N0056,4,ANESTHESIA,General
+379,N0056,5,COMPLICATIONS,None
+380,N0056,6,ESTIMATED BLOOD LOSS,200 cc
+381,N0056,7,HISTORY,This is a 64-year-old female who has had an extensive medical history beginning with coronary artery bypass done on emergent basis while she was in Maryland in April of 2003 after having myocardial in
+382,N0056,8,OPERATIVE PROCEDURE,The patient was taken to OR #1 at ABCD General Hospital on a gurney. Department of Anesthesia administered fiberoptic intubation and general anesthetic. A Foley catheter was placed in the bladder. The
+383,N0057,1,PREOPERATIVE DIAGNOSIS,Low back pain
+384,N0057,2,POSTOPERATIVE DIAGNOSIS,Low back pain
+385,N0057,3,PROCEDURE PERFORMED,"1. Lumbar discogram L2-3.,2. Lumbar discogram L3-4.,3. Lumbar discogram L4-5.,4. Lumbar discogram L5-S1"
+386,N0057,4,ANESTHESIA,IV sedation
+387,N0057,5,PROCEDURE IN DETAIL,"The patient was brought to the Radiology Suite and placed prone onto a radiolucent table. The C-arm was brought into the operative field and AP, left right oblique and lateral fluoroscopic images of t"
+388,N0058,1,MEDS,none
+389,N0058,2,ALLERGIES,"ASA/ PCN both cause rash.,PMH:, 1)?HTN. 2)COPD. 3)h/o hepatitis (unknown type). 4)Macular degeneration.,SHX:, Widowed; lives alone. Denied ETOH/Tobacco/illicit drug use.,FHX:, unremarkable"
+390,N0058,3,EXAM,"BP191/89 HR68 RR16 37.2C,MS: A & O to person, place and time. Speech fluent; without dysarthria. Intact naming, comprehension, and repetition.,CN: Central scotoma, OS (old). Mild upper lid ptosis, OD "
+391,N0058,4,COURSE,"GS, CBC, PT, PTT, CK, ESR were within normal limits. ABC 7.4/46/63 on room air. EKG showed a sinus rhythm with right bundle branch block. MRI brain, 11/23/95, revealed a right pontine pyramidal tract "
+392,N0059,1,EXAM,MRI head without contrast
+393,N0059,2,REASON FOR EXAM,Severe headaches
+394,N0059,3,INTERPRETATION,"Imaging was performed in the axial and sagittal planes using numerous pulse sequences at 1 tesla. Correlation is made with the head CT of 4/18/05.,On the diffusion sequence, there is no significant br"
+395,N0059,4,IMPRESSION,"1. No definite acute findings identified involving the brain.,2. There is prominent chronic cerebral ischemic change as described with mild chronic pontine ischemic changes. There is an old moderate-s"
+396,N0060,1,REASON FOR CONSULTATION,Neurologic consultation was requested by Dr. X to evaluate her seizure medication and lethargy
+397,N0060,2,HISTORY OF PRESENT ILLNESS,"The patient is well known to me. She has symptomatic partial epilepsy secondary to a static encephalopathy, cerebral palsy, and shunted hydrocephalus related to prematurity. She also has a history of "
+398,N0060,3,LABORATORY DATA,"Pertinent labs obtained here showed the following: CRP is less than 0.3, CMP normal, and CBC within normal limits. CSF cultures so far is negative. Dr. [PROVIDER]'s note refers to a CSF, white blood c"
+399,N0060,4,CURRENT MEDICATIONS,"Trileptal 180 mg b.i.d., lorazepam 1 mg p.r.n., acetaminophen, and azithromycin"
+400,N0060,5,PHYSICAL EXAMINATION,
+401,N0060,6,GENERAL,"The patient was asleep, but easily aroused. There was a brief period of drowsiness, which she had some jerky limb movements, but not seizures. She eventually started crying and became agitated. She ma"
+402,N0060,7,HEENT,"She was obviously visually impaired. Pupils were 3 mm, sluggishly reactive to light"
+403,N0060,8,EXTREMITIES,Bilateral lower extremity spasticity was noted. There was increased flexor tone in the right upper extremity. IV was noted on the left hand
+404,N0060,9,ASSESSMENT,Seizure breakthrough due to intercurrent febrile illness. Her lethargy could be secondary to a viral illness with some component of medication effect since her Trileptal dose was increased yesterday a
+405,N0061,1,PREOPERATIVE DIAGNOSIS,Desires permanent sterilization
+406,N0061,2,POSTOPERATIVE DIAGNOSIS,Desires permanent sterilization
+407,N0061,3,PROCEDURE PERFORMED,Laparoscopic bilateral tubal occlusion with Hulka clips
+408,N0061,4,ANESTHESIA,General
+409,N0061,5,ESTIMATED BLOOD LOSS,Less than 20 cc
+410,N0061,6,COMPLICATIONS,None
+411,N0061,7,FINDINGS,"On bimanual exam, the uterus was found to be anteverted at approximately six weeks in size. There were no adnexal masses appreciated. The vulva and perineum appeared normal. Laparoscopic findings reve"
+412,N0061,8,INDICATIONS,"This patient is a 34-year-old gravida 4, para-4-0-0-4 Caucasian female who desires permanent sterilization. She recently had a spontaneous vaginal delivery in June and her family planning is complete"
+413,N0061,9,PROCEDURE IN DETAIL,"After informed consent was obtained in layman's terms, the patient was taken back to the operating suite and placed under general anesthesia. She was then prepped and draped and placed in the dorsal l"
+414,N0063,1,DELIVERY NOTE,"This is an 18-year-old, G2, P0 at 35-4/7th weeks by a stated EDC of 01/21/09. The patient is a patient of Dr. X's. Her pregnancy is complicated by preterm contractions. She was on bedrest since her 34"
+415,N0064,1,ADMISSION DIAGNOSIS,Microinvasive carcinoma of the cervix
+416,N0064,2,DISCHARGE DIAGNOSIS,Microinvasive carcinoma of the cervix
+417,N0064,3,PROCEDURE PERFORMED,Total vaginal hysterectomy
+418,N0064,4,HISTORY OF PRESENT ILLNESS,"The patient is a 36-year-old, white female, gravida 7, para 5, last period mid March, status post tubal ligation. She had an abnormal Pap smear in the 80s, which she failed to followup on until this y"
+419,N0064,5,PAST MEDICAL HISTORY,"Past history is significant for seven pregnancies, five term deliveries, and significant past history of tobacco use"
+420,N0064,6,PHYSICAL EXAMINATION,"Physical exam is within normal limits with a taut normal size uterus and a small cervix, status post cone biopsy"
+421,N0064,7,LABORATORY DATA AND DIAGNOSTIC STUDIES,Chest x-ray was clear. Discharge hemoglobin 10.8
+422,N0064,8,HOSPITAL COURSE,She was taken to the operating room on 04/02/2007 where a total vaginal hysterectomy was performed under general anesthesia. There was an incidental cystotomy at the time of the creation of the bladde
+423,N0064,9,DISCHARGE MEDICATIONS,"Vicodin, Motrin, and Macrodantin at bedtime for urinary tract infection suppression"
+424,N0064,10,DISCHARGE CONDITION,"Good.,Final pathology report was free of residual disease"
+425,N0065,1,PREOPERATIVE DIAGNOSIS,Pelvic pain
+426,N0065,2,POSTOPERATIVE DIAGNOSES,"1. Pelvic pain.,2. Pelvic endometriosis.,3. Pelvic adhesions"
+427,N0065,3,PROCEDURE PERFORMED,"1. Laparoscopy.,2. Harmonic scalpel ablation of endometriosis.,3. Lysis of adhesions.,4. Cervical dilation"
+428,N0065,4,ANESTHESIA,General
+429,N0065,5,SPECIMEN,Peritoneal biopsy
+430,N0065,6,ESTIMATED BLOOD LOSS,Scant
+431,N0065,7,COMPLICATIONS,None
+432,N0065,8,FINDINGS,"On bimanual exam, the patient has a small, anteverted, and freely mobile uterus with no adnexal masses. Laparoscopically, the patient has large omental to anterior abdominal wall adhesions along the l"
+433,N0065,9,PROCEDURE,The patient was taken in the operating room and generalized anesthetic was administered. She was then positioned in the dorsal lithotomy position and prepped and draped in the normal sterile fashion. 
+434,N0066,1,PROCEDURE,Laparoscopy with ablation of endometriosis
+435,N0066,2,DIAGNOSIS,Endometriosis
+436,N0066,3,ANESTHESIA,General
+437,N0066,4,ESTIMATED BLOOD LOSS,None
+438,N0066,5,FINDINGS,"Allen-Masters window in the upper left portion of the cul-de-sac, bronze lesions of endometriosis in the central portion of the cul-de-sac as well as both the left uterosacral ligament, flame lesions "
+439,N0066,6,PROCEDURE,"The patient was taken to the operating room and placed under general anesthesia. She was put in the dorsal lithotomy position, and the perineum and abdomen were prepped and draped in a sterile manner."
+440,N0067,1,PREOPERATIVE DIAGNOSIS,"Pregnancy at 42 weeks, nonreassuring fetal testing, and failed induction"
+441,N0067,2,POSTOPERATIVE DIAGNOSIS,"Pregnancy at 42 weeks, nonreassuring fetal testing, and failed induction"
+442,N0067,3,PROCEDURE,Primary low segment cesarean section. The patient was placed in the supine position under spinal anesthesia with a Foley catheter in place and she was prepped and draped in the usual manner. A low abd
+443,N0068,1,PREOPERATIVE DIAGNOSES,"1. Postdates pregnancy.,2. Failure to progress.,3. Meconium stained amniotic fluid"
+444,N0068,2,POSTOPERATIVE DIAGNOSES,"1. Postdates pregnancy.,2. Failure to progress.,3. Meconium stained amniotic fluid"
+445,N0068,3,OPERATION,Primary low-transverse C-section
+446,N0068,4,ANESTHESIA,Epidural
+447,N0068,5,DESCRIPTION OF OPERATION,"The patient was taken to the operating room and under epidural anesthesia, she was prepped and draped in the usual manner. Anesthesia was tested and found to be adequate. Incision was made, Pfannensti"
+448,N0069,1,GROSS DESCRIPTION,"Specimen labeled ""right ovarian cyst"" is received fresh for frozen section. It consists of a smooth-walled, clear fluid filled cyst measuring 13x12x7 cm and weighing 1351 grams with fluid. Both surfac"
+449,N0069,2,DIAGNOSIS,Benign cystic ovary
+450,N0070,1,PREOPERATIVE DIAGNOSIS,Missed abortion
+451,N0070,2,POSTOPERATIVE DIAGNOSIS,Missed abortion
+452,N0070,3,PROCEDURE PERFORMED,"Suction, dilation, and curettage"
+453,N0070,4,ANESTHESIA,Spinal
+454,N0070,5,ESTIMATED BLOOD LOSS,50 mL
+455,N0070,6,COMPLICATIONS,None
+456,N0070,7,FINDINGS,Products of conception consistent with a 6-week intrauterine pregnancy
+457,N0070,8,INDICATIONS,"The patient is a 28-year-old gravida 4, para 3 female at 13 weeks by her last menstrual period and 6 weeks by an ultrasound today in the emergency room who presents with heavy bleeding starting today."
+458,N0070,9,PROCEDURE NOTE,The patient was taken to the operating room where spinal anesthesia was administered without difficulty. The patient was prepped and draped in usual sterile fashion in lithotomy position. A weighted s
+459,N0071,1,PREOPERATIVE DIAGNOSIS,Recurrent anterior dislocating left shoulder
+460,N0071,2,POSTOPERATIVE DIAGNOSIS,Recurrent anterior dislocating left shoulder
+461,N0071,3,PROCEDURE PERFORMED,Arthroscopic debridement of the left shoulder with attempted arthroscopic Bankart repair followed by open Bankart arthroplasty of the left shoulder
+462,N0071,4,PROCEDURE,"The patient was taken to OR #2, administered general anesthetic after ineffective interscalene block had been administered in the preop area. The patient was positioned in the modified beachchair posi"
+463,N0072,1,PREOPERATIVE DIAGNOSIS,"Rotator cuff tear, right shoulder"
+464,N0072,2,POSTOPERATIVE DIAGNOSES,"1. Massive rotator cuff tear, right shoulder.,2. Near complete biceps tendon tear, right shoulder.,3. Chondromalacia of glenohumeral joint, right shoulder.,4. Glenoid labrum tear, right shoulder"
+465,N0072,3,PROCEDURE PERFORMED,"1. Arthroscopy of the arthroscopic glenoid labrum.,2. Rotator cuff debridement shaving glenoid and humeral head.,3. Biceps tenotomy, right shoulder"
+466,N0072,4,SPECIFICATION,"The entire operative procedure was done in Inpatient Operating Suite, room #1 at ABCD General Hospital. This was done under interscalene block anesthetic in the modified beachchair position"
+467,N0072,5,HISTORY AND GROSS FINDINGS,This is a 61-year-old white male who is dominantly right-handed. He had increasing right shoulder pain and dysfunction for a number of years prior to surgical intervention. This was gradually done ove
+468,N0072,6,OPERATIVE PROCEDURE,"The patient was laid supine upon the operative table. After receiving interscalene block anesthetic by the Anesthesia Department, he was safely placed in a modified beachchair position. He was prepped"
+469,N0073,1,HISTORY OF PRESENT PROBLEM,"XYZ was seen by Dr. [PROVIDER] for an FCR tendinitis. We do not have his reports, but by history she has had two cortisone shots. She plays musical instruments, and it does bother her from time to tim"
+470,N0073,2,CLINICAL/PHYSICAL EXAMINATION,"General: The patient is alert and oriented times three in no acute distress. ,Skin: No skin breakdown or hyperhidrosis.,Vascular: 2+ radial and ulnar artery pulses.,Musculoskeletal: Wrist, elbow, shou"
+471,N0073,3,HEENT,Pupils equal and reactive with no asymmetry
+472,N0073,4,CLINICAL IMPRESSION,"By history, possible FCR tendinitis"
+473,N0073,5,EVALUATION/TREATMENT PLAN,"At this point, we have asked her some questions again. She is not that sore at this point, and she has had a couple of cortisone shots. Without being the initial treating physician, she has FCR tendin"
+474,N0074,1,PREOPERATIVE DIAGNOSIS,"Right wrist laceration with a flexor carpi radialis laceration and palmaris longus laceration 90%, suspected radial artery laceration"
+475,N0074,2,POSTOPERATIVE DIAGNOSIS,"Right wrist laceration with a flexor carpi radialis laceration and palmaris longus laceration 90%, suspected radial artery laceration"
+476,N0074,3,PROCEDURES PERFORMED,"1. Repair flexor carpi radialis.,2. Repair palmaris longus"
+477,N0074,4,ANESTHETIC,General
+478,N0074,5,TOURNIQUET TIME,Less than 30 minutes
+479,N0074,6,CLINICAL NOTE,The patient is a 21-year-old who sustained a clean laceration off a teapot last night. She had lacerated her flexor carpi radialis completely and 90% of her palmaris longus. Both were repaired proxima
+480,N0074,7,PROCEDURE,"Under satisfactory general anesthesia, the right upper extremity was prepped and draped in the usual fashion. There were 2 transverse lacerations. Through the first laceration, the flexor carpi radial"
+481,N0075,1,TITLE OF OPERATION,"Intramedullary nail fixation of the left tibia fracture with a Stryker T2 tibial nail, 10 x 390 with a one 5-mm proximal locking screw and three 5-mm distal locking screws (CPT code is 27759) (the ICD"
+482,N0075,2,INDICATION FOR SURGERY,"The patient is a 19-year-old male, who sustained a gunshot wound to the left tibia with a distal tibial shaft fracture. The patient was admitted and splinted and had compartment checks. The risks of s"
+483,N0075,3,PREOP DIAGNOSIS,Left tibial shaft fracture status post gunshot wound (CPT code 27759)
+484,N0075,4,POSTOP DIAGNOSIS,Left tibial shaft fracture status post gunshot wound (CPT code 27759)
+485,N0075,5,ANESTHESIA,General endotracheal
+486,N0075,6,INTRAVENOUS FLUID,900
+487,N0075,7,ESTIMATED BLOOD LOSS,100
+488,N0075,8,COMPLICATIONS,None
+489,N0075,9,DISPOSITION,Stable to PACU
+490,N0075,10,PROCEDURE DETAIL,The patient was met in the preoperative holding area and operative site was marked. The patient was brought to the operating room and given preoperative antibiotics. Left leg was then prepped and drap
+491,N0076,1,OPERATION PERFORMED,Ligament reconstruction and tendon interposition arthroplasty of right wrist
+492,N0076,2,DESCRIPTION OF PROCEDURE,"With the patient under adequate anesthesia, the right upper extremity was prepped and draped in a sterile manner.,Attention was turned to the base of the thumb where a longitudinal incision was made o"
+493,N0077,1,EXAM,MRI RIGHT KNEE WITHOUT GADOLINIUM
+494,N0077,2,CLINICAL,This is a 21-year-old male with right knee pain after a twisting injury on 7/31/05. Patient has had prior lateral meniscectomy in 2001
+495,N0077,3,FINDINGS,"Examination was performed on 8/3/05,Normal medial meniscus without intrasubstance degeneration, surface fraying or discrete meniscal tear.,There is subtle irregularity along the superior and inferior "
+496,N0077,4,IMPRESSION,"Changes within the lateral meniscus most likely reflect previous partial meniscectomy and re-contouring although a subtle undersurface tear in the anterior horn may be present.,Mild anterior cruciate "
+497,N0078,1,HISTORY,We had the pleasure of seeing the patient today in our Pediatric Rheumatology Clinic. He was sent here with a chief complaint of joint pain in several joints for few months. This is a 7-year-old white
+498,N0078,2,MEDICATIONS,His medications consist only of Motrin only as needed and Claritin currently for seasonal allergies and rhinitis
+499,N0078,3,ALLERGIES,He has no allergies to any drugs
+500,N0078,4,BIRTH HISTORY,Pregnancy and delivery with no complications. He has no history of hospitalizations or surgeries
+501,N0078,5,FAMILY HISTORY,Positive for arthritis in his grandmother. No history of pediatric arthritis. There is history of psoriasis in his dad
+502,N0078,6,SOCIAL HISTORY,"He lives with mom, dad, brother, sister, and everybody is healthy. They live in Easton. They have 4 dogs, 3 cats, 3 mules and no deer. At school, he is in second grade and he is doing PE without any l"
+503,N0078,7,PHYSICAL EXAMINATION,
+504,N0078,8,VITAL SIGNS,"Temperature is 98.7, pulse is 96, respiratory rate is 24, height is 118.1 cm, weight is 22.1 kg, and blood pressure is 61/44"
+505,N0078,9,GENERAL,"He is alert, active, in no distress, very cooperative"
+506,N0078,10,HEENT,He has no facial rash. No lymphadenopathy. Oral mucosa is clear. No tonsillitis. His ear canals are clear and pupils are reactive to light and accommodation
+507,N0078,11,CHEST,Clear to auscultation
+508,N0078,12,HEART,Regular rhythm and no murmur
+509,N0078,13,ABDOMEN,"Soft, nontender with no visceromegaly"
+510,N0078,14,MUSCULOSKELETAL,Shows no limitation in any of his joints or active swelling today. He has no tenderness either in any of his joints. Muscle strength is 5/5 in proximal muscles
+511,N0078,15,LABORATORY DATA,"Includes an arthritis panel. It has normal uric acid, sedimentation rate of 2, rheumatoid factor of 6, and antinuclear antibody that is negative and C-reactive protein that is 7.1. His mother stated t"
+512,N0078,16,ASSESSMENT AND PLAN,This patient may have had reactive arthritis. He is seen frequently and the patient has family history of psoriatic arthritis or psoriasis. I do not see any problems at this moment on his laboratories
+513,N0079,1,PREOPERATIVE DIAGNOSIS,"Stenosing tendinosis, right thumb (trigger finger)"
+514,N0079,2,POSTOPERATIVE DIAGNOSIS,"Stenosing tendinosis, right thumb (trigger finger)"
+515,N0079,3,PROCEDURE PERFORMED,"Release of A1 pulley, right thumb"
+516,N0079,4,ANESTHESIA,IV regional with sedation
+517,N0079,5,COMPLICATIONS,None
+518,N0079,6,ESTIMATED BLOOD LOSS,Minimal
+519,N0079,7,TOURNIQUET TIME,Approximately 20 minutes at 250 mmHg
+520,N0079,8,INTRAOPERATIVE FINDINGS,"There was noted to be thickening of the A1 pulley. There was a fibrous nodule noted within the flexor tendon of the thumb, which caused triggering sensation to the thumb"
+521,N0079,9,HISTORY,This is a 51-year-old right hand dominant female with a longstanding history of pain as well as locking sensation to her right thumb. She was actually able to spontaneously trigger the thumb. She was 
+522,N0079,10,PROCEDURE,"On 08/21/03, she was taken to operating room at ABCD General Hospital and placed supine on the operating table. A regional anesthetic was applied by the Anesthesia Department. Tourniquet was placed on"
+523,N0080,1,PREOPERATIVE DIAGNOSIS,Right wrist pain with an x-ray showing a scapholunate arthritic collapse pattern arthritis with osteophytic spurring of the radial styloid and a volar radial wrist mass suspected of being a volar radi
+524,N0080,2,POSTOPERATIVE DIAGNOSIS,Right wrist pain with an x-ray showing a scapholunate arthritic collapse pattern arthritis with osteophytic spurring of the radial styloid and a volar radial wrist mass suspected of being a volar radi
+525,N0080,3,PROCEDURE,"Excision of volar radial wrist mass (inflammatory synovitis) and radial styloidectomy, right wrist"
+526,N0080,4,ANESTHESIA,Axillary block plus IV sedation
+527,N0080,5,ESTIMATED BLOOD LOSS,"Zero.,SPECIMENS,1. Inflammatory synovitis from the volar radial wrist area.,2. Inflammatory synovitis from the dorsal wrist area"
+528,N0080,6,DRAINS,None
+529,N0080,7,PROCEDURE DETAIL,Patient brought to the operating room. After induction of IV sedation a right upper extremity axillary block anesthetic was performed by anesthesia staff. Routine prep and drape was employed. Patient 
+530,N0080,8,DISCHARGE PRESCRIPTIONS,"1. Keflex 500 mg tablets, #20, one PO q.6h. x 5 days.,2. Vicodin, 40 tablets, one to two PO q.4h. p.r.n.,3. Percocet, #20 tablets, one to two PO q.3-4h. p.r.n. severe pain"
+531,N0081,1,CHIEF COMPLAINT,Chronic otitis media
+532,N0081,2,HISTORY OF PRESENT ILLNESS,"This is a 14-month-old with history of chronic recurrent episodes of otitis media, totalling 6 bouts, requiring antibiotics since birth. There is also associated chronic nasal congestion. There had be"
+533,N0081,3,ALLERGIES,None
+534,N0081,4,MEDICATIONS,None
+535,N0081,5,FAMILY HISTORY,Noncontributory
+536,N0081,6,MEDICAL HISTORY,Mild reflux
+537,N0081,7,PREVIOUS SURGERIES,None
+538,N0081,8,SOCIAL HISTORY,The patient is not in daycare. There are no pets in the home. There is no secondhand tobacco exposure
+539,N0081,9,PHYSICAL EXAMINATION,"Examination of ears reveals retracted poorly mobile tympanic membranes on the right side with a middle ear effusion present. Left ear is still little bit black. Nose, moderate inferior turbinate hyper"
+540,N0081,10,IMPRESSION,"Chronic eustachian tube dysfunction, chronic otitis media with effusion, recurrent acute otitis media, and wax accumulation"
+541,N0081,11,PLAN,The patient will be admitted to the operating room for myringotomy and tube insertion under general facemask anesthesia
+542,N0082,1,PROCEDURE,"Circumcision.,Signed informed consent was obtained and the procedure explained.,The child was placed in a Circumstraint board and restrained in the usual fashion. The area of the penis and scrotum wer"
+543,N0083,1,PREOPERATIVE DIAGNOSES,"1. Feeding disorder.,2. Down syndrome.,3. Congenital heart disease"
+544,N0083,2,POSTOPERATIVE DIAGNOSES,"1. Feeding disorder.,2. Down syndrome.,3. Congenital heart disease"
+545,N0083,3,OPERATION PERFORMED,Gastrostomy
+546,N0083,4,ANESTHESIA,General
+547,N0083,5,INDICATIONS,This 6-week-old female infant had been transferred to Children's Hospital because of Down syndrome and congenital heart disease. She has not been able to feed well and in fact has to now be NG tube fe
+548,N0083,6,OPERATIVE PROCEDURE,"After the induction of general anesthetic, the abdomen was prepped and draped in usual manner. Transverse left upper quadrant incision was made and carried down through skin and subcutaneous tissue wi"
+549,N0084,1,PREOPERATIVE DIAGNOSIS,Left communicating hydrocele
+550,N0084,2,POSTOPERATIVE DIAGNOSIS,Left communicating hydrocele
+551,N0084,3,ANESTHESIA,General
+552,N0084,4,PROCEDURE,Left inguinal hernia and hydrocele repair
+553,N0084,5,INDICATIONS,The patient is a 5-year-old young man with fluid collection in the tunica vaginalis and peritesticular space on the left side consistent with a communicating hydrocele. The fluid size tends to fluctua
+554,N0084,6,OPERATIVE FINDINGS,The patient had a very thin patent processus vaginalis leading to a rather sizeable hydrocele sac in the left hemiscrotum. We probably drained around 10 to 15 mL of fluid from the hydrocele sac. The p
+555,N0084,7,DESCRIPTION OF OPERATION,"The patient came to the operating room and had an uneventful induction of inhalation anesthetic. A peripheral IV was placed, and we conducted a surgical time-out to reiterate all of The patient's impo"
+556,N0085,1,HOSPITAL COURSE,"The patient is an 1812 g baby boy born by vaginal delivery to a 32-year-old gravida 3, para 2 at 34 weeks of gestation. Mother had two previous C-sections. Baby was born at 5:57 on 07/30/2006. Mother "
+557,N0085,2,ADMISSION DIAGNOSES,"Respiratory distress, rule out sepsis and prematurity"
+558,N0085,3,DISCHARGE DIAGNOSES,"Stable, ex-34-week preemie.,Pediatrician after discharge will be Dr. X"
+559,N0085,4,DISCHARGE INSTRUCTIONS,"To follow up with Dr. X in 2 to 3 days, an appointment was made for 08/14/2006. CPR teaching was completed on 08/11/2006 to parents. Formula feeding schedule with breast and NeoSure 2 to 3 ounces per "
+560,N0086,1,VITAL SIGNS,"Birth weight is ** grams, length **, occipitofrontal circumference **. Character of cry was lusty"
+561,N0086,2,GENERAL APPEARANCE,Well
+562,N0086,3,BREATHING,Unlabored
+563,N0086,4,SKIN,"Clear. No cyanosis, pallor, or icterus. Subcutaneous tissue is ample"
+564,N0086,5,HEAD,Normal. Fontanelles are soft and flat. Sutures are opposed
+565,N0086,6,EYES,Normal with red reflex x2
+566,N0086,7,EARS,"Patent. Normal pinnae, canals, TMs"
+567,N0086,8,NOSE,Patent nares
+568,N0086,9,MOUTH,No cleft
+569,N0086,10,THROAT,Clear
+570,N0086,11,NECK,No masses
+571,N0086,12,CHEST,Normal clavicles
+572,N0086,13,LUNGS,Clear bilaterally
+573,N0086,14,HEART,Regular rate and rhythm without murmur
+574,N0086,15,ABDOMEN,"Soft, flat. No hepatosplenomegaly. The cord is three vessel"
+575,N0086,16,GENITALIA,Normal ** genitalia **with testes descended bilaterally
+576,N0086,17,ANUS,Patent
+577,N0086,18,SPINE,Straight and without deformity
+578,N0086,19,EXTREMITIES,Equal movements
+579,N0086,20,MUSCLE TONE,Good
+580,N0086,21,REFLEXES,"Moro, grasp, and suck are normal"
+581,N0086,22,HIPS,No click or clunk
+582,N0087,1,ADMITTING DIAGNOSES,"1. Fever.,2. Otitis media.,3. Possible sepsis"
+583,N0087,2,HISTORY OF PRESENT ILLNESS,The patient is a 10-month-old male who was seen in the office 1 day prior to admission. He has had a 2-day history of fever that has gone up to as high as 103.6 degrees F. He has also had intermittent
+584,N0087,3,PAST MEDICAL HISTORY,Significant for being born at 33 weeks' gestation with a birth weight of 5 pounds and 1 ounce
+585,N0087,4,PHYSICAL EXAMINATION,"On exam, he was moderately ill appearing and lethargic"
+586,N0087,5,HEENT,"Atraumatic, normocephalic. Pupils are equal, round, and reactive to light. Tympanic membranes were red and yellow, and opaque bilaterally. Nares were patent. Oropharynx was slightly moist and pink. Ne"
+587,N0087,6,LABORATORY FINDINGS,"He had electrolytes, BUN and creatinine, and glucose all of which were within normal limits. White blood cell count was 8.6 with 61% neutrophils, 21% lymphocytes, 17% monocytes, suggestive of a viral "
+588,N0087,7,HOSPITAL COURSE,"The patient was admitted to the hospital and allowed a clear liquid diet. Activity is as tolerates. CBC with differential, blood culture, electrolytes, BUN, and creatinine, glucose, UA, and urine cult"
+589,N0087,8,CONDITION OF THE PATIENT AT DISCHARGE,He was at 100% oxygen saturations on room air with no further dips at night. He has become afebrile and was having no further increased work of breathing
+590,N0087,9,DISCHARGE DIAGNOSES,"1. Bilateral otitis media.,2. Fever"
+591,N0087,10,PLAN,"Recommended discharge. No restrictions in diet or activity. He was continued Omnicef 125 mg/5 mL one teaspoon p.o. once daily and instructed to follow up with Dr. X, his primary doctor, on the followi"
+592,N0088,1,HISTORY,We had the pleasure of seeing the patient today in our Pediatric Rheumatology Clinic. He was sent here with a chief complaint of joint pain in several joints for few months. This is a 7-year-old white
+593,N0088,2,MEDICATIONS,His medications consist only of Motrin only as needed and Claritin currently for seasonal allergies and rhinitis
+594,N0088,3,ALLERGIES,He has no allergies to any drugs
+595,N0088,4,BIRTH HISTORY,Pregnancy and delivery with no complications. He has no history of hospitalizations or surgeries
+596,N0088,5,FAMILY HISTORY,Positive for arthritis in his grandmother. No history of pediatric arthritis. There is history of psoriasis in his dad
+597,N0088,6,SOCIAL HISTORY,"He lives with mom, dad, brother, sister, and everybody is healthy. They live in Easton. They have 4 dogs, 3 cats, 3 mules and no deer. At school, he is in second grade and he is doing PE without any l"
+598,N0088,7,PHYSICAL EXAMINATION,
+599,N0088,8,VITAL SIGNS,"Temperature is 98.7, pulse is 96, respiratory rate is 24, height is 118.1 cm, weight is 22.1 kg, and blood pressure is 61/44"
+600,N0088,9,GENERAL,"He is alert, active, in no distress, very cooperative"
+601,N0088,10,HEENT,He has no facial rash. No lymphadenopathy. Oral mucosa is clear. No tonsillitis. His ear canals are clear and pupils are reactive to light and accommodation
+602,N0088,11,CHEST,Clear to auscultation
+603,N0088,12,HEART,Regular rhythm and no murmur
+604,N0088,13,ABDOMEN,"Soft, nontender with no visceromegaly"
+605,N0088,14,MUSCULOSKELETAL,Shows no limitation in any of his joints or active swelling today. He has no tenderness either in any of his joints. Muscle strength is 5/5 in proximal muscles
+606,N0088,15,LABORATORY DATA,"Includes an arthritis panel. It has normal uric acid, sedimentation rate of 2, rheumatoid factor of 6, and antinuclear antibody that is negative and C-reactive protein that is 7.1. His mother stated t"
+607,N0088,16,ASSESSMENT AND PLAN,This patient may have had reactive arthritis. He is seen frequently and the patient has family history of psoriatic arthritis or psoriasis. I do not see any problems at this moment on his laboratories
+608,N0089,1,TITLE OF OPERATION,"1. Repair of total anomalous pulmonary venous connection.,2. Ligation of patent ductus arteriosus.,3. Repair secundum type atrial septal defect (autologous pericardial patch).,4. Subtotal thymectomy.,"
+609,N0089,2,INDICATION FOR SURGERY,"This neonatal was diagnosed postnatally with total anomalous pulmonary venous connection. Following initial stabilization, she was transferred to the Hospital for complete correction"
+610,N0089,3,PREOP DIAGNOSIS,"1. Total anomalous pulmonary venous connection.,2. Atrial septal defect.,3. Patent ductus arteriosus.,4. Operative weight less than 4 kilograms (3.2 kilograms)"
+611,N0089,4,COMPLICATIONS,None
+612,N0089,5,CROSS-CLAMP TIME,63 minutes
+613,N0089,6,CARDIOPULMONARY BYPASS TIME MONITOR,"35 minutes, profound hypothermic circulatory arrest time (4 plus 19) equals 23 minutes. Low flow perfusion 32 minutes"
+614,N0089,7,FINDINGS,Horizontal pulmonary venous confluence with right upper and middle with two veins entering the confluence on the right and multiple entry sites for left-sided veins. Large patulous anastomosis between
+615,N0089,8,PROCEDURE,"After the informed consent, the patient was brought to the operating room and placed on the operating room table in supine position. Upon induction of general endotracheal anesthesia and placement of "
+616,N0090,1,SUBJECTIVE,The patient presents with Mom and Dad for her 1-year well child check. The family has no concerns stating the patient has been doing well overall since the last visit taking in a well-balanced diet co
+617,N0090,2,PAST MEDICAL HISTORY,Allergies: None. Medications: Tylenol this morning in preparation for vaccines and a multivitamin daily
+618,N0090,3,FAMILY SOCIAL HISTORY,Unchanged since last checkup
+619,N0090,4,REVIEW OF SYSTEMS,As per HPI; otherwise negative
+620,N0090,5,OBJECTIVE,"Weight 24 pounds 1 ounce. Height 30 inches. Head circumference 46.5 cm. Temperature afebrile.,General: A well-developed, well-nourished, cooperative, alert and interactive 1-year-old white female smil"
+621,N0090,6,HEENT,"Atraumatic, normocephalic. Anterior fontanel is closed. Pupils equally round and reactive. Sclerae are clear. Red reflex present bilaterally. Extraocular muscles intact. TMs are clear bilaterally. Oro"
+622,N0090,7,ASSESSMENT AND PLAN,"1. Well 1-year-old white female.,2. Anticipatory guidance. Reviewed growth, diet development and safety issues as well as immunizations. Will receive Pediarix and HIB today. Discussed risks and benefi"
+623,N0091,1,INDICATION,Chest pain
+624,N0091,2,TYPE OF TEST,Adenosine with nuclear scan as the patient unable to walk on a treadmill
+625,N0091,3,INTERPRETATION,"Resting heart rate of 67, blood pressure of 129/86. EKG, normal sinus rhythm. Post-Lexiscan 0.4 mg, heart rate was 83, blood pressure 142/74. EKG remained the same. No symptoms were noted"
+626,N0091,4,SUMMARY,"1. Nondiagnostic adenosine stress test.,2. Nuclear interpretation as below"
+627,N0091,5,NUCLEAR INTERPRETATION,"Resting and stress images were obtained with 10.4, 33.1 mCi of tetrofosmin injected intravenously by standard protocol. Nuclear myocardial perfusion scan demonstrates homogeneous and uniform distribut"
+628,N0091,6,IMPRESSION,"1. Normal nuclear myocardial perfusion scan.,2. Ejection fraction 58% by gated SPECT"
+629,N0092,1,EXAM,"Left heart cath, selective coronary angiogram, right common femoral angiogram, and StarClose closure of right common femoral artery"
+630,N0092,2,REASON FOR EXAM,Abnormal stress test and episode of shortness of breath
+631,N0092,3,PROCEDURE,"Right common femoral artery, 6-French sheath, JL4, JR4, and pigtail catheters were used"
+632,N0092,4,FINDINGS,"1. Left main is a large-caliber vessel. It is angiographically free of disease,,2. LAD is a large-caliber vessel. It gives rise to two diagonals and septal perforator. It erupts around the apex. LAD s"
+633,N0092,5,IMPRESSION,"1. 60% to 70% mid left anterior descending stenosis.,2. Mild 30% to 40% stenosis of the proximal right coronary artery.,3. Status post StarClose closure of the right common femoral artery"
+634,N0092,6,PLAN,Plan will be to perform elective PCI of the mid LAD
+635,N0093,1,REASON FOR EXAM,This 60-year-old female who was found to have a solid indeterminate mass involving the inferior pole of the right kidney was referred for percutaneous biopsy under CT guidance at the request of Dr. X
+636,N0093,2,PROCEDURE,"The procedure risks and possible complications including, but not limited to severe hemorrhage which could result in emergent surgery, were explained to the patient. The patient understood. All questi"
+637,N0093,3,FINDINGS,Initial noncontrasted CT localization images reveals the presence of an approximately 2.1 cm cortical mass involving the posterior aspect of the inferior pole of the right kidney. Images obtained duri
+638,N0093,4,CONCLUSION,"1. Percutaneous biopsy of inferior pole right renal mass under computed tomography guidance with specimen sent to laboratory in 10% formalin solution.,2. Development of a small hematoma adjacent to th"
+639,N0094,1,EXAM,CT of abdomen with and without contrast. CT-guided needle placement biopsy
+640,N0094,2,HISTORY,Left renal mass
+641,N0094,3,TECHNIQUE,Pre and postcontrast enhanced images were acquired through the kidneys
+642,N0094,4,FINDINGS,Comparison made to the prior MRI. There is re-demonstration of multiple bilateral cystic renal lesions. Several of these demonstrate high attenuation in the precontrast phase of the exam suggesting th
+643,N0094,5,IMPRESSION,"Solitary apparently enhancing left renal mass in the lower pole as described. Renal cell carcinoma cannot be excluded.,CT-GUIDED NEEDLE BIOPSY"
+644,N0094,6,LEFT KIDNEY MASS,"Following discussion of risks, benefits, and alternatives, the patient wished to proceed with CT-guided biopsy of left renal lesion. The patient was placed in the decubitus position. The region overly"
+645,N0094,7,IMPRESSION,Three core biopsies through the region of the left renal tumor as described
+646,N0095,1,MEDS,"none.,PMH:, 1) Diabetes Mellitus dx 1 year ago. 2) Benign Prostatic Hypertrophy, s/p TURP. 3) Right shoulder surgery (?DJD).,FHX:, noncontributory.,SHX:, Denies history of Tobacco/ETOH/illicit drug us"
+647,N0095,2,EXAM,"BP132/66 HR78 RR16 36.0C,MS: A&O to person, place, and time. No other specifics given in Neurosurgery/Otolaryngology/Neuro-ophthalmology notes.,CN: Visual acuity has declined from 20/40 to 20/400, OD;"
+648,N0095,3,COURSE,"MRI Brain, 10/7/92, revealed: a large 6x5x6cm slightly heterogeneous, mostly isointense lesion on both T1 and T2 weighted images arising from the planum sphenoidale and olfactory groove. The mass exte"
+649,N0096,1,EXAM,MRI OF THE LEFT KNEE WITHOUT CONTRAST
+650,N0096,2,CLINICAL,Left knee pain. Twisting injury
+651,N0096,3,FINDINGS,The images reveal a sizable joint effusion. The joint effusion appears to be complex with mixed signal intensity material within. The patella is slightly laterally tilted towards the left. The mid por
+652,N0096,4,IMPRESSION,"Sizeable joint effusion which is complex and may contain blood products.,Myxoid degenerative type changes medial and lateral meniscus with no definite evidence of a tear.,Soft tissue swelling and part"
+653,N0097,1,FHX/SHX,1-2 ppd cigarettes. rare ETOH use. Father died of renal CA
+654,N0097,2,MEDS,Decadron 12mg/day
+655,N0097,3,EXAM,"Vitals unremarkable.,MS: Unremarkable.,Motor: 5/5 BUE, LE: 4+/5- prox, 5/5 distal to hips. Normal tone and muscle bulk.,Sensory: No deficits appreciated.,Coord: Unremarkable.,Station: No mention in re"
+656,N0097,4,INITIAL IMPRESSION,"Steroid myopathy. Though there was enough of a suspicion of ""drop"" metastasis that an MRI of the L-spine was obtained"
+657,N0097,5,COURSE,"The MRI L-spine revealed fine linear enhancement along the dorsal aspect of the conus medullaris, suggestive of subarachnoid seeding of tumor. No focal mass or cord compression was visualized. CSF exa"
+658,N0098,1,PROCEDURE DONE,Resting Myoview and adenosine Myoview SPECT
+659,N0098,2,INDICATIONS,Chest pain
+660,N0098,3,PROCEDURE,13.3 mCi of Tc-99m tetrofosmin was injected and resting Myoview SPECT was obtained. Pharmacologic stress testing was done using adenosine infusion. Patient received 38 mg of adenosine infused at 140 m
+661,N0098,4,IMPRESSION,Normal adenosine Myoview myocardial perfusion SPECT. Normal left ventricular regional and global function with left ventricular ejection fraction of 77%
+662,N0099,1,INDICATIONS,"Ischemic cardiomyopathy, status post inferior wall myocardial infarction, status post left anterior descending PTCA and stenting"
+663,N0099,2,PROCEDURE DONE,Adenosine Myoview stress test
+664,N0099,3,STRESS ECG RESULTS,"The patient was stressed by intravenous adenosine, 140 mcg/kg/minute infused over four minutes. The baseline resting electrocardiogram revealed an electronic pacemaker depolarizing the ventricles regu"
+665,N0100,1,EXAM,AP abdomen and ultrasound of kidney
+666,N0100,2,HISTORY,"Ureteral stricture.,AP ABDOMEN"
+667,N0100,3,FINDINGS,"Comparison is made to study from Month DD, YYYY. There is a left lower quadrant ostomy. There are no dilated bowel loops suggesting obstruction. There is a double-J right ureteral stent, which appears"
+668,N0100,4,IMPRESSION,"Properly positioned double-J right ureteral stent. No evidence for calcified renal or ureteral stones.,ULTRASOUND KIDNEYS"
+669,N0100,5,FINDINGS,"The right kidney is normal in cortical echogenicity of solid mass, stone, hydronephrosis measuring 9.0 x 2.9 x 4.3 cm. There is a right renal/ureteral stent identified. There is no perinephric fluid c"
+670,N0100,6,IMPRESSION,"1. Left-sided hydronephrosis.,2. No visible renal or ureteral calculi.,3. Right ureteral stent"
+671,N0101,1,PROBLEM LIST,"1. Acquired hypothyroidism.,2. Papillary carcinoma of the thyroid gland, status post total thyroidectomy in 1992.,3. Diabetes mellitus.,4. Insomnia with sleep apnea"
+672,N0101,2,HISTORY OF PRESENT ILLNESS,"This is a return visit to the endocrine clinic for the patient with history as noted above. She is 45 years old. Her last visit was about 6 months ago. Since that time, the patient states her health h"
+673,N0101,3,CURRENT MEDICATIONS,"1. Levothyroxine 125 micrograms p.o. once daily.,2. CPAP.,3. Glucotrol.,4. Avandamet.,5. Synthroid.,6. Byetta injected twice daily"
+674,N0101,4,REVIEW OF SYSTEMS,"As stated in the HPI. She is not reporting polyuria, polydipsia or polyphagia. She is not reporting fevers, chills, sweats, visual acuity changes, nausea, vomiting, constipation or diarrhea. She is no"
+675,N0101,5,PHYSICAL EXAMINATION,
+676,N0101,6,GENERAL,"She is an overweight, very pleasant woman, in no acute distress"
+677,N0101,7,VITAL SIGNS,"Temperature 96.9, pulse 85, respirations not counted, blood pressure 135/65, and weight 85.7 kg"
+678,N0101,8,NECK,Reveals well healed surgical scar in the anteroinferior aspect of the neck. There is no palpable thyroid tissue noted on this examination today. There is no lymphadenopathy
+679,N0101,9,THORAX,"Reveals lungs that are clear, PA and lateral, without adventitious sounds"
+680,N0101,10,CARDIOVASCULAR,"Demonstrated regular rate and rhythm. S1 and S2 without murmur. No S3, no S4 is auscultated"
+681,N0101,11,EXTREMITIES,"Deep tendon reflexes 2+/4 without a delayed relaxation phase. No fine resting tremor of the outstretched upper extremity. SKIN, HAIR"
+682,N0101,12,AND NAILS,All are unremarkable
+683,N0101,13,LABORATORY DATABASE,"Lab data on 08/29/07 showed the following: Thyroglobulin quantitative less than 0.5 and thyroglobulin antibody less than 20, free T4 1.35, and TSH suppressed at 0.121"
+684,N0101,14,ASSESSMENT AND PLAN,"This is a 45-year-old woman with history as noted above.,1. Acquired hypothyroidism, status post total thyroidectomy for papillary carcinoma in 1992.,2. Plan to continue following thyroglobulin levels"
+685,N0102,1,SUBJECTIVE,"This is a 29-year-old Vietnamese female, established patient of dermatology, last seen in our office on 07/13/04. She comes in today as a referral from ABC, D.O. for a reevaluation of her hand eczema."
+686,N0102,2,AND ALLERGY HISTORY,"The patient has asthma, sinus, hives, and history of psoriasis. No known drug allergies"
+687,N0102,3,MEDICATIONS,The patient is a nonsmoker. No bad sunburns or blood pressure problems in the past
+688,N0102,4,CURRENT MEDICATIONS,Claritin and Zyrtec p.r.n
+689,N0102,5,PHYSICAL EXAMINATION,"The patient has very dry, cracked hands bilaterally"
+690,N0102,6,IMPRESSION,Hand dermatitis
+691,N0102,7,TREATMENT,"1. Discussed further treatment with the patient and her interpreter.,2. Apply Aristocort ointment 0.1% and equal part of Polysporin ointment t.i.d. and p.r.n. itch.,3. Discontinue hot soapy water and "
+692,N0103,1,HISTORY OF PRESENT ILLNESS,"The patient presents today for followup, history of erectile dysfunction, last visit started on Cialis 10 mg. He indicates that he has noticed some mild improvement of his symptoms, with no side effec"
+693,N0103,2,IMPRESSION,"1. Some improvement of erectile dysfunction, on low dose of Cialis, with no side effects. The patient has multiple risk factors, but denies using any nitroglycerin or any cardiac issues at this time. "
+694,N0103,3,PLAN,"Following detailed discussion, the patient wishes to proceed with Cialis 20 mg, samples are provided as well as Levitra 10 mg, may increase this to 20 mg and understand administration of each and cont"
+695,N0104,1,SUBJECTIVE,"Grandfather brings the patient in today because of headaches, mostly in her face. She is feeling pressure there with a lot of sniffles. Last night, she complained of sore throat and a loose cough. Ove"
+696,N0104,2,PAST MEDICAL HISTORY,Asthma and allergies
+697,N0104,3,FAMILY HISTORY,Sister is dizzy but no other acute illnesses
+698,N0104,4,OBJECTIVE,"General: The patient is an 11-year-old female. Alert and cooperative. No acute distress.,Neck: Supple without adenopathy"
+699,N0104,5,HEENT,"Ear canals clear. TMs, bilaterally, gray in color and good light reflex. Oropharynx is pink and moist. No erythema or exudates. She has postnasal discharge. Nares are swollen and red. Purulent dischar"
+700,N0104,6,ASSESSMENT,Fifth disease with sinusitis
+701,N0104,7,PLAN,Omnicef 300 mg daily for 10 days. May use some Zyrtec for the itching. Samples are given
+702,N0105,1,SUBJECTIVE,The patient has recently had an admission for pneumonia with positive blood count. She was treated with IV antibiotics and p.o. antibiotics; she improved on that. She was at home and doing quite well 
+703,N0105,2,PHYSICAL EXAMINATION,"She is alert, recovering from anesthesia. Head, eyes, ears, nose and throat are unremarkable. Chest is clear to auscultation and percussion. Abdomen is soft. Extremities are unremarkable"
+704,N0105,3,LAB STUDIES,"White count in the emergency room was 9.8 with a slight shift. CSF glucose was 68, protein was 16, and there were no cells. The Gram-stain was unremarkable"
+705,N0105,4,ASSESSMENT,I feel that this patient has a febrile seizure
+706,N0105,5,PLAN,My plan is to readmit the patient to control her temperature and assess her white count. I am going to observe her overnight
+707,N0106,1,HEENT,TMs are clear bilaterally without erythema or bulging. Clear external canals. Clear tympanic. Conjunctivae are clear. Clear nasal mucosa. Clear oropharynx with moist mucous membranes. NECK is soft and
+708,N0106,2,EXTREMITIES,"No cyanosis, no clubbing, no edema.,EKG shows atrial fibrillation with a heart rate of 104.,A:,1"
+709,N0107,1,NEUROLOGICAL EXAMINATION,"At present the patient is awake, alert and fully oriented. There is no evidence of cognitive or language dysfunction. Cranial nerves: Visual fields are full. Funduscopic examination is normal. Extraoc"
+710,N0107,2,TESTING OF STATION AND GAIT,"The patient is able to walk toe-heel and tandem walk. Finger-to-nose and heel-to-shin moves are normal. Romberg sign negative. I appreciate no carotid bruits or cardiac murmurs.,Noncontrast CT scan of"
+711,N0108,1,SUBJECTIVE,"The patient is here for a follow-up. The patient has a history of lupus, currently on Plaquenil 200-mg b.i.d. Eye report was noted and appreciated. The patient states that she is having some aches and"
+712,N0108,2,OBJECTIVE,"The patient is alert and oriented. General physical exam is unremarkable. Musculoskeletal exam reveals positive tenderness in both lateral epicondyles of both elbows, no effusion. Hand examination is "
+713,N0108,3,ASSESSMENT,"Epicondylitis, both elbows, possibly secondary to lupus flare-up"
+714,N0108,4,PLAN,We will inject both elbows with 40-mg of Kenalog mixed with 1 cc of lidocaine. The posterior approach was chosen under sterile conditions. The patient tolerated both procedures well. I will obtain CBC
+715,N0109,1,SUBJECTIVE,This patient presents to the office today with his mom for checkup. He used to live in the city. He used to go to college down in the city. He got addicted to drugs. He decided it would be a good idea
+716,N0109,2,OBJECTIVE,"His weight is 164 pounds, blood pressure 108/60, pulse 88, respirations 16, and temperature was not taken. General: He is nontoxic and in no acute distress. Psychiatric: Alert and oriented times 3. Sk"
+717,N0109,3,ASSESSMENT,Substance abuse
+718,N0109,4,PLAN,I had a long talk with the patient and his mom. I am not prescribing him any narcotics or controlled substances. I am not in the practice of trading one addiction for another. It has been one week wit
+719,N0110,1,REASON FOR VISIT,[PATIENT] is a 30-year-old man who returns in followup of his still moderate-to-severe sleep apnea. He returns today to review his response to CPAP
+720,N0110,2,HISTORY OF PRESENT ILLNESS,"The patient initially presented with loud obnoxious snoring that disrupted the sleep of his bed partner. He was found to have moderate-to-severe sleep apnea (predominantly hypopnea), was treated with "
+721,N0110,3,MEDICATIONS,He is maintained on Flonase and denies much in the way of nasal symptoms
+722,N0110,4,ALLERGIES,Molds
+723,N0110,5,FINDINGS,"Vital signs: Blood pressure 126/75, pulse 67, respiratory rate 16, weight 172 pounds, height 5 feet 9 inches, temperature 98.4 degrees and SaO2 is 99% on room air at rest.,The patient has adenoidal fa"
+724,N0110,6,ASSESSMENT,"Moderate-to-severe sleep apnea. I have recommended the patient continue CPAP indefinitely. He will be sending me his smart card for downloading to determine his CPAP usage pattern. In addition, he wil"
+725,N0110,7,PLANS,"In the meantime, if it is also that the possible nasal obstruction is contributing to snoring and obstructive hypopnea. I have recommended that a fiberoptic ENT exam be performed to exclude adenoidal "
+726,N0111,1,ANESTHESIA,None required
+727,N0111,2,INDICATIONS,"The patient is a 51-year-old diabetic female with severe peripheral vascular disease, who has had angioplasties and single perineal artery runoff to the left leg who developed gangrene of her left fif"
+728,N0111,3,PROCEDURE IN DETAIL,"The procedure was performed in the patient's room. The dressing was removed exposing about a 4 cm x 2.5 cm left distal lateral foot fifth ray amputation open wound. Distally, there is infarcted left f"
+729,N0112,1,PREOPERATIVE DIAGNOSES,"1. Gastroesophageal reflux disease.,2. Chronic dyspepsia"
+730,N0112,2,POSTOPERATIVE DIAGNOSES,"1. Gastroesophageal reflux disease.,2. Chronic dyspepsia.,3. Alkaline reflux gastritis.,4. Gastroparesis.,5. Probable Billroth II anastomosis.,6. Status post Whipple's pancreaticoduodenectomy"
+731,N0112,3,PROCEDURE PERFORMED,Esophagogastroduodenoscopy with biopsies
+732,N0112,4,INDICATIONS FOR PROCEDURE,This is a 55-year-old African-American female who had undergone Whipple's procedure approximately five to six years ago for a benign pancreatic mass. The patient has pancreatic insufficiency and is al
+733,N0112,5,GROSS FINDINGS,"At the time of EGD, the patient was found to have alkaline reflux gastritis. There was no evidence of distal esophagitis. Gastroparesis was seen as there was retained fluid in the small intestine. The"
+734,N0112,6,PROCEDURE,The patient was taken to the Endoscopy Suite. The heart and lungs examination were unremarkable. The vital signs were monitored and found to be stable throughout the procedure. The patient's oropharyn
+735,N0113,1,PREOPERATIVE DIAGNOSIS,Right upper eyelid squamous cell carcinoma
+736,N0113,2,POSTOPERATIVE DIAGNOSIS,Right upper eyelid squamous cell carcinoma
+737,N0113,3,PROCEDURE PERFORMED,Excision of right upper eyelid squamous cell carcinoma with frozen section and full-thickness skin grafting from the opposite eyelid
+738,N0113,4,COMPLICATIONS,None
+739,N0113,5,BLOOD LOSS,Minimal
+740,N0113,6,ANESTHESIA,Local with sedation
+741,N0113,7,INDICATION,"The patient is a 65-year-old male with a large squamous cell carcinoma on his right upper eyelid, which had previous radiation"
+742,N0113,8,DESCRIPTION OF PROCEDURE,"The patient was taken to the operating room, laid supine, administered intravenous sedation, and prepped and draped in a sterile fashion. He was anesthetized with a combination of 2% lidocaine and 0.5"
+743,N0114,1,PREOPERATIVE DIAGNOSES,"1. Chronic renal failure.,2. Thrombosed left forearm arteriovenous Gore-Tex bridge fistula"
+744,N0114,2,POSTOPERATIVE DIAGNOSIS,"1. Chronic renal failure.,2. Thrombosed left forearm arteriovenous Gore-Tex bridge fistula"
+745,N0114,3,PROCEDURE PERFORMED,"1. Fogarty thrombectomy, left forearm arteriovenous Gore-Tex bridge fistula.,2. Revision of distal anastomosis with 7 mm interposition Gore-Tex graft"
+746,N0114,4,ANESTHESIA,General with controlled ventillation
+747,N0114,5,GROSS FINDINGS,The patient is a 58-year-old black male with chronic renal failure. He undergoes dialysis through the left forearm bridge fistula and has small pseudoaneurysms at the needle puncture sites level. Ther
+748,N0114,6,OPERATIVE PROCEDURE,"The patient was taken to the OR suite, placed in supine position. General anesthetic was administered. Left arm was prepped and draped in appropriate manner. A Pfannenstiel skin incision was created j"
+749,N0115,1,PREOPERATIVE DIAGNOSIS,Appendicitis
+750,N0115,2,POSTOPERATIVE DIAGNOSIS,Appendicitis
+751,N0115,3,PROCEDURE PERFORMED,Laparoscopic appendectomy
+752,N0115,4,ANESTHESIA,General
+753,N0115,5,COMPLICATIONS,None
+754,N0115,6,ESTIMATED BLOOD LOSS,Minimal
+755,N0115,7,PROCEDURE IN DETAIL,The patient was prepped and draped in sterile fashion. Infraumbilical incision was performed and taken down to the fascia. The fascia was incised. The peritoneal cavity was carefully entered. Two othe
+756,N0116,1,PREOPERATIVE DIAGNOSES,"1. Intrauterine pregnancy at term.,2. Arrest of dilation"
+757,N0116,2,POSTOPERATIVE DIAGNOSES,"1. Intrauterine pregnancy at term.,2. Arrest of dilation"
+758,N0116,3,PROCEDURE PERFORMED,Primary low-transverse cesarean section
+759,N0116,4,ANESTHESIA,Epidural
+760,N0116,5,ESTIMATED BLOOD LOSS,1000 mL
+761,N0116,6,COMPLICATIONS,None
+762,N0116,7,FINDINGS,"Female infant in cephalic presentation, OP position, weight 9 pounds 8 ounces. Apgars were 9 at 1 minute and 9 at 5 minutes. Normal uterus, tubes, and ovaries were noted"
+763,N0116,8,INDICATIONS,"The patient is a 20-year-old gravida 1, para 0 female, who presented to labor and delivery in early active labor at 40 and 6/7 weeks gestation. The patient progressed to 8 cm, at which time, Pitocin w"
+764,N0116,9,PROCEDURE NOTE,The patient was taken to the operating room where epidural anesthesia was found to be adequate. The patient was prepped and draped in the usual sterile fashion in the dorsal supine position with a lef
+765,N0117,1,OPERATIVE NOTE,The patient was taken to the operating room and was placed in the supine position on the operating room table. A general inhalation anesthetic was administered. The patient was prepped and draped in t
+766,N0118,1,PREOPERATIVE DIAGNOSIS,"Congenital bilateral esotropia, 42 prism diopters"
+767,N0118,2,PROCEDURE,"Bilateral rectus recession with the microscopic control, 8 mm, both eyes"
+768,N0118,3,POSTOPERATIVE DIAGNOSIS,"Congenital bilateral esotropia, 42 prism diopters"
+769,N0118,4,COMPLICATIONS,None
+770,N0118,5,PROCEDURE IN DETAIL,The patient was taken to the Surgery Room and placed in the supine position. The general anesthesia was achieved with intubation with no problems. Both eyes were prepped and draped in usual manner. Th
+771,N0119,1,PREOPERATIVE DIAGNOSIS,Term pregnancy at 40 and 3/7th weeks
+772,N0119,2,PROCEDURE PERFORMED,Spontaneous vaginal delivery
+773,N0119,3,HISTORY OF PRESENT ILLNESS,"The patient is a 36-year-old African-American female who is a G-2, P-2-0-0-2 with an EDC of 08/30/2003. She is blood type AB -ve with antibody screen negative and is also rubella immune, VDRL nonreact"
+774,N0119,4,PROCEDURE DETAILS,"The patient was admitted to Labor and Delivery for expected management of labor and AROM was performed and the amniotic fluid was noted to be meconium stained. After her membranes were ruptured, contr"
+775,N0120,1,TITLE OF OPERATION,A complex closure and debridement of wound
+776,N0120,2,INDICATION FOR SURGERY,"The patient is a 26-year-old female with a long history of shunt and hydrocephalus presenting with a draining wound in the right upper quadrant, just below the costal margin that was lanced by General"
+777,N0120,3,PREOP DIAGNOSIS,Possible cerebrospinal fluid versus wound fistula
+778,N0120,4,POSTOP DIAGNOSIS,Possible cerebrospinal fluid versus wound fistula
+779,N0120,5,PROCEDURE DETAIL,"The patient was brought to the operating room and willing to be inducted with a laryngeal mask airway, positioned supine and the right side was prepped and draped in the usual sterile fashion. Next, w"

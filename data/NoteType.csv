@@ -1,0 +1,8 @@
+﻿note_type_id,note_type_name,is_inferred
+1,Clinical Note,True
+2,Consultation / H&P,True
+3,Diagnostic / Imaging,True
+4,Discharge Summary,True
+5,Letter,True
+6,Procedure / Operative,True
+7,Progress / Office Note,True

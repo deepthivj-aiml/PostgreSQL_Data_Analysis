@@ -1,0 +1,121 @@
+﻿note_id,source_row_id,specialty_id,note_type_id,source_id,sample_name,description_or_chief_concern,note_word_count
+N0001,4949,1,1,1,Bronchoalveolar lavage.,Evaluation of airway for possible bacterial infection performed using bronchoalveolar lavage.,217
+N0002,4943,1,1,1,Bronchoscopy & Lobectomy,Bronchoscopy with aspiration and left upper lobectomy. Carcinoma of the left upper lobe.,739
+N0003,4924,1,1,1,Cardiac Catheterization - 1,"Cardiac Catheterization - An obese female with a family history of coronary disease and history of chest radiation for Hodgkin disease, presents with an acute myocardial infarction with elevated enzymes.",403
+N0004,4893,1,5,1,Cardiovascular - Letter,"Male with a history of therapy-controlled hypertension, borderline diabetes, and obesity. Risk factors for coronary heart disease.",734
+N0005,4875,1,1,1,Chest Pain - Office Note,Patient with a family history of premature coronary artery disease came in for evaluation of recurrent chest pain,150
+N0006,4778,1,1,1,"Heart Catheterization, Ventriculography, & Angiography - 3","Left heart catheterization with ventriculography, selective coronary angiography. Standard Judkins, right groin. Catheters used were a 6 French pigtail, 6 French JL4, 6 French JR4.",194
+N0007,4744,1,3,1,Lung Biopsy Pathology Report,"Lung, wedge biopsy right lower lobe and resection right upper lobe. Lymph node, biopsy level 2 and 4 and biopsy level 7 subcarinal. PET scan demonstrated a mass in the right upper lobe and also a mass in the right lower lobe, which were also identified by CT scan.",343
+N0008,4734,1,1,1,Mesothelioma - Pleural Biopsy,Right pleural effusion and suspected malignant mesothelioma.,477
+N0009,4727,1,3,1,Myoview Perfusion Scan,Resting Myoview perfusion scan and gated myocardial scan. Findings consistent with an inferior non-transmural scar,162
+N0010,4669,1,1,1,Single Frontal View of Chest,"Chest, Single view post OP for ASD (Atrial Septal Defect).",192
+N0011,4568,2,2,1,Bariatric Consult - Surgical Weight Loss - 1,Evaluation for elective surgical weight loss via the gastric bypass as opposed to Lap-Band.,197
+N0012,4450,2,2,1,Discoid Lupus,A 12-year-old with discoid lupus on the control with optimal regimen.,491
+N0013,4432,2,2,1,Epidural Hematoma,Fall with questionable associated loss of consciousness. Left parietal epidural hematoma.,359
+N0014,4391,2,2,1,Gen Med Consult - 22,A 12-year-old young man with sinus congestion.,195
+N0015,4371,2,2,1,Gen Med Consult - 52,"Anxiety, alcohol abuse, and chest pain. This is a 40-year-old male with digoxin toxicity secondary to likely intentional digoxin overuse. Now, he has had significant block with EKG changes as stated.",540
+N0016,4351,2,2,1,Glioma - 2,Headache. Right frontal lobe glioma.,316
+N0017,4319,2,2,1,Hyperthyroidism Following Pregnancy,"Chief complaint of chest pain, previously diagnosed with hyperthyroidism.",534
+N0018,4230,2,2,1,Normal Physical Exam Template - 5,"Normal Physical Exam Template. Well developed, well nourished, alert, in no acute distress.",309
+N0019,4217,2,2,1,Normal ROS Template - 4,"Negative for any nausea, vomiting, fevers, chills, or weight loss.",123
+N0020,4180,2,2,1,Pneumothorax & Subcutaneous Emphysema,Consult for subcutaneous emphysema and a small right-sided pneumothorax secondary to trauma.,268
+N0021,3977,3,4,1,COPD & Bronchitis - Discharge Summary,Chronic obstructive pulmonary disease (COPD) exacerbation and acute bronchitis.,321
+N0022,3980,3,4,1,Cardio/Pulmo Discharge Summary,"A 49-year-old man with respiratory distress, history of coronary artery disease with prior myocardial infarctions, and recently admitted with pneumonia and respiratory failure.",600
+N0023,3970,3,4,1,Death Summary,Death summary of an 80-year-old patient with a history of COPD.,411
+N0024,3965,3,4,1,Death Summary - 1,Death summary of patient with advanced non-small cell lung carcinoma with left malignant pleural effusion status post chest tube insertion status post chemical pleurodesis.,337
+N0025,3915,3,4,1,Hysterectomy - Discharge Summary - 1,"Total vaginal hysterectomy. Menometrorrhagia, dysmenorrhea, and small uterine fibroids.",167
+N0026,3914,3,4,1,Knee Osteoarthrosis - Discharge Summary,A 66-year-old female with knee osteoarthrosis who failed conservative management.,254
+N0027,3912,3,4,1,Lap Chole - Discharge Summary,"Laparoscopic cholecystectomy. Acute cholecystitis, status post laparoscopic cholecystectomy, end-stage renal disease on hemodialysis, hyperlipidemia, hypertension, congestive heart failure, skin lymphoma 5 years ago, and hypothyroidism.",548
+N0028,3897,3,4,1,Neurology - Discharge Summary,"Contusion of the frontal lobe of the brain, closed head injury and history of fall, and headache, probably secondary to contusion.",231
+N0029,3878,3,4,1,Speech Therapy - Discharge Summary - 2,"The patient was referred for outpatient skilled speech therapy, secondary to right hemisphere disorder, status post stroke. The patient attended nine outpatient skilled speech therapy sessions.",185
+N0030,3882,3,4,1,Urology Discharge Summary,Hispanic male patient was admitted because of enlarged prostate and symptoms of bladder neck obstruction.,179
+N0031,3675,4,1,1,Appendectomy - Laparoscopic,Laparoscopic appendectomy and peritoneal toilet and photos. Pelvic inflammatory disease and periappendicitis.,511
+N0032,3604,4,3,1,CT Abdomen & Pelvis - 6,Right-sided abdominal pain with nausea and fever. CT abdomen with contrast and CT pelvis with contrast. Axial CT images of the abdomen and pelvis were obtained utilizing 100 mL of Isovue-300.,118
+N0033,3601,4,3,1,CT Abdomen & Pelvis - 9,Generalized abdominal pain with swelling at the site of the ileostomy. CT abdomen with contrast and CT pelvis with contrast. Axial CT images of the abdomen and pelvis were obtained utilizing 100 mL of Isovue-300.,201
+N0034,3660,4,1,1,Colon Polyps - Genetic Counseling,Genetic counseling for a strong family history of colon polyps. She has had colonoscopies required every five years and every time she has polyps were found. She reports that of her 11 brothers and sister 7 have had precancerous polyps.,326
+N0035,3638,4,1,1,Colonoscopy - 9,Patient with history of polyps.,336
+N0036,3623,4,1,1,Colonoscopy with Biopsy - 1,The patient with a recent change in bowel function and hematochezia.,152
+N0037,3611,4,2,1,Consult - Screening Colonoscopy,Patient comes for discussion of a screening colonoscopy.,511
+N0038,3579,4,1,1,Endoscopy,Upper gastrointestinal endoscopy.,140
+N0039,3564,4,1,1,Esophagogastroduodenoscopy - 13,Esophagogastroduodenoscopy performed in the emergency department.,427
+N0040,3497,4,1,1,Laparoscopic Gastric Bypass,"Morbid obesity. Laparoscopic antecolic antegastric Roux-en-Y gastric bypass with EEA anastomosis. This is a 30-year-old female, who has been overweight for many years. She has tried many different diets, but is unsuccessful.",748
+N0041,3405,5,4,1,Discharge Summary - 8,A white female with a history of fevers.,602
+N0042,3376,5,2,1,Gen Med Consult - 15,Complaint of mood swings and tearfulness.,390
+N0043,3359,5,2,1,Gen Med Consult - 21,"A 2-year-old little girl with stuffiness, congestion, and nasal drainage. - Allergic rhinitis",264
+N0044,3332,5,2,1,Gen Med Consult - 52,"Anxiety, alcohol abuse, and chest pain. This is a 40-year-old male with digoxin toxicity secondary to likely intentional digoxin overuse. Now, he has had significant block with EKG changes as stated.",540
+N0045,3318,5,7,1,Gen Med Progress Note - 1,Sample progress note - Gen Med.,292
+N0046,3310,5,7,1,Gen Med Progress Note - 6,"A 3-year-old male brought in by his mother with concerns about his eating - a very particular eater, not eating very much in general.",297
+N0047,3289,5,7,1,Gen Med SOAP - 9,"Upper respiratory tract infection, persistent. Tinea pedis. Wart on the finger. Hyperlipidemia. Tobacco abuse.",718
+N0048,3260,5,1,1,Nausea & Vomiting - ER Visit,She is a 28-year-old G1 at approximately 8 plus weeks presented after intractable nausea and vomiting with blood-tinged vomit starting approximately worse over the past couple of days. This is patient's fourth trip to the emergency room and second trip for admission.,255
+N0049,3237,5,1,1,Normal Physical Exam Template - 6,"Normal physical exam template. Normal appearance for chronological age, does not appear chronically ill.",215
+N0050,3214,5,7,1,SOAP - Substance Abuse,"He got addicted to drugs. He decided it would be a good idea to get away from the ""bad crowd"" and come up and live with his mom.",667
+N0051,2964,6,1,1,Bilateral Carotid Cerebral Angiogram,Bilateral carotid cerebral angiogram and right femoral-popliteal angiogram.,272
+N0052,2936,6,3,1,CT Brain - Aneurysm,"CT Brain: Suprasellar aneurysm, pre and post bleed.",448
+N0053,2911,6,4,1,CVA - Discharge Summary,"Cerebrovascular accident (CVA) with right arm weakness and MRI indicating acute/subacute infarct involving the left posterior parietal lobe without mass effect. 2. Old coronary infarct, anterior aspect of the right external capsule. Acute bronchitis with reactive airway disease.",407
+N0054,2943,6,6,1,Craniopharyngioma - Postop,"Postoperative visit for craniopharyngioma with residual disease. According to him, he is doing well, back at school without any difficulties. He has some occasional headaches and tinnitus, but his vision is much improved.",255
+N0055,2887,6,1,1,EMG/Nerve Conduction Study - 4,"EMG/Nerve Conduction Study showing sensory motor length-dependent neuropathy consistent with diabetes, severe left ulnar neuropathy, and moderate-to-severe left median neuropathy,",401
+N0056,2883,6,1,1,Epidural Hematoma Evacuation,"Evacuation of epidural hematoma and insertion of epidural drain. Epidural hematoma, cervical spine. Status post cervical laminectomy, C3 through C7 postop day #10. Central cord syndrome and acute quadriplegia.",847
+N0057,2856,6,1,1,Lumbar Discogram,"Lumbar discogram L2-3, L3-4, L4-5, and L5-S1. Low back pain.",256
+N0058,2841,6,3,1,MRI Brain - Pontine Stroke,Right pontine pyramidal tract infarct.,417
+N0059,2823,6,3,1,MRI Head - 1,MRI head without contrast.,284
+N0060,2801,6,2,1,Neurologic Consultation,Neurologic consultation was requested to evaluate her seizure medication and lethargy.,512
+N0061,2665,7,1,1,Bilateral Tubal Occlusion - Laparoscopic,Desires permanent sterilization. Laparoscopic bilateral tubal occlusion with Hulka clips.,603
+N0062,2629,7,1,1,Delivery Note - 2,Pitocin was started quickly to allow for delivery as quickly as possible. Baby was delivered with a single maternal pushing effort with retraction by the forceps.,277
+N0063,2624,7,1,1,Delivery Note - 6,Her pregnancy is complicated by preterm contractions. She was on bedrest since her 34th week. She was admitted here and labor was confirmed with rupture of membranes.,260
+N0064,2601,7,4,1,Hysterectomy - Discharge Summary - 2,Total vaginal hysterectomy. Microinvasive carcinoma of the cervix.,279
+N0065,2588,7,1,1,Laparoscopy,"Pelvic pain, pelvic endometriosis, and pelvic adhesions. Laparoscopy, Harmonic scalpel ablation of endometriosis, lysis of adhesions, and cervical dilation. Laparoscopically, the patient has large omental to anterior abdominal wall adhesions along the left side of the abdomen extending down to the left adnexa.",772
+N0066,2585,7,1,1,Laparoscopy - 4,"Laparoscopy with ablation of endometriosis. Allen-Masters window in the upper left portion of the cul-de-sac, bronze lesions of endometriosis in the central portion of the cul-de-sac as well as both the left uterosacral ligament, flame lesions of the right uterosacral ligament approximately 5 mL of blood tinged fluid in the cul-de-sac.",363
+N0067,2573,7,1,1,Low -Segment C-Section,Primary low segment cesarean section.,333
+N0068,2569,7,7,1,Low-Transverse C-Section - 4,"Primary low-transverse C-section. Postdates pregnancy, failure to progress, meconium stained amniotic fluid.",383
+N0069,2554,7,1,1,Pathology - Ovarian Cyst,"Specimen labeled ""right ovarian cyst"" is received fresh for frozen section.",86
+N0070,2550,7,1,1,"Suction, Dilation, & Curettage","Missed abortion. Suction, dilation, and curettage.",356
+N0071,2329,8,1,1,Arthroscopic Debridement - Shoulder,Recurrent anterior dislocating left shoulder. Arthroscopic debridement of the left shoulder with attempted arthroscopic Bankart repair followed by open Bankart arthroplasty of the left shoulder.,761
+N0072,2320,8,1,1,Arthroscopy - Glenoid Labrum,"Arthroscopy of the arthroscopic glenoid labrum, rotator cuff debridement shaving glenoid and humeral head, and biceps tenotomy, right shoulder. Massive rotator cuff tear, right shoulder, near complete biceps tendon tear of right shoulder, chondromalacia of glenohumeral joint or right shoulder, and glenoid labrum tear of right shoulder.",674
+N0073,2229,8,2,1,FCR tendinitis,Consultation for FCR tendinitis,327
+N0074,2228,8,1,1,Flexor Carpi Radialis & Palmaris Longus Repair,"Flexor carpi radialis and palmaris longus repair. Right wrist laceration with a flexor carpi radialis laceration and palmaris longus laceration 90%, suspected radial artery laceration.",356
+N0075,2201,8,1,1,Intramedullary Nail Fixation,Intramedullary nail fixation of the left tibia fracture with a Stryker T2 tibial nail. Left tibial shaft fracture status post gunshot wound.,444
+N0076,2173,8,1,1,Ligament Reconstruction & Tendon Interposition Arthroplasty,Ligament reconstruction and tendon interposition arthroplasty of right wrist.,386
+N0077,2134,8,3,1,MRI Knee - 5,MRI right knee without gadolinium,372
+N0078,2078,8,2,1,Pediatric Rheumatology Consult,"A 7-year-old white male started to complain of pain in his fingers, elbows, and neck. This patient may have had reactive arthritis.",580
+N0079,2061,8,1,1,Release of A1 Pulley - 1,"Release of A1 pulley, right thumb. Stenosing tendinosis, right thumb (trigger finger). There was noted to be thickening of the A1 pulley. There was a fibrous nodule noted within the flexor tendon of the thumb, which caused triggering sensation to the thumb.",345
+N0080,2044,8,3,1,Styloidectomy,"Excision of volar radial wrist mass (inflammatory synovitis) and radial styloidectomy, right wrist. Right wrist pain with an x-ray showing a scapholunate arthritic collapse pattern arthritis with osteophytic spurring of the radial styloid and a volar radial wrist mass suspected of being a volar radial ganglion.",719
+N0081,1943,9,1,1,Chronic Otitis Media,"A 14-month-old with history of chronic recurrent episodes of otitis media, totalling 6 bouts, requiring antibiotics since birth.",221
+N0082,1941,9,6,1,Circumcision - Child,Circumcision. The child appeared to tolerate the procedure well. Care instructions were given to the parents.,138
+N0083,1927,9,1,1,Gastrostomy,"Gastrostomy, a 6-week-old with feeding disorder and Down syndrome.",287
+N0084,1924,9,1,1,Inguinal Hernia & Hydrocele Repair,Left communicating hydrocele. Left inguinal hernia and hydrocele repair. The patient is a 5-year-old young man with fluid collection in the tunica vaginalis and peritesticular space on the left side consistent with a communicating hydrocele.,449
+N0085,1914,9,4,1,Neonatal Discharge Summary,"The patient is an 1812 g baby boy born by vaginal delivery to a 32-year-old gravida 3, para 2 at 34 weeks of gestation. Mother had two previous C-sections.",366
+N0086,1915,9,1,1,Normal Child Exam Template,Normal child physical exam template.,121
+N0087,1911,9,4,1,Otitis Media - Discharge Summary,"Fever, otitis media, and possible sepsis.",652
+N0088,1902,9,2,1,Pediatric Rheumatology Consult,"A 7-year-old white male started to complain of pain in his fingers, elbows, and neck. This patient may have had reactive arthritis.",580
+N0089,1896,9,3,1,Septal Defect Repair,"Repair of total anomalous pulmonary venous connection, ligation of patent ductus arteriosus, repair secundum type atrial septal defect (autologous pericardial patch), subtotal thymectomy, and insertion of peritoneal dialysis catheter.",868
+N0090,1883,9,1,1,Well-Child Check - 4,1-year well child check.,389
+N0091,1750,10,3,1,Adenosine Nuclear Scan,Adenosine with nuclear scan as the patient unable to walk on a treadmill. Nondiagnostic adenosine stress test. Normal nuclear myocardial perfusion scan.,142
+N0092,1748,10,3,1,Angiogram & StarClose Closure,"Left heart cath, selective coronary angiogram, right common femoral angiogram, and StarClose closure of right common femoral artery.",284
+N0093,1664,10,3,1,CT-Guided Biopsy - Kidney,"CT-guided needle placement, CT-guided biopsy of right renal mass, and embolization of biopsy tract with gelfoam.",442
+N0094,1663,10,3,1,CT-Guided Needle Placement Biopsy,CT of abdomen with and without contrast. CT-guided needle placement biopsy.,329
+N0095,1608,10,3,1,MRI Brain - Meningioma (Olfactory),MRI Brain - Olfactory groove meningioma.,393
+N0096,1572,10,3,1,MRI Knee - 4,MRI left knee without contrast.,315
+N0097,1567,10,7,1,MRI L-Spine - Subarachnoid Seeding,"MRI L-spine - History of progressive lower extremity weakness, right frontal glioblastoma with lumbar subarachnoid seeding.",383
+N0098,1619,10,3,1,Mayoview,Resting Myoview and adenosine Myoview SPECT,198
+N0099,1529,10,3,1,Stress Test Adenosine Myoview,Stress test - Adenosine Myoview. Ischemic cardiomyopathy. Inferoseptal and apical transmural scar.,93
+N0100,1501,10,3,1,Ultrasound - Kidney,AP abdomen and ultrasound of kidney.,178
+N0101,1453,11,7,1,Acquired Hypothyroidism Followup,"Return visit to the endocrine clinic for acquired hypothyroidism, papillary carcinoma of the thyroid gland status post total thyroidectomy in 1992, and diabetes mellitus.",520
+N0102,1419,11,7,1,Dermatitis - SOAP,Hand dermatitis.,259
+N0103,1407,11,7,1,Erectile Dysfunction - Followup,"Some improvement of erectile dysfunction, on low dose of Cialis, with no side effects.",340
+N0104,1399,11,7,1,Fifth Disease - SOAP,Fifth disease with sinusitis,257
+N0105,1373,11,7,1,Gen Med SOAP - 11,The patient has recently had an admission for pneumonia with positive blood count. She returned after vomiting and a probable seizure.,208
+N0106,1381,11,7,1,Gen Med SOAP - 4,General Medicine SOAP note.,187
+N0107,1355,11,7,1,Neurologic Examination,Neurologic examination sample.,163
+N0108,1314,11,7,1,Rheumatology Progress Note,Epicondylitis. history of lupus. Injected with 40-mg of Kenalog mixed with 1 cc of lidocaine.,204
+N0109,1303,11,7,1,SOAP - Substance Abuse,"He got addicted to drugs. He decided it would be a good idea to get away from the ""bad crowd"" and come up and live with his mom.",667
+N0110,1311,11,7,1,Sleep Apnea,Followup of moderate-to-severe sleep apnea. The patient returns today to review his response to CPAP. Recommended a fiberoptic ENT exam to exclude adenoidal tissue that may be contributing to obstruction.,525
+N0111,920,12,6,1,Debridement - Foot Ulcer,Debridement of left lateral foot ulcer with excision of infected and infarcted interosseous space muscle tendons and fat. Sharp excision of left distal foot plantar fascia.,311
+N0112,831,12,6,1,Esophagogastroduodenoscopy with Biopsies,"Esophagogastroduodenoscopy with biopsies. Gastroesophageal reflux disease, chronic dyspepsia, alkaline reflux gastritis, gastroparesis, probable Billroth II anastomosis, and status post Whipple's pancreaticoduodenectomy.",357
+N0113,810,12,6,1,Eyelid Squamous Cell Carcinoma Excision,Excision of right upper eyelid squamous cell carcinoma with frozen section and full-thickness skin grafting from the opposite eyelid.,343
+N0114,788,12,6,1,Fogarty Thrombectomy,"Fogarty thrombectomy, left forearm arteriovenous Gore-Tex bridge fistula and revision of distal anastomosis with 7 mm interposition Gore-Tex graft. Chronic renal failure and thrombosed left forearm arteriovenous Gore-Tex bridge fistula.",468
+N0115,649,12,6,1,Laparoscopic Appendectomy - 2,Appendicitis. Laparoscopic appendectomy. Infraumbilical incision was performed and taken down to the fascia. The fascia was incised. The peritoneal cavity was carefully entered. Two other ports were placed in the right and left lower quadrants.,164
+N0116,590,12,6,1,Low-Transverse C-Section,Primary low-transverse cesarean section.,575
+N0117,558,12,6,1,Meatotomy Template,An example/template for meatotomy.,149
+N0118,387,12,6,1,Rectus Recession,"Bilateral rectus recession with the microscopic control, 8 mm, both eyes.",344
+N0119,327,12,6,1,Spontaneous Vaginal Delivery,"Spontaneous vaginal delivery. Term pregnancy at 40 and 3/7th weeks. On evaluation of triage, she was noted to be contracting approximately every five minutes and did have discomfort with her contractions.",395
+N0120,184,12,6,1,Wound Closure & Debridement - Hydrocephalus,"A complex closure and debridement of wound. The patient is a 26-year-old female with a long history of shunt and hydrocephalus presenting with a draining wound in the right upper quadrant, just below the costal margin that was lanced by General Surgery and resolved; however, it continued to drain.",243

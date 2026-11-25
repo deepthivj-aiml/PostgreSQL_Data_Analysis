@@ -1,0 +1,33 @@
+specialty_name,specialty_category,note_type_name,note_count
+Cardiovascular / Pulmonary,Clinical specialty,Clinical Note,7
+Cardiovascular / Pulmonary,Clinical specialty,Diagnostic / Imaging,2
+Cardiovascular / Pulmonary,Clinical specialty,Letter,1
+Consult - History and Phy.,Document-type grouping,Consultation / H&P,10
+Discharge Summary,Document-type grouping,Discharge Summary,10
+Gastroenterology,Clinical specialty,Clinical Note,7
+Gastroenterology,Clinical specialty,Consultation / H&P,1
+Gastroenterology,Clinical specialty,Diagnostic / Imaging,2
+General Medicine,Clinical specialty,Clinical Note,2
+General Medicine,Clinical specialty,Consultation / H&P,3
+General Medicine,Clinical specialty,Discharge Summary,1
+General Medicine,Clinical specialty,Progress / Office Note,4
+Neurology,Clinical specialty,Clinical Note,4
+Neurology,Clinical specialty,Consultation / H&P,1
+Neurology,Clinical specialty,Diagnostic / Imaging,3
+Neurology,Clinical specialty,Discharge Summary,1
+Neurology,Clinical specialty,Procedure / Operative,1
+Obstetrics / Gynecology,Clinical specialty,Clinical Note,8
+Obstetrics / Gynecology,Clinical specialty,Discharge Summary,1
+Obstetrics / Gynecology,Clinical specialty,Progress / Office Note,1
+Orthopedic,Clinical specialty,Clinical Note,6
+Orthopedic,Clinical specialty,Consultation / H&P,2
+Orthopedic,Clinical specialty,Diagnostic / Imaging,2
+Pediatrics - Neonatal,Clinical specialty,Clinical Note,5
+Pediatrics - Neonatal,Clinical specialty,Consultation / H&P,1
+Pediatrics - Neonatal,Clinical specialty,Diagnostic / Imaging,1
+Pediatrics - Neonatal,Clinical specialty,Discharge Summary,2
+Pediatrics - Neonatal,Clinical specialty,Procedure / Operative,1
+Radiology,Clinical specialty,Diagnostic / Imaging,9
+Radiology,Clinical specialty,Progress / Office Note,1
+SOAP / Chart / Progress Notes,Document-type grouping,Progress / Office Note,10
+Surgery,Clinical specialty,Procedure / Operative,10

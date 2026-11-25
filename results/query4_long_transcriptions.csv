@@ -1,0 +1,27 @@
+note_id,specialty_name,sample_name,recount_words
+N0089,Pediatrics - Neonatal,Septal Defect Repair,845
+N0056,Neurology,Epidural Hematoma Evacuation,839
+N0065,Obstetrics / Gynecology,Laparoscopy,761
+N0071,Orthopedic,Arthroscopic Debridement - Shoulder,746
+N0002,Cardiovascular / Pulmonary,Bronchoscopy & Lobectomy,737
+N0040,Gastroenterology,Laparoscopic Gastric Bypass,729
+N0004,Cardiovascular / Pulmonary,Cardiovascular - Letter,723
+N0047,General Medicine,Gen Med SOAP - 9,713
+N0080,Orthopedic,Styloidectomy,695
+N0050,General Medicine,SOAP - Substance Abuse,664
+N0072,Orthopedic,Arthroscopy - Glenoid Labrum,664
+N0109,SOAP / Chart / Progress Notes,SOAP - Substance Abuse,664
+N0087,Pediatrics - Neonatal,Otitis Media - Discharge Summary,641
+N0041,General Medicine,Discharge Summary - 8,594
+N0061,Obstetrics / Gynecology,Bilateral Tubal Occlusion - Laparoscopic,589
+N0078,Orthopedic,Pediatric Rheumatology Consult,571
+N0088,Pediatrics - Neonatal,Pediatric Rheumatology Consult,571
+N0022,Discharge Summary,Cardio/Pulmo Discharge Summary,570
+N0116,Surgery,Low-Transverse C-Section,566
+N0015,Consult - History and Phy.,Gen Med Consult - 52,532
+N0044,General Medicine,Gen Med Consult - 52,532
+N0027,Discharge Summary,Lap Chole - Discharge Summary,514
+N0037,Gastroenterology,Consult - Screening Colonoscopy,506
+N0101,SOAP / Chart / Progress Notes,Acquired Hypothyroidism Followup,506
+N0017,Consult - History and Phy.,Hyperthyroidism Following Pregnancy,505
+N0110,SOAP / Chart / Progress Notes,Sleep Apnea,505
