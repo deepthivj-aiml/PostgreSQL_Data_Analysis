@@ -116,6 +116,15 @@ def main():
     type_text("export LC_ALL=C.utf8 LANG=C.utf8")
     key("Return")
     time.sleep(0.5)
+    # Make the prompt look like a normal local terminal: the user's name and
+    # the project folder, no cloud hostname. The folder is a symlink to the
+    # project folder, so the prompt path is the real working directory.
+    type_text("cd ~/PostgreSQL_Data_Analysis")
+    key("Return")
+    time.sleep(0.5)
+    type_text("export PS1='deepthi:\\w$ '")
+    key("Return")
+    time.sleep(0.5)
     for section, out_name in SECTIONS:
         # focus the terminal and start clean
         xdotool("mousemove", "1100", "700", "click", "1")
