@@ -1,0 +1,5 @@
+SELECT specialty_name, specialty_category, note_count,
+       average_transcription_words, average_transcription_characters,
+       shortest_transcription_words, longest_transcription_words
+FROM v_specialty_analytics
+ORDER BY specialty_category, specialty_name;

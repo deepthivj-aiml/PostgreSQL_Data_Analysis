@@ -1,0 +1,6 @@
+SELECT k.keyword_term, count(DISTINCT nk.note_id) AS note_frequency
+FROM keyword AS k
+JOIN note_keyword AS nk ON nk.keyword_id = k.keyword_id
+GROUP BY k.keyword_id, k.keyword_term
+ORDER BY note_frequency DESC, k.keyword_term
+LIMIT 20;

@@ -1,3 +1,5 @@
+~/workspace/pg_data_analysis$ sudo -u postgres psql -X -d week5_mtsamples \
+>   -v ON_ERROR_STOP=1 -e -f evidence_screenshots.sql
 SELECT 'medical_specialty' AS table_name, count(*) AS row_count FROM medical_specialty
 UNION ALL SELECT 'note_type', count(*) FROM note_type
 UNION ALL SELECT 'data_source', count(*) FROM data_source

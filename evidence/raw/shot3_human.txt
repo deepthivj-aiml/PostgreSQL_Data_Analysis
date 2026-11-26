@@ -1,3 +1,5 @@
+~/workspace/pg_data_analysis$ sudo -u postgres psql -X -d week5_mtsamples \
+>   -v ON_ERROR_STOP=1 -e -f evidence_screenshots.sql
                                                Table "week5_mtsamples.note_keyword"
 +------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
 |      Column      |         Type          | Collation | Nullable | Default | Storage  | Compression | Stats target | Description |

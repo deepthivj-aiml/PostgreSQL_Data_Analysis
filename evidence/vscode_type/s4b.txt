@@ -1,0 +1,14 @@
+SELECT 'medical_specialty' AS table_name, count(*) AS row_count FROM medical_specialty
+UNION ALL SELECT 'note_type', count(*) FROM note_type
+UNION ALL SELECT 'data_source', count(*) FROM data_source
+UNION ALL SELECT 'clinical_note', count(*) FROM clinical_note
+UNION ALL SELECT 'note_text', count(*) FROM note_text
+UNION ALL SELECT 'keyword', count(*) FROM keyword
+UNION ALL SELECT 'note_keyword', count(*) FROM note_keyword
+UNION ALL SELECT 'note_section', count(*) FROM note_section
+ORDER BY table_name;
+
+SELECT
+    count(*) FILTER (WHERE section_text IS NULL) AS empty_section_bodies,
+    count(*) AS total_sections
+FROM note_section;

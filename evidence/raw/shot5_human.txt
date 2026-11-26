@@ -1,3 +1,5 @@
+~/workspace/pg_data_analysis$ sudo -u postgres psql -X -d week5_mtsamples \
+>   -v ON_ERROR_STOP=1 -e -f evidence_screenshots.sql
 SELECT s.specialty_name, s.specialty_category, count(n.note_id) AS note_count
 FROM medical_specialty AS s
 LEFT JOIN clinical_note AS n ON n.specialty_id = s.specialty_id

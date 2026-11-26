@@ -1,3 +1,5 @@
+~/workspace/pg_data_analysis$ sudo -u postgres psql -X -d week5_mtsamples \
+>   -v ON_ERROR_STOP=1 -e -f evidence_screenshots.sql
 SELECT n.note_id, s.specialty_name, n.sample_name, t.recount_words
 FROM clinical_note AS n
 JOIN medical_specialty AS s ON s.specialty_id = n.specialty_id

@@ -1,0 +1,5 @@
+SELECT s.specialty_name, s.specialty_category, count(n.note_id) AS note_count
+FROM medical_specialty AS s
+LEFT JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+GROUP BY s.specialty_id, s.specialty_name, s.specialty_category
+ORDER BY s.specialty_category, note_count DESC, s.specialty_name;

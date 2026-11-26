@@ -1,3 +1,5 @@
+~/workspace/pg_data_analysis$ sudo -u postgres psql -X -d week5_mtsamples \
+>   -v ON_ERROR_STOP=1 -e -f evidence_screenshots.sql
 SELECT k.keyword_term, count(DISTINCT nk.note_id) AS note_frequency
 FROM keyword AS k
 JOIN note_keyword AS nk ON nk.keyword_id = k.keyword_id

@@ -1,0 +1,9 @@
+SELECT s.specialty_name,
+       count(n.note_id) AS note_count,
+       round(avg(t.recount_words), 1) AS average_words
+FROM medical_specialty AS s
+JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+JOIN note_text AS t ON t.note_id = n.note_id
+WHERE s.specialty_category = 'Clinical specialty'
+GROUP BY s.specialty_id, s.specialty_name
+ORDER BY average_words DESC;

@@ -304,6 +304,12 @@ def build_document():
     add_image(doc, EVIDENCE / "shot5.png")
     caption = doc.add_paragraph("Query 1 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.add_paragraph(
+        "What this means: the sample was built to be balanced, so this query is a check on the sample "
+        "rather than a ranking — no specialty can look busier than another here. That balance is what "
+        "makes the later comparisons fair: any difference in the other queries comes from the notes "
+        "themselves, not from one specialty having more notes."
+    )
     doc.add_heading("Query 2: Average transcription length", level=2)
     doc.add_paragraph(
         f"Question: What is the average transcription length by clinical specialty? Result: {q2_top['specialty_name']} "
@@ -313,6 +319,12 @@ def build_document():
     add_image(doc, EVIDENCE / "shot6.png")
     caption = doc.add_paragraph("Query 2 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.add_paragraph(
+        "What this means: Orthopedic notes take the most documentation effort and Radiology the least, "
+        "with about 222 words between them. A team planning review time, or reading the Figure 2 chart, "
+        "should expect longer text from Orthopedic. It says nothing about care quality — only that the "
+        "documentation is longer."
+    )
     doc.add_heading("Query 3: Most frequent keywords", level=2)
     doc.add_paragraph(
         f"Question: Which cleaned keywords occur in the most distinct notes? Result: “{top_keyword['keyword_term']}” "
@@ -322,6 +334,12 @@ def build_document():
     add_image(doc, EVIDENCE / "shot7.png")
     caption = doc.add_paragraph("Query 3 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.add_paragraph(
+        "What this means: no single keyword dominates the collection, so keyword search is useful but no "
+        "one term will find most notes. MRI is the most useful single search term, appearing in 7 notes. "
+        "Removing the specialty-label terms first is what makes this list interpretable — otherwise the "
+        "labels themselves would have topped it."
+    )
     doc.add_heading("Query 4: Long transcriptions", level=2)
     doc.add_paragraph(
         f"Question: Which notes exceed 500 recounted words? Result: {len(query4)} records meet the threshold; "
@@ -330,6 +348,11 @@ def build_document():
     add_image(doc, EVIDENCE / "shot8.png")
     caption = doc.add_paragraph("Query 4 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.add_paragraph(
+        "What this means: long notes are about one in five of the sample, so a review that prioritises "
+        "long transcriptions only needs to look at 26 notes, not all 120. The 845-word note is the "
+        "extreme case and the natural place to start that review."
+    )
     doc.add_heading("Query 5: Note type by specialty label", level=2)
     doc.add_paragraph(
         "Question: How are inferred note types distributed across specialty labels? The query returns 32 "
@@ -340,11 +363,15 @@ def build_document():
     caption = doc.add_paragraph("Query 5 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
-        "The first query confirms that the provided subset was balanced, not a natural measure of service "
-        "volume. The second identifies length differences between labels but does not imply differences in "
-        "care quality. The keyword query is more interpretable after category-label terms are excluded. The "
-        "note-type cross-tab shows that some source labels correspond entirely to document types, reinforcing "
-        "the need to preserve the category distinction."
+        "What this means: note type depends on specialty — no label uses all seven types, and most use "
+        "only two or three. A dashboard should therefore show the type mix per specialty instead of one "
+        "overall mix, and the three document-type labels confirm again that they are groupings, not "
+        "clinical specialties."
+    )
+    doc.add_paragraph(
+        "Each query above returns a table that can feed a chart. The most direct candidates are Query 1 "
+        "(bars of note counts), Query 2 (the bar chart in Figure 2), and Query 5 (stacked bars of "
+        "note-type mix by specialty)."
     )
 
     doc.add_page_break()
@@ -367,6 +394,11 @@ def build_document():
         "has ten records, the visualization compares this curated subset rather than workload or population "
         "prevalence. A manager could use the output to identify where documentation-length review may be "
         "useful, then validate findings with representative operational data."
+    )
+    doc.add_paragraph(
+        "What this means: charted as bars, the output shows at a glance that Orthopedic notes run longest "
+        "and Radiology shortest, with every specialty on the same 10-note base, so the bars compare length "
+        "rather than workload. That is the single headline the analytics-ready table is built to support."
     )
     doc.add_paragraph(
         "Database-backed output is more reliable than querying the flat spreadsheet alone because the foreign "
@@ -394,38 +426,25 @@ def build_document():
     )
     doc.add_heading("Team Contributions", level=1)
     doc.add_paragraph(
-        "The work was split into two halves: Yuhui Xu completed the first half of the assignment, and "
-        "Deepthi Venmanasseril Jainlal completed the second half."
+        "The work was split by section: Yuhui Xu completed the Introduction, Database Design Summary, and "
+        "Implementation Summary, and Deepthi Venmanasseril Jainlal completed the Query Results, "
+        "Analytics-Ready Output, and Limitations."
     )
     doc.add_heading("Yuhui Xu", level=2)
     doc.add_paragraph(
-        "First half - design and implementation. Yuhui Xu revised the database design and the ERD, built "
-        "the PostgreSQL tables with primary and foreign keys, and loaded and validated the data (Sections 1-3, "
-        "including the table creation and row-count checks)."
+        "Introduction, Database Design Summary, and Implementation Summary. Yuhui Xu revised the database "
+        "design and the ERD, defining the eight tables, their primary and foreign keys, and the constraints "
+        "that keep the specialty, note, keyword, and section records linked. She built the PostgreSQL tables, "
+        "loaded the prepared data, and ran the validation checks, confirming the minimum record counts and "
+        "the row count in every table (Sections 1-3, including the table creation and row-count checks)."
     )
     doc.add_heading("Deepthi Venmanasseril Jainlal", level=2)
     doc.add_paragraph(
-        "Second half - queries, analytics, and the report. Deepthi Venmanasseril Jainlal wrote the five "
-        "analytical SQL queries and explained their results, built the analytics-ready specialty view and "
-        "exported table, assessed the limitations, and assembled the final report with the terminal output "
-        "(Sections 4-6, plus Conclusion). She also contributed to the implementation, including the "
-        "PostgreSQL table definitions and data loading."
-    )
-
-    doc.add_heading("Conclusion", level=1)
-    doc.add_paragraph(
-        "The team converted the Week 2 flat MTSamples subset into a working PostgreSQL database of 120 "
-        "notes across 12 labels, and the analysis shows the sample is balanced at 10 notes per label, so "
-        "label frequencies measure the sampling rather than service volume; average transcription length "
-        "varies by clinical specialty, with Orthopedic longest at 485.4 words and Radiology shortest at "
-        "263.7; MRI is the most common cleaned keyword, in 7 of the 120 notes; 26 notes exceed 500 recounted "
-        "words, the longest at 845 words; and the note-type cross-tab returns 32 non-empty combinations, "
-        "confirming that some source labels are document types rather than clinical specialties. Together "
-        "these results show the database does what the flat spreadsheet could not - category counts and "
-        "keyword analysis now come from enforced relationships, with every metric documented in the "
-        "analytics-ready view - while the findings describe only this curated sample, not workload, "
-        "prevalence, or care quality, so the length differences can guide where documentation-length review "
-        "may be useful but only representative operational data can validate that."
+        "Query Results, Analytics-Ready Output, and Limitations. Deepthi Venmanasseril Jainlal wrote the "
+        "five analytical SQL queries and explained their results, built the analytics-ready specialty view "
+        "and exported table, assessed the limitations, and assembled the final report with the terminal "
+        "output (Sections 4-6). She also contributed to the implementation, including the PostgreSQL table "
+        "definitions and data loading."
     )
 
     doc.save(DOCX_PATH)

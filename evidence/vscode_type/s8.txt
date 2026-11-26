@@ -1,0 +1,6 @@
+SELECT n.note_id, s.specialty_name, n.sample_name, t.recount_words
+FROM clinical_note AS n
+JOIN medical_specialty AS s ON s.specialty_id = n.specialty_id
+JOIN note_text AS t ON t.note_id = n.note_id
+WHERE t.recount_words > 500
+ORDER BY t.recount_words DESC, n.note_id;
