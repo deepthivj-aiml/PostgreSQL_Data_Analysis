@@ -1,0 +1,19 @@
+Pager usage is off.
+Border style is 2.
+Null display is "[NULL]".
+SET search_path TO week5_mtsamples, public;
+SET
+                    List of relations
++-----------------+-------------------+-------+----------+
+|     Schema      |       Name        | Type  |  Owner   |
++-----------------+-------------------+-------+----------+
+| week5_mtsamples | clinical_note     | table | postgres |
+| week5_mtsamples | data_source       | table | postgres |
+| week5_mtsamples | keyword           | table | postgres |
+| week5_mtsamples | medical_specialty | table | postgres |
+| week5_mtsamples | note_keyword      | table | postgres |
+| week5_mtsamples | note_section      | table | postgres |
+| week5_mtsamples | note_text         | table | postgres |
+| week5_mtsamples | note_type         | table | postgres |
++-----------------+-------------------+-------+----------+
+(8 rows)

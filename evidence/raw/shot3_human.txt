@@ -1,0 +1,17 @@
+                                               Table "week5_mtsamples.note_keyword"
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+|      Column      |         Type          | Collation | Nullable | Default | Storage  | Compression | Stats target | Description |
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+| note_id          | character varying(10) |           | not null |         | extended |             |              |             |
+| keyword_id       | integer               |           | not null |         | plain    |             |              |             |
+| keyword_position | smallint              |           | not null |         | plain    |             |              |             |
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+Indexes:
+    "note_keyword_pkey" PRIMARY KEY, btree (note_id, keyword_id)
+    "note_keyword_keyword_idx" btree (keyword_id)
+Check constraints:
+    "note_keyword_keyword_position_check" CHECK (keyword_position > 0)
+Foreign-key constraints:
+    "note_keyword_keyword_id_fkey" FOREIGN KEY (keyword_id) REFERENCES keyword(keyword_id)
+    "note_keyword_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+Access method: heap

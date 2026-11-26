@@ -1,0 +1,330 @@
+Pager usage is off.
+Border style is 2.
+Null display is "[NULL]".
+SET search_path TO week5_mtsamples, public;
+SET
+SCREENSHOT 1 - Tables created in PostgreSQL
+                    List of relations
++-----------------+-------------------+-------+----------+
+|     Schema      |       Name        | Type  |  Owner   |
++-----------------+-------------------+-------+----------+
+| week5_mtsamples | clinical_note     | table | postgres |
+| week5_mtsamples | data_source       | table | postgres |
+| week5_mtsamples | keyword           | table | postgres |
+| week5_mtsamples | medical_specialty | table | postgres |
+| week5_mtsamples | note_keyword      | table | postgres |
+| week5_mtsamples | note_section      | table | postgres |
+| week5_mtsamples | note_text         | table | postgres |
+| week5_mtsamples | note_type         | table | postgres |
++-----------------+-------------------+-------+----------+
+(8 rows)
+
+Capture the table list, then press Enter to continue: SCREENSHOT 2 - ClinicalNote keys, columns, and constraints
+                                                     Table "week5_mtsamples.clinical_note"
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+|            Column            |         Type          | Collation | Nullable | Default | Storage  | Compression | Stats target | Description |
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+| note_id                      | character varying(10) |           | not null |         | extended |             |              |             |
+| source_row_id                | integer               |           | not null |         | plain    |             |              |             |
+| specialty_id                 | smallint              |           | not null |         | plain    |             |              |             |
+| note_type_id                 | smallint              |           | not null |         | plain    |             |              |             |
+| source_id                    | smallint              |           | not null |         | plain    |             |              |             |
+| sample_name                  | text                  |           | not null |         | extended |             |              |             |
+| description_or_chief_concern | text                  |           | not null |         | extended |             |              |             |
+| source_word_count            | integer               |           | not null |         | plain    |             |              |             |
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+Indexes:
+    "clinical_note_pkey" PRIMARY KEY, btree (note_id)
+    "clinical_note_source_row_id_key" UNIQUE CONSTRAINT, btree (source_row_id)
+    "clinical_note_specialty_idx" btree (specialty_id)
+    "clinical_note_type_idx" btree (note_type_id)
+Check constraints:
+    "clinical_note_source_word_count_check" CHECK (source_word_count >= 0)
+Foreign-key constraints:
+    "clinical_note_note_type_id_fkey" FOREIGN KEY (note_type_id) REFERENCES note_type(note_type_id)
+    "clinical_note_source_id_fkey" FOREIGN KEY (source_id) REFERENCES data_source(source_id)
+    "clinical_note_specialty_id_fkey" FOREIGN KEY (specialty_id) REFERENCES medical_specialty(specialty_id)
+Referenced by:
+    TABLE "note_keyword" CONSTRAINT "note_keyword_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+    TABLE "note_section" CONSTRAINT "note_section_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+    TABLE "note_text" CONSTRAINT "note_text_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+Access method: heap
+
+Capture the ClinicalNote definition, then press Enter to continue: SCREENSHOT 3 - NoteKeyword bridge primary and foreign keys
+                                               Table "week5_mtsamples.note_keyword"
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+|      Column      |         Type          | Collation | Nullable | Default | Storage  | Compression | Stats target | Description |
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+| note_id          | character varying(10) |           | not null |         | extended |             |              |             |
+| keyword_id       | integer               |           | not null |         | plain    |             |              |             |
+| keyword_position | smallint              |           | not null |         | plain    |             |              |             |
++------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+Indexes:
+    "note_keyword_pkey" PRIMARY KEY, btree (note_id, keyword_id)
+    "note_keyword_keyword_idx" btree (keyword_id)
+Check constraints:
+    "note_keyword_keyword_position_check" CHECK (keyword_position > 0)
+Foreign-key constraints:
+    "note_keyword_keyword_id_fkey" FOREIGN KEY (keyword_id) REFERENCES keyword(keyword_id)
+    "note_keyword_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+Access method: heap
+
+Capture the bridge table definition, then press Enter to continue: SCREENSHOT 4 - Row counts and validation checks
+SET search_path TO week5_mtsamples, public;
+SET
+DO $$
+BEGIN
+    IF (SELECT count(*) FROM clinical_note) < 30 THEN
+        RAISE EXCEPTION 'Minimum 30 clinical notes was not met';
+    END IF;
+    IF (SELECT count(*) FROM medical_specialty WHERE specialty_category = 'Clinical specialty') < 5 THEN
+        RAISE EXCEPTION 'Minimum five clinical specialties was not met';
+    END IF;
+    IF (SELECT count(*) FROM keyword) < 20 THEN
+        RAISE EXCEPTION 'Minimum 20 keywords was not met';
+    END IF;
+    IF EXISTS (
+        SELECT 1
+        FROM clinical_note AS n
+        LEFT JOIN note_text AS t ON t.note_id = n.note_id
+        WHERE t.note_id IS NULL
+    ) THEN
+        RAISE EXCEPTION 'A clinical note has no NoteText record';
+    END IF;
+    IF EXISTS (
+        SELECT 1
+        FROM note_keyword AS nk
+        JOIN keyword AS k ON k.keyword_id = nk.keyword_id
+        JOIN medical_specialty AS s
+          ON lower(btrim(k.keyword_term)) = lower(btrim(s.specialty_name))
+    ) THEN
+        RAISE EXCEPTION 'A specialty label remains in the keyword bridge';
+    END IF;
+END
+$$;
+DO
+SELECT 'medical_specialty' AS table_name, count(*) AS row_count FROM medical_specialty
+UNION ALL SELECT 'note_type', count(*) FROM note_type
+UNION ALL SELECT 'data_source', count(*) FROM data_source
+UNION ALL SELECT 'clinical_note', count(*) FROM clinical_note
+UNION ALL SELECT 'note_text', count(*) FROM note_text
+UNION ALL SELECT 'keyword', count(*) FROM keyword
+UNION ALL SELECT 'note_keyword', count(*) FROM note_keyword
+UNION ALL SELECT 'note_section', count(*) FROM note_section
+ORDER BY table_name;
++-------------------+-----------+
+|    table_name     | row_count |
++-------------------+-----------+
+| clinical_note     |       120 |
+| data_source       |         1 |
+| keyword           |      1077 |
+| medical_specialty |        12 |
+| note_keyword      |      1324 |
+| note_section      |       779 |
+| note_text         |       120 |
+| note_type         |         7 |
++-------------------+-----------+
+(8 rows)
+
+SELECT
+    count(*) FILTER (WHERE section_text IS NULL) AS empty_section_bodies,
+    count(*) AS total_sections
+FROM note_section;
++----------------------+----------------+
+| empty_section_bodies | total_sections |
++----------------------+----------------+
+|                   13 |            779 |
++----------------------+----------------+
+(1 row)
+
+Capture the validation output, then press Enter to continue: SCREENSHOT 5 - Query 1: notes by specialty label
+SELECT s.specialty_name, s.specialty_category, count(n.note_id) AS note_count
+FROM medical_specialty AS s
+LEFT JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+GROUP BY s.specialty_id, s.specialty_name, s.specialty_category
+ORDER BY s.specialty_category, note_count DESC, s.specialty_name;
++-------------------------------+------------------------+------------+
+|        specialty_name         |   specialty_category   | note_count |
++-------------------------------+------------------------+------------+
+| Cardiovascular / Pulmonary    | Clinical specialty     |         10 |
+| Gastroenterology              | Clinical specialty     |         10 |
+| General Medicine              | Clinical specialty     |         10 |
+| Neurology                     | Clinical specialty     |         10 |
+| Obstetrics / Gynecology       | Clinical specialty     |         10 |
+| Orthopedic                    | Clinical specialty     |         10 |
+| Pediatrics - Neonatal         | Clinical specialty     |         10 |
+| Radiology                     | Clinical specialty     |         10 |
+| Surgery                       | Clinical specialty     |         10 |
+| Consult - History and Phy.    | Document-type grouping |         10 |
+| Discharge Summary             | Document-type grouping |         10 |
+| SOAP / Chart / Progress Notes | Document-type grouping |         10 |
++-------------------------------+------------------------+------------+
+(12 rows)
+
+Capture Query 1, then press Enter to continue: SCREENSHOT 6 - Query 2: average transcription length by clinical specialty
+SELECT s.specialty_name,
+       count(n.note_id) AS note_count,
+       round(avg(t.recount_words), 1) AS average_words
+FROM medical_specialty AS s
+JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+JOIN note_text AS t ON t.note_id = n.note_id
+WHERE s.specialty_category = 'Clinical specialty'
+GROUP BY s.specialty_id, s.specialty_name
+ORDER BY average_words DESC;
++----------------------------+------------+---------------+
+|       specialty_name       | note_count | average_words |
++----------------------------+------------+---------------+
+| Orthopedic                 |         10 |         485.4 |
+| General Medicine           |         10 |         418.2 |
+| Pediatrics - Neonatal      |         10 |         398.1 |
+| Neurology                  |         10 |         395.8 |
+| Obstetrics / Gynecology    |         10 |         362.0 |
+| Cardiovascular / Pulmonary |         10 |         355.5 |
+| Gastroenterology           |         10 |         342.1 |
+| Surgery                    |         10 |         327.7 |
+| Radiology                  |         10 |         263.7 |
++----------------------------+------------+---------------+
+(9 rows)
+
+Capture Query 2, then press Enter to continue: SCREENSHOT 7 - Query 3: top 20 normalized keywords
+SELECT k.keyword_term, count(DISTINCT nk.note_id) AS note_frequency
+FROM keyword AS k
+JOIN note_keyword AS nk ON nk.keyword_id = k.keyword_id
+GROUP BY k.keyword_id, k.keyword_term
+ORDER BY note_frequency DESC, k.keyword_term
+LIMIT 20;
++---------------------+----------------+
+|    keyword_term     | note_frequency |
++---------------------+----------------+
+| mri                 |              7 |
+| abdomen             |              5 |
+| chest pain          |              5 |
+| ct                  |              5 |
+| artery              |              4 |
+| atrial fibrillation |              4 |
+| biopsy              |              4 |
+| brain               |              4 |
+| debridement         |              4 |
+| discharge           |              4 |
+| laparoscopic        |              4 |
+| myocardial          |              4 |
+| pregnancy           |              4 |
+| pulmonary           |              4 |
+| respiratory         |              4 |
+| abuse               |              3 |
+| adenosine           |              3 |
+| anastomosis         |              3 |
+| arthroplasty        |              3 |
+| atrial              |              3 |
++---------------------+----------------+
+(20 rows)
+
+Capture Query 3, then press Enter to continue: SCREENSHOT 8 - Query 4: notes over 500 recounted words
+SELECT n.note_id, s.specialty_name, n.sample_name, t.recount_words
+FROM clinical_note AS n
+JOIN medical_specialty AS s ON s.specialty_id = n.specialty_id
+JOIN note_text AS t ON t.note_id = n.note_id
+WHERE t.recount_words > 500
+ORDER BY t.recount_words DESC, n.note_id;
++---------+-------------------------------+------------------------------------------+---------------+
+| note_id |        specialty_name         |               sample_name                | recount_words |
++---------+-------------------------------+------------------------------------------+---------------+
+| N0089   | Pediatrics - Neonatal         | Septal Defect Repair                     |           845 |
+| N0056   | Neurology                     | Epidural Hematoma Evacuation             |           839 |
+| N0065   | Obstetrics / Gynecology       | Laparoscopy                              |           761 |
+| N0071   | Orthopedic                    | Arthroscopic Debridement - Shoulder      |           746 |
+| N0002   | Cardiovascular / Pulmonary    | Bronchoscopy & Lobectomy                 |           737 |
+| N0040   | Gastroenterology              | Laparoscopic Gastric Bypass              |           729 |
+| N0004   | Cardiovascular / Pulmonary    | Cardiovascular - Letter                  |           723 |
+| N0047   | General Medicine              | Gen Med SOAP - 9                         |           713 |
+| N0080   | Orthopedic                    | Styloidectomy                            |           695 |
+| N0050   | General Medicine              | SOAP - Substance Abuse                   |           664 |
+| N0072   | Orthopedic                    | Arthroscopy - Glenoid Labrum             |           664 |
+| N0109   | SOAP / Chart / Progress Notes | SOAP - Substance Abuse                   |           664 |
+| N0087   | Pediatrics - Neonatal         | Otitis Media - Discharge Summary         |           641 |
+| N0041   | General Medicine              | Discharge Summary - 8                    |           594 |
+| N0061   | Obstetrics / Gynecology       | Bilateral Tubal Occlusion - Laparoscopic |           589 |
+| N0078   | Orthopedic                    | Pediatric Rheumatology Consult           |           571 |
+| N0088   | Pediatrics - Neonatal         | Pediatric Rheumatology Consult           |           571 |
+| N0022   | Discharge Summary             | Cardio/Pulmo Discharge Summary           |           570 |
+| N0116   | Surgery                       | Low-Transverse C-Section                 |           566 |
+| N0015   | Consult - History and Phy.    | Gen Med Consult - 52                     |           532 |
+| N0044   | General Medicine              | Gen Med Consult - 52                     |           532 |
+| N0027   | Discharge Summary             | Lap Chole - Discharge Summary            |           514 |
+| N0037   | Gastroenterology              | Consult - Screening Colonoscopy          |           506 |
+| N0101   | SOAP / Chart / Progress Notes | Acquired Hypothyroidism Followup         |           506 |
+| N0017   | Consult - History and Phy.    | Hyperthyroidism Following Pregnancy      |           505 |
+| N0110   | SOAP / Chart / Progress Notes | Sleep Apnea                              |           505 |
++---------+-------------------------------+------------------------------------------+---------------+
+(26 rows)
+
+Capture Query 4, then press Enter to continue: SCREENSHOT 9 - Query 5: note type counts by specialty label
+SELECT s.specialty_name, nt.note_type_name, count(n.note_id) AS note_count
+FROM medical_specialty AS s
+JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+JOIN note_type AS nt ON nt.note_type_id = n.note_type_id
+GROUP BY s.specialty_id, s.specialty_name, nt.note_type_id, nt.note_type_name
+ORDER BY s.specialty_name, note_count DESC, nt.note_type_name;
++-------------------------------+------------------------+------------+
+|        specialty_name         |     note_type_name     | note_count |
++-------------------------------+------------------------+------------+
+| Cardiovascular / Pulmonary    | Clinical Note          |          7 |
+| Cardiovascular / Pulmonary    | Diagnostic / Imaging   |          2 |
+| Cardiovascular / Pulmonary    | Letter                 |          1 |
+| Consult - History and Phy.    | Consultation / H&P     |         10 |
+| Discharge Summary             | Discharge Summary      |         10 |
+| Gastroenterology              | Clinical Note          |          7 |
+| Gastroenterology              | Diagnostic / Imaging   |          2 |
+| Gastroenterology              | Consultation / H&P     |          1 |
+| General Medicine              | Progress / Office Note |          4 |
+| General Medicine              | Consultation / H&P     |          3 |
+| General Medicine              | Clinical Note          |          2 |
+| General Medicine              | Discharge Summary      |          1 |
+| Neurology                     | Clinical Note          |          4 |
+| Neurology                     | Diagnostic / Imaging   |          3 |
+| Neurology                     | Consultation / H&P     |          1 |
+| Neurology                     | Discharge Summary      |          1 |
+| Neurology                     | Procedure / Operative  |          1 |
+| Obstetrics / Gynecology       | Clinical Note          |          8 |
+| Obstetrics / Gynecology       | Discharge Summary      |          1 |
+| Obstetrics / Gynecology       | Progress / Office Note |          1 |
+| Orthopedic                    | Clinical Note          |          6 |
+| Orthopedic                    | Consultation / H&P     |          2 |
+| Orthopedic                    | Diagnostic / Imaging   |          2 |
+| Pediatrics - Neonatal         | Clinical Note          |          5 |
+| Pediatrics - Neonatal         | Discharge Summary      |          2 |
+| Pediatrics - Neonatal         | Consultation / H&P     |          1 |
+| Pediatrics - Neonatal         | Diagnostic / Imaging   |          1 |
+| Pediatrics - Neonatal         | Procedure / Operative  |          1 |
+| Radiology                     | Diagnostic / Imaging   |          9 |
+| Radiology                     | Progress / Office Note |          1 |
+| SOAP / Chart / Progress Notes | Progress / Office Note |         10 |
+| Surgery                       | Procedure / Operative  |         10 |
++-------------------------------+------------------------+------------+
+(32 rows)
+
+Capture Query 5, then press Enter to continue: SCREENSHOT 10 - Final analytics-ready view
+SELECT specialty_name, specialty_category, note_count,
+       average_transcription_words, average_transcription_characters,
+       shortest_transcription_words, longest_transcription_words
+FROM v_specialty_analytics
+ORDER BY specialty_category, specialty_name;
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+|        specialty_name         |   specialty_category   | note_count | average_transcription_words | average_transcription_characters | shortest_transcription_words | longest_transcription_words |
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+| Cardiovascular / Pulmonary    | Clinical specialty     |         10 |                       355.5 |                           2262.9 |                          147 |                         737 |
+| Gastroenterology              | Clinical specialty     |         10 |                       342.1 |                           2129.9 |                          116 |                         729 |
+| General Medicine              | Clinical specialty     |         10 |                       418.2 |                           2479.1 |                          218 |                         713 |
+| Neurology                     | Clinical specialty     |         10 |                       395.8 |                           2550.0 |                          241 |                         839 |
+| Obstetrics / Gynecology       | Clinical specialty     |         10 |                       362.0 |                           2317.9 |                           84 |                         761 |
+| Orthopedic                    | Clinical specialty     |         10 |                       485.4 |                           3120.6 |                          320 |                         746 |
+| Pediatrics - Neonatal         | Clinical specialty     |         10 |                       398.1 |                           2549.1 |                          125 |                         845 |
+| Radiology                     | Clinical specialty     |         10 |                       263.7 |                           1761.7 |                           89 |                         432 |
+| Surgery                       | Clinical specialty     |         10 |                       327.7 |                           2124.8 |                          148 |                         566 |
+| Consult - History and Phy.    | Document-type grouping |         10 |                       322.9 |                           2086.8 |                          123 |                         532 |
+| Discharge Summary             | Document-type grouping |         10 |                       308.7 |                           1991.0 |                          163 |                         570 |
+| SOAP / Chart / Progress Notes | Document-type grouping |         10 |                       325.2 |                           1951.1 |                          156 |                         664 |
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+(12 rows)
+
+Capture the analytics-ready output, then press Enter to finish: Evidence output sequence complete.

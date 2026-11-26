@@ -1,0 +1,43 @@
+SELECT s.specialty_name, nt.note_type_name, count(n.note_id) AS note_count
+FROM medical_specialty AS s
+JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+JOIN note_type AS nt ON nt.note_type_id = n.note_type_id
+GROUP BY s.specialty_id, s.specialty_name, nt.note_type_id, nt.note_type_name
+ORDER BY s.specialty_name, note_count DESC, nt.note_type_name;
++-------------------------------+------------------------+------------+
+|        specialty_name         |     note_type_name     | note_count |
++-------------------------------+------------------------+------------+
+| Cardiovascular / Pulmonary    | Clinical Note          |          7 |
+| Cardiovascular / Pulmonary    | Diagnostic / Imaging   |          2 |
+| Cardiovascular / Pulmonary    | Letter                 |          1 |
+| Consult - History and Phy.    | Consultation / H&P     |         10 |
+| Discharge Summary             | Discharge Summary      |         10 |
+| Gastroenterology              | Clinical Note          |          7 |
+| Gastroenterology              | Diagnostic / Imaging   |          2 |
+| Gastroenterology              | Consultation / H&P     |          1 |
+| General Medicine              | Progress / Office Note |          4 |
+| General Medicine              | Consultation / H&P     |          3 |
+| General Medicine              | Clinical Note          |          2 |
+| General Medicine              | Discharge Summary      |          1 |
+| Neurology                     | Clinical Note          |          4 |
+| Neurology                     | Diagnostic / Imaging   |          3 |
+| Neurology                     | Consultation / H&P     |          1 |
+| Neurology                     | Discharge Summary      |          1 |
+| Neurology                     | Procedure / Operative  |          1 |
+| Obstetrics / Gynecology       | Clinical Note          |          8 |
+| Obstetrics / Gynecology       | Discharge Summary      |          1 |
+| Obstetrics / Gynecology       | Progress / Office Note |          1 |
+| Orthopedic                    | Clinical Note          |          6 |
+| Orthopedic                    | Consultation / H&P     |          2 |
+| Orthopedic                    | Diagnostic / Imaging   |          2 |
+| Pediatrics - Neonatal         | Clinical Note          |          5 |
+| Pediatrics - Neonatal         | Discharge Summary      |          2 |
+| Pediatrics - Neonatal         | Consultation / H&P     |          1 |
+| Pediatrics - Neonatal         | Diagnostic / Imaging   |          1 |
+| Pediatrics - Neonatal         | Procedure / Operative  |          1 |
+| Radiology                     | Diagnostic / Imaging   |          9 |
+| Radiology                     | Progress / Office Note |          1 |
+| SOAP / Chart / Progress Notes | Progress / Office Note |         10 |
+| Surgery                       | Procedure / Operative  |         10 |
++-------------------------------+------------------------+------------+
+(32 rows)

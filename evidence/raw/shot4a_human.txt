@@ -1,0 +1,33 @@
+SET search_path TO week5_mtsamples, public;
+SET
+DO $$
+BEGIN
+    IF (SELECT count(*) FROM clinical_note) < 30 THEN
+        RAISE EXCEPTION 'Minimum 30 clinical notes was not met';
+    END IF;
+    IF (SELECT count(*) FROM medical_specialty WHERE specialty_category = 'Clinical specialty') < 5 THEN
+        RAISE EXCEPTION 'Minimum five clinical specialties was not met';
+    END IF;
+    IF (SELECT count(*) FROM keyword) < 20 THEN
+        RAISE EXCEPTION 'Minimum 20 keywords was not met';
+    END IF;
+    IF EXISTS (
+        SELECT 1
+        FROM clinical_note AS n
+        LEFT JOIN note_text AS t ON t.note_id = n.note_id
+        WHERE t.note_id IS NULL
+    ) THEN
+        RAISE EXCEPTION 'A clinical note has no NoteText record';
+    END IF;
+    IF EXISTS (
+        SELECT 1
+        FROM note_keyword AS nk
+        JOIN keyword AS k ON k.keyword_id = nk.keyword_id
+        JOIN medical_specialty AS s
+          ON lower(btrim(k.keyword_term)) = lower(btrim(s.specialty_name))
+    ) THEN
+        RAISE EXCEPTION 'A specialty label remains in the keyword bridge';
+    END IF;
+END
+$$;
+DO

@@ -1,0 +1,25 @@
+SCREENSHOT 10 - Final analytics-ready view
+SELECT specialty_name, specialty_category, note_count,
+       average_transcription_words, average_transcription_characters,
+       shortest_transcription_words, longest_transcription_words
+FROM v_specialty_analytics
+ORDER BY specialty_category, specialty_name;
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+|        specialty_name         |   specialty_category   | note_count | average_transcription_words | average_transcription_characters | shortest_transcription_words | longest_transcription_words |
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+| Cardiovascular / Pulmonary    | Clinical specialty     |         10 |                       355.5 |                           2262.9 |                          147 |                         737 |
+| Gastroenterology              | Clinical specialty     |         10 |                       342.1 |                           2129.9 |                          116 |                         729 |
+| General Medicine              | Clinical specialty     |         10 |                       418.2 |                           2479.1 |                          218 |                         713 |
+| Neurology                     | Clinical specialty     |         10 |                       395.8 |                           2550.0 |                          241 |                         839 |
+| Obstetrics / Gynecology       | Clinical specialty     |         10 |                       362.0 |                           2317.9 |                           84 |                         761 |
+| Orthopedic                    | Clinical specialty     |         10 |                       485.4 |                           3120.6 |                          320 |                         746 |
+| Pediatrics - Neonatal         | Clinical specialty     |         10 |                       398.1 |                           2549.1 |                          125 |                         845 |
+| Radiology                     | Clinical specialty     |         10 |                       263.7 |                           1761.7 |                           89 |                         432 |
+| Surgery                       | Clinical specialty     |         10 |                       327.7 |                           2124.8 |                          148 |                         566 |
+| Consult - History and Phy.    | Document-type grouping |         10 |                       322.9 |                           2086.8 |                          123 |                         532 |
+| Discharge Summary             | Document-type grouping |         10 |                       308.7 |                           1991.0 |                          163 |                         570 |
+| SOAP / Chart / Progress Notes | Document-type grouping |         10 |                       325.2 |                           1951.1 |                          156 |                         664 |
++-------------------------------+------------------------+------------+-----------------------------+----------------------------------+------------------------------+-----------------------------+
+(12 rows)
+
+Capture the analytics-ready output, then press Enter to finish: Evidence output sequence complete.

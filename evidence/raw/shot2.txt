@@ -1,0 +1,32 @@
+SCREENSHOT 2 - ClinicalNote keys, columns, and constraints
+                                                     Table "week5_mtsamples.clinical_note"
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+|            Column            |         Type          | Collation | Nullable | Default | Storage  | Compression | Stats target | Description |
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+| note_id                      | character varying(10) |           | not null |         | extended |             |              |             |
+| source_row_id                | integer               |           | not null |         | plain    |             |              |             |
+| specialty_id                 | smallint              |           | not null |         | plain    |             |              |             |
+| note_type_id                 | smallint              |           | not null |         | plain    |             |              |             |
+| source_id                    | smallint              |           | not null |         | plain    |             |              |             |
+| sample_name                  | text                  |           | not null |         | extended |             |              |             |
+| description_or_chief_concern | text                  |           | not null |         | extended |             |              |             |
+| source_word_count            | integer               |           | not null |         | plain    |             |              |             |
++------------------------------+-----------------------+-----------+----------+---------+----------+-------------+--------------+-------------+
+Indexes:
+    "clinical_note_pkey" PRIMARY KEY, btree (note_id)
+    "clinical_note_source_row_id_key" UNIQUE CONSTRAINT, btree (source_row_id)
+    "clinical_note_specialty_idx" btree (specialty_id)
+    "clinical_note_type_idx" btree (note_type_id)
+Check constraints:
+    "clinical_note_source_word_count_check" CHECK (source_word_count >= 0)
+Foreign-key constraints:
+    "clinical_note_note_type_id_fkey" FOREIGN KEY (note_type_id) REFERENCES note_type(note_type_id)
+    "clinical_note_source_id_fkey" FOREIGN KEY (source_id) REFERENCES data_source(source_id)
+    "clinical_note_specialty_id_fkey" FOREIGN KEY (specialty_id) REFERENCES medical_specialty(specialty_id)
+Referenced by:
+    TABLE "note_keyword" CONSTRAINT "note_keyword_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+    TABLE "note_section" CONSTRAINT "note_section_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+    TABLE "note_text" CONSTRAINT "note_text_note_id_fkey" FOREIGN KEY (note_id) REFERENCES clinical_note(note_id) ON DELETE CASCADE
+Access method: heap
+
+Capture the ClinicalNote definition, then press Enter to continue:

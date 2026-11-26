@@ -1,0 +1,26 @@
+SCREENSHOT 6 - Query 2: average transcription length by clinical specialty
+SELECT s.specialty_name,
+       count(n.note_id) AS note_count,
+       round(avg(t.recount_words), 1) AS average_words
+FROM medical_specialty AS s
+JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+JOIN note_text AS t ON t.note_id = n.note_id
+WHERE s.specialty_category = 'Clinical specialty'
+GROUP BY s.specialty_id, s.specialty_name
+ORDER BY average_words DESC;
++----------------------------+------------+---------------+
+|       specialty_name       | note_count | average_words |
++----------------------------+------------+---------------+
+| Orthopedic                 |         10 |         485.4 |
+| General Medicine           |         10 |         418.2 |
+| Pediatrics - Neonatal      |         10 |         398.1 |
+| Neurology                  |         10 |         395.8 |
+| Obstetrics / Gynecology    |         10 |         362.0 |
+| Cardiovascular / Pulmonary |         10 |         355.5 |
+| Gastroenterology           |         10 |         342.1 |
+| Surgery                    |         10 |         327.7 |
+| Radiology                  |         10 |         263.7 |
++----------------------------+------------+---------------+
+(9 rows)
+
+Capture Query 2, then press Enter to continue:

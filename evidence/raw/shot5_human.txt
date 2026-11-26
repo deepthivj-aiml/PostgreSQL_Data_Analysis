@@ -1,0 +1,22 @@
+SELECT s.specialty_name, s.specialty_category, count(n.note_id) AS note_count
+FROM medical_specialty AS s
+LEFT JOIN clinical_note AS n ON n.specialty_id = s.specialty_id
+GROUP BY s.specialty_id, s.specialty_name, s.specialty_category
+ORDER BY s.specialty_category, note_count DESC, s.specialty_name;
++-------------------------------+------------------------+------------+
+|        specialty_name         |   specialty_category   | note_count |
++-------------------------------+------------------------+------------+
+| Cardiovascular / Pulmonary    | Clinical specialty     |         10 |
+| Gastroenterology              | Clinical specialty     |         10 |
+| General Medicine              | Clinical specialty     |         10 |
+| Neurology                     | Clinical specialty     |         10 |
+| Obstetrics / Gynecology       | Clinical specialty     |         10 |
+| Orthopedic                    | Clinical specialty     |         10 |
+| Pediatrics - Neonatal         | Clinical specialty     |         10 |
+| Radiology                     | Clinical specialty     |         10 |
+| Surgery                       | Clinical specialty     |         10 |
+| Consult - History and Phy.    | Document-type grouping |         10 |
+| Discharge Summary             | Document-type grouping |         10 |
+| SOAP / Chart / Progress Notes | Document-type grouping |         10 |
++-------------------------------+------------------------+------------+
+(12 rows)
