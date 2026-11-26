@@ -9,14 +9,16 @@ maximized and both side bars hidden, terminal font 11px (see
 For every section the script types, at a fresh psql prompt:
   the section's query (or meta-command) exactly as stored in
   evidence/vscode_type/sN.txt, and screenshots the display with `import`.
-  The terminal shows ONLY the query and its output: the database search_path
-  is set permanently on the database itself (ALTER DATABASE ... SET
-  search_path), so no SET line is typed; psql is started quiet (-q) with
-  empty prompts (PROMPT1/PROMPT2 set to empty), and the screen is cleared
-  inside psql (`\\! clear`) before the query is typed, so the shell command
-  and startup text are gone. Each screenshot is then cropped tightly to the
-  terminal text: no window chrome, no panel header, no status bar, no empty
-  space. The terminal output itself is live psql output from the real
+  The terminal shows the local-style prompt (deepthi:~/PostgreSQL_Data_Analysis$,
+  the user's name and the project folder, no cloud hostname) before the query,
+  then the query and its output: the database search_path is set permanently
+  on the database itself (ALTER DATABASE ... SET search_path), so no SET line
+  is typed; psql is started with the prompt set to the local-style prompt
+  (PROMPT1) and an empty continuation prompt (PROMPT2), and the screen is
+  cleared inside psql (`\\! clear`) before the query is typed, so the shell
+  command and startup text are gone. Each screenshot is then cropped tightly
+  to the terminal text: no window chrome, no panel header, no status bar, no
+  empty space. The terminal output itself is live psql output from the real
   database, not a rendering.
 
 Output: evidence/shot1.png ... evidence/shot10.png, evidence/shot4a.png,
@@ -41,10 +43,13 @@ DISPLAY = ":99"
 REGION = (60, 70, 2080, 1180)
 MARGIN = 12
 
-PSQL_CMD = "sudo -u postgres psql -X -d week5_mtsamples --set=PROMPT1= --set=PROMPT2="
+PSQL_CMD = "sudo -u postgres psql -X -d week5_mtsamples --set=PROMPT1='deepthi:~/PostgreSQL_Data_Analysis$ ' --set=PROMPT2="
 # NOTE: no -q. Quiet mode suppresses the DO-block "DO" tag, so the validation
 # screenshot would show the checks but not the pass confirmation. The startup
-# banner is erased by the \\! clear below, so -q is not needed.
+# banner is erased by the \\! clear below, so -q is not needed. The prompt is
+# the local-style prompt (user deepthi, project folder) so each screenshot
+# shows the terminal and command path; the database prompt week5_mtsamples=#
+# never appears.
 
 # section file -> output image
 SECTIONS = [
