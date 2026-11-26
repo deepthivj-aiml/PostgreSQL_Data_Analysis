@@ -27,6 +27,32 @@ def add_image(document, path, max_width=6.5, max_height=7.8):
     return paragraph
 
 
+def add_sql_block(document, sql):
+    """Add a query's SQL as a single-spaced monospace block. The rubric lists the SQL query and the
+    screenshot or exported result as separate items, so the SQL appears here as text as well as in the
+    terminal screenshot that follows."""
+    paragraph = document.add_paragraph()
+    paragraph.paragraph_format.line_spacing = 1
+    paragraph.paragraph_format.space_after = Pt(6)
+    paragraph.paragraph_format.space_before = Pt(0)
+    lines = sql.strip().splitlines()
+    for index, line in enumerate(lines):
+        run = paragraph.add_run(line)
+        run.font.name = "Consolas"
+        run.font.size = Pt(10)
+        if index < len(lines) - 1:
+            run.add_break()
+    return paragraph
+
+
+def read_query_sql():
+    """Extract the five analytical queries from queries.sql, in order, so the text in the report always
+    matches the SQL that was actually run."""
+    text = (ROOT / "queries.sql").read_text(encoding="utf-8")
+    blocks = re.findall(r"-- Query \d:.*?\n(.*?)(?=\n-- Query|\n-- Analytics|\Z)", text, re.S)
+    return [block.strip() for block in blocks]
+
+
 ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results"
 DOCX_PATH = ROOT / "Week5_Assignment4_Final.docx"
@@ -140,6 +166,7 @@ def set_page_number(paragraph):
 
 def build_document():
     analytics = read_csv("analytics_ready_specialty.csv")
+    query_sql = read_query_sql()
     clinical = [row for row in analytics if row["specialty_category"] == "Clinical specialty"]
     query2 = read_csv("query2_average_words_by_specialty.csv")
     query3 = read_csv("query3_top_keywords.csv")
@@ -221,7 +248,9 @@ def build_document():
         "MedicalSpecialty, NoteType, DataSource, ClinicalNote, NoteText, Keyword, NoteKeyword, and NoteSection. "
         "ClinicalNote is the central entity. Specialty, note type, and source each have one-to-many relationships "
         "to notes; NoteText has a one-to-one relationship; NoteSection has a one-to-many relationship. "
-        "NoteKeyword resolves the many-to-many relationship between notes and keywords."
+        "NoteKeyword resolves the many-to-many relationship between notes and keywords. Separating the repeated "
+        "labels and keywords into lookup and bridge tables keeps each fact in one place, so a category or keyword "
+        "can be renamed without touching the note records."
     )
     doc.add_paragraph(
         "Two adjustments were made for implementation. First, specialty labels that actually describe document "
@@ -271,15 +300,12 @@ def build_document():
         "word-count metadata. During preparation, the load script removed 121 specialty-label keyword links "
         "and renumbered the remaining keyword keys consistently. The original source word count is retained "
         "in ClinicalNote; analytics use recount_words and character_length from NoteText to make the chosen "
-        "counting measure explicit. The de-identification status remains “Not reviewed”; this sample database "
-        "is not represented as a de-identified clinical system."
+        "counting measure explicit."
     )
     doc.add_paragraph(
         "Post-load validation confirmed 120 ClinicalNote rows, 120 matching NoteText rows, 12 specialty "
         "labels, seven note types, 1,077 keywords, 1,324 bridge rows, and 779 sections. All imports succeeded "
-        "with foreign-key constraints enabled; validate.sql repeats the checks and prints table row counts. "
-        "The three document-type groupings are intentionally categorized separately from the nine clinical "
-        "specialties."
+        "with foreign-key constraints enabled; validate.sql repeats the checks and prints table row counts."
     )
     add_image(doc, EVIDENCE / "shot4a.png")
     caption = doc.add_paragraph("Validation checks.")
@@ -301,6 +327,7 @@ def build_document():
         "Result: All 12 labels contain 10 notes; the three document-type groupings are not clinical specialties. "
         "Export: query1_specialty_note_counts.csv."
     )
+    add_sql_block(doc, query_sql[0])
     add_image(doc, EVIDENCE / "shot5.png")
     caption = doc.add_paragraph("Query 1 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -316,6 +343,7 @@ def build_document():
         f"is highest at {q2_top['average_words']} words and {q2_low['specialty_name']} is lowest at "
         f"{q2_low['average_words']} words. Export: query2_average_words_by_specialty.csv."
     )
+    add_sql_block(doc, query_sql[1])
     add_image(doc, EVIDENCE / "shot6.png")
     caption = doc.add_paragraph("Query 2 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -331,6 +359,7 @@ def build_document():
         f"appears in {top_keyword['note_frequency']} notes. Specialty labels were removed from the keyword bridge. "
         "Export: query3_top_keywords.csv."
     )
+    add_sql_block(doc, query_sql[2])
     add_image(doc, EVIDENCE / "shot7.png")
     caption = doc.add_paragraph("Query 3 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -345,6 +374,7 @@ def build_document():
         f"Question: Which notes exceed 500 recounted words? Result: {len(query4)} records meet the threshold; "
         f"the longest is {longest['recount_words']} words. Export: query4_long_transcriptions.csv."
     )
+    add_sql_block(doc, query_sql[3])
     add_image(doc, EVIDENCE / "shot8.png")
     caption = doc.add_paragraph("Query 4 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -359,6 +389,7 @@ def build_document():
         "non-empty label/type combinations, useful for examining document mix. "
         "Export: query5_note_types_by_specialty.csv."
     )
+    add_sql_block(doc, query_sql[4])
     add_image(doc, EVIDENCE / "shot9.png")
     caption = doc.add_paragraph("Query 5 result.")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -424,6 +455,7 @@ def build_document():
         "documented de-identification review, access controls, audit logging, retention rules, and validation "
         "against authoritative source data."
     )
+    doc.add_page_break()
     doc.add_heading("Team Contributions", level=1)
     doc.add_paragraph(
         "The work was split by section: Yuhui Xu completed the Introduction, Database Design Summary, and "
@@ -435,8 +467,8 @@ def build_document():
         "Introduction, Database Design Summary, and Implementation Summary. Yuhui Xu revised the database "
         "design and the ERD, defining the eight tables, their primary and foreign keys, and the constraints "
         "that keep the specialty, note, keyword, and section records linked. She built the PostgreSQL tables, "
-        "loaded the prepared data, and ran the validation checks, confirming the minimum record counts and "
-        "the row count in every table (Sections 1-3, including the table creation and row-count checks)."
+        "loaded the prepared data, and ran the validation checks, confirming the row count in every table "
+        "(Sections 1-3)."
     )
     doc.add_heading("Deepthi Venmanasseril Jainlal", level=2)
     doc.add_paragraph(

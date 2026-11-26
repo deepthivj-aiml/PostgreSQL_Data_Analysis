@@ -7,13 +7,17 @@ maximized and both side bars hidden, terminal font 11px (see
 ~/.config/Code/User/settings.json).
 
 For every section the script types, at a fresh psql prompt:
-  the shell prompt with the working directory (~/workspace/pg_data_analysis),
-  the psql command, the SET search_path line, then the section's query (or
-  meta-command) exactly as stored in evidence/vscode_type/sN.txt, and
-  screenshots the display with `import`. Each screenshot is then cropped
-  tightly to the terminal text: no window chrome, no panel header, no
-  status bar, no empty space. The terminal output itself is live psql
-  output from the real database, not a rendering.
+  the section's query (or meta-command) exactly as stored in
+  evidence/vscode_type/sN.txt, and screenshots the display with `import`.
+  The terminal shows ONLY the query and its output: the database search_path
+  is set permanently on the database itself (ALTER DATABASE ... SET
+  search_path), so no SET line is typed; psql is started quiet (-q) with
+  empty prompts (PROMPT1/PROMPT2 set to empty), and the screen is cleared
+  inside psql (`\\! clear`) before the query is typed, so the shell command
+  and startup text are gone. Each screenshot is then cropped tightly to the
+  terminal text: no window chrome, no panel header, no status bar, no empty
+  space. The terminal output itself is live psql output from the real
+  database, not a rendering.
 
 Output: evidence/shot1.png ... evidence/shot10.png, evidence/shot4a.png,
 evidence/shot4b.png (overwriting the earlier PIL renderings, which remain
@@ -30,12 +34,17 @@ OUT_DIR = ROOT / "evidence"
 
 DISPLAY = ":99"
 # terminal text area in the 2200x1200 display (below the panel header,
-# above the status bar, right of the activity bar)
-REGION = (78, 70, 2100, 1180)
+# above the status bar, right of the activity bar). Left edge 60 so the
+# first character of a prompt-less line is never clipped; right edge 2080
+# to exclude the terminal scrollbar, which would otherwise stretch the
+# crop to the full panel width/height.
+REGION = (60, 70, 2080, 1180)
 MARGIN = 12
 
-PSQL_CMD = "sudo -u postgres psql -X -d week5_mtsamples"
-SET_CMD = "SET search_path TO week5_mtsamples, public;"
+PSQL_CMD = "sudo -u postgres psql -X -d week5_mtsamples --set=PROMPT1= --set=PROMPT2="
+# NOTE: no -q. Quiet mode suppresses the DO-block "DO" tag, so the validation
+# screenshot would show the checks but not the pass confirmation. The startup
+# banner is erased by the \\! clear below, so -q is not needed.
 
 # section file -> output image
 SECTIONS = [
@@ -135,7 +144,9 @@ def main():
         type_text(PSQL_CMD)
         key("Return")
         time.sleep(2)
-        type_text(SET_CMD)
+        # Clear inside psql so the shell command and startup text are gone:
+        # the screen is blank, then only the query and its output appear.
+        type_text("\\! clear")
         key("Return")
         time.sleep(1)
         type_file(TYPE_DIR / f"{section}.txt")
