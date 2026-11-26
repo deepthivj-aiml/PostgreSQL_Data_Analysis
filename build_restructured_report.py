@@ -260,32 +260,32 @@ def build_document():
         "remain unique for lineage, and transcription text stays separate with a full-text search index."
     )
     add_image(doc, ERD_PATH)
-    caption = doc.add_paragraph("Figure 1. Implemented PostgreSQL schema and relationship cardinalities.")
+    caption = doc.add_paragraph("Figure 1. Revised database schema (diagram of the eight tables and their relationships, with primary and foreign keys).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_page_break()
     doc.add_heading("Implementation Summary", level=1)
     doc.add_paragraph(
-        "The database was implemented and executed in PostgreSQL 16.15. schema.sql creates the schema, "
-        "typed tables, primary and foreign keys, uniqueness and range checks, supporting indexes, and two "
-        "analytics views. load_data.sql imports the staged CSV files with psql \\copy. The foreign keys enforce "
+        "The database was implemented and executed in PostgreSQL 16.15. The schema defines the typed "
+        "tables, primary and foreign keys, uniqueness and range checks, supporting indexes, and two "
+        "analytics views. The staged data files were imported into the tables. The foreign keys enforce "
         "the one-to-many and bridge relationships during loading; the composite NoteKeyword key prevents "
         "duplicate links between a note and a keyword."
     )
     add_image(doc, EVIDENCE / "vscode_schema_top.png")
-    caption = doc.add_paragraph("Table definitions in schema.sql, part 1.")
+    caption = doc.add_paragraph("Figure 2. Table definitions, part 1 (screenshot of the first half of the database schema, showing the table structures and keys).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "vscode_schema_bottom.png")
-    caption = doc.add_paragraph("Table definitions in schema.sql, part 2.")
+    caption = doc.add_paragraph("Figure 3. Table definitions, part 2 (screenshot of the second half of the database schema, showing the remaining tables, indexes, and views).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "shot1.png")
-    caption = doc.add_paragraph("Tables created in PostgreSQL.")
+    caption = doc.add_paragraph("Figure 4. Tables created in the database (screenshot of the list of tables in PostgreSQL).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "shot2.png")
-    caption = doc.add_paragraph("ClinicalNote - columns, keys, and constraints.")
+    caption = doc.add_paragraph("Figure 5. ClinicalNote table structure (screenshot of the columns, keys, and constraints for the ClinicalNote table).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "shot3.png")
-    caption = doc.add_paragraph("NoteKeyword - bridge table keys.")
+    caption = doc.add_paragraph("Figure 6. NoteKeyword bridge table structure (screenshot of the keys for the NoteKeyword bridge table).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "The source was the Week 2 normalized preview workbook, itself derived from Student_Flat_Dataset. "
@@ -305,31 +305,31 @@ def build_document():
     doc.add_paragraph(
         "Post-load validation confirmed 120 ClinicalNote rows, 120 matching NoteText rows, 12 specialty "
         "labels, seven note types, 1,077 keywords, 1,324 bridge rows, and 779 sections. All imports succeeded "
-        "with foreign-key constraints enabled; validate.sql repeats the checks and prints table row counts."
+        "with foreign-key constraints enabled; the validation checks were repeated and the row count for every "
+        "table was printed."
     )
     add_image(doc, EVIDENCE / "shot4a.png")
-    caption = doc.add_paragraph("Validation checks.")
+    caption = doc.add_paragraph("Figure 7. Validation checks (screenshot of the validation checks confirming the minimum record counts and that every note has its text record).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "shot4b.png")
-    caption = doc.add_paragraph("Row counts.")
+    caption = doc.add_paragraph("Figure 8. Row counts (screenshot of the row count for every table in the database).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_page_break()
     doc.add_heading("Query Results", level=1)
     doc.add_paragraph(
-        "Five SQL queries were run. The complete SQL is in queries.sql, and each result is exported as a CSV "
-        "in results. Together, they demonstrate joins, grouping, aggregate functions, filters, and outputs "
-        "that can be used for operational review or visualization."
+        "Five SQL queries were run. The complete SQL for each query is shown below it, and each result is "
+        "available as an exported table. Together, they demonstrate joins, grouping, aggregate functions, "
+        "filters, and outputs that can be used for operational review or visualization."
     )
     doc.add_heading("Query 1: Notes by specialty label", level=2)
     doc.add_paragraph(
         "Question: How many sampled notes are recorded under each label and category? "
-        "Result: All 12 labels contain 10 notes; the three document-type groupings are not clinical specialties. "
-        "Export: query1_specialty_note_counts.csv."
+        "Result: All 12 labels contain 10 notes; the three document-type groupings are not clinical specialties."
     )
     add_sql_block(doc, query_sql[0])
     add_image(doc, EVIDENCE / "shot5.png")
-    caption = doc.add_paragraph("Query 1 result.")
+    caption = doc.add_paragraph("Figure 9. Query 1 result (screenshot of the notes counted by specialty label).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "What this means: the sample was built to be balanced, so this query is a check on the sample "
@@ -341,27 +341,26 @@ def build_document():
     doc.add_paragraph(
         f"Question: What is the average transcription length by clinical specialty? Result: {q2_top['specialty_name']} "
         f"is highest at {q2_top['average_words']} words and {q2_low['specialty_name']} is lowest at "
-        f"{q2_low['average_words']} words. Export: query2_average_words_by_specialty.csv."
+        f"{q2_low['average_words']} words."
     )
     add_sql_block(doc, query_sql[1])
     add_image(doc, EVIDENCE / "shot6.png")
-    caption = doc.add_paragraph("Query 2 result.")
+    caption = doc.add_paragraph("Figure 10. Query 2 result (screenshot of the average transcription length by clinical specialty).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "What this means: Orthopedic notes take the most documentation effort and Radiology the least, "
-        "with about 222 words between them. A team planning review time, or reading the Figure 2 chart, "
+        "with about 222 words between them. A team planning review time, or reading the Figure 14 chart, "
         "should expect longer text from Orthopedic. It says nothing about care quality — only that the "
         "documentation is longer."
     )
     doc.add_heading("Query 3: Most frequent keywords", level=2)
     doc.add_paragraph(
         f"Question: Which cleaned keywords occur in the most distinct notes? Result: “{top_keyword['keyword_term']}” "
-        f"appears in {top_keyword['note_frequency']} notes. Specialty labels were removed from the keyword bridge. "
-        "Export: query3_top_keywords.csv."
+        f"appears in {top_keyword['note_frequency']} notes. Specialty labels were removed from the keyword bridge."
     )
     add_sql_block(doc, query_sql[2])
     add_image(doc, EVIDENCE / "shot7.png")
-    caption = doc.add_paragraph("Query 3 result.")
+    caption = doc.add_paragraph("Figure 11. Query 3 result (screenshot of the most frequent keywords and how many notes each appears in).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "What this means: no single keyword dominates the collection, so keyword search is useful but no "
@@ -372,11 +371,11 @@ def build_document():
     doc.add_heading("Query 4: Long transcriptions", level=2)
     doc.add_paragraph(
         f"Question: Which notes exceed 500 recounted words? Result: {len(query4)} records meet the threshold; "
-        f"the longest is {longest['recount_words']} words. Export: query4_long_transcriptions.csv."
+        f"the longest is {longest['recount_words']} words."
     )
     add_sql_block(doc, query_sql[3])
     add_image(doc, EVIDENCE / "shot8.png")
-    caption = doc.add_paragraph("Query 4 result.")
+    caption = doc.add_paragraph("Figure 12. Query 4 result (screenshot of the notes longer than 500 words).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "What this means: long notes are about one in five of the sample, so a review that prioritises "
@@ -386,12 +385,11 @@ def build_document():
     doc.add_heading("Query 5: Note type by specialty label", level=2)
     doc.add_paragraph(
         "Question: How are inferred note types distributed across specialty labels? The query returns 32 "
-        "non-empty label/type combinations, useful for examining document mix. "
-        "Export: query5_note_types_by_specialty.csv."
+        "non-empty label/type combinations, useful for examining document mix."
     )
     add_sql_block(doc, query_sql[4])
     add_image(doc, EVIDENCE / "shot9.png")
-    caption = doc.add_paragraph("Query 5 result.")
+    caption = doc.add_paragraph("Figure 13. Query 5 result (screenshot of the note types used by each specialty label).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         "What this means: note type depends on specialty — no label uses all seven types, and most use "
@@ -401,7 +399,7 @@ def build_document():
     )
     doc.add_paragraph(
         "Each query above returns a table that can feed a chart. The most direct candidates are Query 1 "
-        "(bars of note counts), Query 2 (the bar chart in Figure 2), and Query 5 (stacked bars of "
+        "(bars of note counts), Query 2 (the bar chart in Figure 14), and Query 5 (stacked bars of "
         "note-type mix by specialty)."
     )
 
@@ -414,10 +412,10 @@ def build_document():
         "of mean transcription length by clinical specialty, with note count available as a tooltip or filter."
     )
     add_image(doc, CHART_PATH)
-    caption = doc.add_paragraph("Figure 2. Average recounted transcription words by clinical specialty.")
+    caption = doc.add_paragraph("Figure 14. Average transcription length by clinical specialty (bar chart of mean recounted transcription words for each specialty).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     add_image(doc, EVIDENCE / "shot10.png")
-    caption = doc.add_paragraph("Specialty summary from the analytics-ready view.")
+    caption = doc.add_paragraph("Figure 15. Specialty summary from the analytics-ready output (screenshot of the analytics-ready table showing note count and average, shortest, and longest transcription length by specialty).")
     caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph(
         f"In this sample, {q2_top['specialty_name']} averages {q2_top['average_words']} words and "
